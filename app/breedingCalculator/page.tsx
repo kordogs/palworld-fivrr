@@ -47,7 +47,7 @@ export default function BreedingCalculator() {
         )
       ) {
         resultMonster = monster.monsterName;
-        resultId = monster.id || ""; // Updated line
+        resultId = monster.id ? monster.id.toString() : ""; // Updated line
         break;
       }
     }
