@@ -5,7 +5,7 @@ import pals from "../json/pals.json";
 
 const Monster = pals;
 
-export default function page() {
+export default function Page() {
   const [selectedMonster, setSelectedMonster] = useState("Lamball");
   const [selectedParent, setSelectedParent] = useState("");
   const selectedMonsterObj = Monster.find(
