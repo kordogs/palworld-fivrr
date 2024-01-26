@@ -9,6 +9,7 @@ const Monster = pals;
 export default function Page() {
   const [selectedMonster, setSelectedMonster] = useState("Lamball");
   const [selectedParent, setSelectedParent] = useState("");
+  const [theme, setTheme] = useState("dark"); // or "dark" depending on your default theme
   const selectedMonsterObj = Monster.find(
     (monster) => monster.monsterName === selectedMonster
   );
@@ -17,14 +18,25 @@ export default function Page() {
   };
 
   return (
-    <div className="flex items-center flex-col pt-5 px-2">
+    <div
+      className="flex items-center flex-col pt-5 px-2 "
+      style={{
+        backgroundImage:
+          theme === "dark"
+            ? `url(https://r4.wallpaperflare.com/wallpaper/22/240/855/texture-gradient-simple-background-blue-wallpaper-58568c5acfdc97f97ec049e292e9cbb0.jpg)`
+            : "",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }}
+    >
       {/* monster select div */}
-      <div className="mb-5 border border-green-500 px-5 py-7 rounded-lg ">
+      <div className="mb-5 border-2 border-green-500 px-5 py-7 rounded-lg ">
         <h1 className=" text-lg font-bold mb-2 text-center ">
           Select Desired Child
         </h1>
 
-        <div className="border border-green-500 mb-5 bg-base-200">
+        <div className="border border-green-500 mb-5">
           <Image
             src={selectedMonsterObj ? selectedMonsterObj.image : ""}
             height={200}
@@ -164,7 +176,7 @@ export default function Page() {
         </div>
       </div>
 
-      <ThemeController />
+      <ThemeController theme={theme} setTheme={setTheme} />
     </div>
   );
 }

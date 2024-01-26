@@ -1,11 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 
-export default function ThemeController() {
+interface ThemeControllerProps {
+  theme: string;
+  setTheme: React.Dispatch<React.SetStateAction<string>>;
+}
+
+const ThemeController: React.FC<ThemeControllerProps> = ({
+  theme,
+  setTheme,
+}) => {
+  const handleThemeChange = () => {
+    setTheme((prevTheme: string) => (prevTheme === "dark" ? "light" : "dark"));
+  };
   return (
     <div className="fixed right-5 bottom-5">
       <label className="swap swap-rotate">
         {/* this hidden checkbox controls the state */}
-        <input type="checkbox" className="theme-controller" value="light" />
+        <input
+          type="checkbox"
+          className="theme-controller"
+          value="light"
+          onClick={handleThemeChange}
+        />
 
         {/* sun icon */}
         <svg
@@ -27,4 +43,6 @@ export default function ThemeController() {
       </label>
     </div>
   );
-}
+};
+
+export default ThemeController;

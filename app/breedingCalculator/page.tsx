@@ -12,6 +12,7 @@ export default function BreedingCalculator() {
   const [parent2, setParent2] = useState("");
   const [result, setResult] = useState("");
   const [id, setId] = useState(""); // Add this line
+  const [theme, setTheme] = useState("dark"); // or "dark" depending on your default theme
 
   const monsterNames = Monster.map((monster) => monster.monsterName).sort();
 
@@ -64,9 +65,22 @@ export default function BreedingCalculator() {
   }
 
   return (
-    <div className="flex justify-center mt-5 flex-col px-2">
+    <div
+      className="flex justify-center pt-5 flex-col px-2"
+      style={{
+        backgroundImage:
+          theme === "dark"
+            ? `url(https://r4.wallpaperflare.com/wallpaper/22/240/855/texture-gradient-simple-background-blue-wallpaper-58568c5acfdc97f97ec049e292e9cbb0.jpg)`
+            : "",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }}
+    >
       <div className="flex justify-center flex-col items-center">
-        <h1 className=" text-lg font-bold mb-2">Breeding Parents</h1>
+        <h1 className=" text-lg font-bold mb-2 from-green-500 to-orange-500">
+          Breeding Parents
+        </h1>
         <div className="flex justify-between gap-10 mb-2 border px-5 py-7 rounded-lg">
           <div className="right flex flex-col">
             <h2 className="text-center font-bold text-sm mb-2">Parent 1</h2>
@@ -143,12 +157,12 @@ export default function BreedingCalculator() {
       {/* egg result */}
       <div className="flex flex-col justify-center items-center">
         <h1 className=" text-lg font-bold mb-2 text-center">Egg Result</h1>
-        <motion.div className="tilt flex justify-center flex-col border border-accent px-5 py-7 rounded-lg w-[250px] shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+        <motion.div className="tilt flex justify-center flex-col border border-accent px-5 py-7 rounded-lg w-[250px] shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out bg-glass">
           <Image
             src={getImageUrl(result)}
             height={200}
             width={200}
-            className="border mb-5 border-accent"
+            className=" mb-5 "
             alt={""}
           />
           <span className="text-center">Number: {id}</span>
@@ -156,7 +170,7 @@ export default function BreedingCalculator() {
           <span className=" text-lg font-bold text-center">{result}</span>
         </motion.div>
       </div>
-      <ThemeController />
+      <ThemeController theme={theme} setTheme={setTheme} />
     </div>
   );
 }

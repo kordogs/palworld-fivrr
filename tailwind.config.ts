@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        glass:
+          "linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), backdrop-filter: blur(10px)",
+      }),
       animation: {
         tilt: "tilt 2s",
       },
@@ -16,11 +20,6 @@ const config: Config = {
           "0%, 100%": { transform: "rotate(-5deg)" },
           "50%": { transform: "rotate(5deg)" },
         },
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
