@@ -31,12 +31,12 @@ export default function Page() {
       }}
     >
       {/* monster select div */}
-      <div className="mb-5 border-2 border-green-500 px-5 py-7 rounded-lg ">
+      <div className="mb-5 border-2 border-green-500 px-5 py-7 rounded-lg bg-base-100 shadow-xl">
         <h1 className=" text-lg font-bold mb-2 text-center ">
           Select Desired Child
         </h1>
 
-        <div className="border border-green-500 mb-5">
+        <div className="mb-5">
           <Image
             src={selectedMonsterObj ? selectedMonsterObj.image : ""}
             height={200}

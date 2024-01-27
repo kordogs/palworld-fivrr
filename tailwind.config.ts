@@ -21,6 +21,9 @@ const config: Config = {
           "50%": { transform: "rotate(5deg)" },
         },
       },
+      boxShadow: {
+        glow: "0 0 1px #ff00de, 0 0 20px #ff00de, 0 0 3px #ff00de, 0 0 4px #ff00de, 0 0 5px #ff00de, 0 0 6px #ff00de, 0 0 7px #ff00de",
+      },
     },
   },
   plugins: [require("daisyui")],

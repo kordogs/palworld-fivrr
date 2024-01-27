@@ -157,7 +157,7 @@ export default function BreedingCalculator() {
       {/* egg result */}
       <div className="flex flex-col justify-center items-center">
         <h1 className=" text-lg font-bold mb-2 text-center">Egg Result</h1>
-        <motion.div className="tilt flex justify-center flex-col border border-accent px-5 py-7 rounded-lg w-[250px] shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out bg-glass">
+        <motion.div className="tilt flex justify-center flex-col border border-accent px-5 py-7 rounded-lg w-[250px] shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out bg-glass bg-base-100 shadow-xl">
           <Image
             src={getImageUrl(result)}
             height={200}
