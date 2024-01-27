@@ -35,16 +35,12 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost text-xl flex items-center">
-          <Image
-            src={
-              "/fan_art_hearthstone__book__Greg_Shumeiko-removebg-preview.png"
-            }
-            height={80}
-            width={80}
-            alt=""
-          />
-        </a>
+        <Image
+          src={"/PaldeckLogo-removebg-preview.png"}
+          height={250}
+          width={250}
+          alt=""
+        />
       </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">

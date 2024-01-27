@@ -4,9 +4,12 @@ import Image from "next/image";
 import Navbar from "./Components/Navbar";
 import Card from "./Components/Card";
 import ThemeController from "./Components/ThemeController";
+import pals2 from "../app/json/pals-A.json";
 
 export default function Home() {
   const [theme, setTheme] = useState("dark"); // or "dark" depending on your default theme
+
+  const Monster = pals2;
 
   return (
     <div
@@ -27,10 +30,32 @@ export default function Home() {
 
       <div className="flex justify-center min-h-screen">
         <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {Monster.map((monster, index) => (
+            <Card
+              monsterID={monster.monsterID}
+              key={index}
+              name={monster.monsterName}
+              type={
+                Array.isArray(monster.elementType)
+                  ? monster.elementType
+                  : [monster.elementType]
+              }
+              work={
+                monster.workSuitability
+                  ? Object.keys(monster.workSuitability).map(String)
+                  : []
+              }
+              workPower={
+                monster.workSuitability
+                  ? Object.values(monster.workSuitability).map((key) =>
+                      Number(key)
+                    )
+                  : []
+              }
+              description={monster.description || ""}
+              parent={[]}
+            />
+          ))}
         </main>
       </div>
       <ThemeController theme={theme} setTheme={setTheme} />
