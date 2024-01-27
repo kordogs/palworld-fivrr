@@ -44,7 +44,6 @@ export default function Navbar() {
             width={80}
             alt=""
           />
-          PalWorld Deck
         </a>
       </div>
       <div className="navbar-end">
