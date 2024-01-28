@@ -47,7 +47,7 @@
   {
     "monsterName": "Arsox",
     "monsterID": 42,
-    "elementType": "Fire",
+    "elementType": ["Fire"],
     "description": "Arsox is a Fire Element type Pal with the Warm Body Partner Skill. ",
     "workSuitability": {
       "Kindling": 2,

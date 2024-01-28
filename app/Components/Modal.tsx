@@ -1,23 +1,10 @@
 import Image from "next/image";
 import React from "react";
+import { CardProps } from "../interface/CardProps";
+import { Monster } from "../interface/Monster";
 
 interface modalProps {
-  monster: {
-    monsterName: string;
-    monsterID: number;
-    elementType: string[];
-    description: string;
-    partnerSkill: { description: string; name: string };
-    activeSkills: {
-      name: string;
-      type: string;
-      power: number;
-      cooldownTime: number;
-      description: string;
-    }[];
-
-    workSuitability: string[];
-  };
+  monster: Monster | null;
 }
 
 export default function Modal({ monster }: modalProps) {
@@ -36,7 +23,7 @@ export default function Modal({ monster }: modalProps) {
             <div className="main-details lg:mr-5 md:mr-5  flex justify-center flex-col">
               <div className=" flex justify-center">
                 <Image
-                  src={`/pals/${monster.monsterName}.webp`}
+                  src={`/pals/${monster?.monsterName}.webp`}
                   width={300}
                   height={300}
                   alt=""
@@ -56,7 +43,7 @@ export default function Modal({ monster }: modalProps) {
                       <td>Number:</td>
                       <td>
                         <span className="border rounded-full p-1">
-                          {monster.monsterID}
+                          {monster?.monsterID}
                         </span>
                       </td>
                     </tr>
@@ -64,8 +51,8 @@ export default function Modal({ monster }: modalProps) {
                     <tr>
                       <td>Element Type:</td>
                       <td>
-                        {Array.isArray(monster.elementType) ? (
-                          monster.elementType.map((elementType, index) => (
+                        {Array.isArray(monster?.elementType) ? (
+                          monster?.elementType.map((elementType, index) => (
                             <Image
                               key={index}
                               src={`/type/${elementType}.png`}
@@ -77,10 +64,10 @@ export default function Modal({ monster }: modalProps) {
                           ))
                         ) : (
                           <Image
-                            src={`/type/${monster.elementType}.png`}
+                            src={`/type/${monster?.elementType}.png`}
                             height={80}
                             width={80}
-                            alt={monster.elementType}
+                            alt={""}
                             className="flex justify-center"
                           />
                         )}
@@ -90,7 +77,7 @@ export default function Modal({ monster }: modalProps) {
                     <tr>
                       <td>Work Suitability</td>
                       <td className="flex flex-col gap-2">
-                        {monster.workSuitability ? (
+                        {monster?.workSuitability ? (
                           Object.entries(monster.workSuitability).map(
                             ([workType, level], index) => (
                               <div key={index} className="flex gap-2">
@@ -116,7 +103,7 @@ export default function Modal({ monster }: modalProps) {
             </div>
             <div className="info overflow-y-auto flex flex-col items-center">
               <div className="description sm:w-[500px] mb-5 text-center">
-                <p className="font-bold">{monster.description}</p>
+                <p className="font-bold">{monster?.description}</p>
               </div>
               <div className="overflow-x-auto">
                 <table className="table">
@@ -126,17 +113,17 @@ export default function Modal({ monster }: modalProps) {
                       <td className=" font-bold">PARTNER SKILL</td>
                       <td>
                         <span className="font-bold mb-1">
-                          {monster.partnerSkill?.name}:
+                          {monster?.partnerSkill?.name}:
                         </span>
                         <p className=" max-w-96 text-xs">
-                          {monster.partnerSkill?.description}
+                          {monster?.partnerSkill?.description}
                         </p>
                       </td>
                     </tr>
                     <tr className="flex">
                       <td className="font-bold">ACTIVE SKILL</td>
                       <td className="flex flex-col gap-5">
-                        {monster.activeSkills?.map((skill, index) => (
+                        {monster?.activeSkills?.map((skill, index) => (
                           <div key={index}>
                             <div className="flex justify-between">
                               <span className="font-bold sm:text-sm">

@@ -6,10 +6,11 @@ import Card from "./Components/Card";
 import ThemeController from "./Components/ThemeController";
 import pals2 from "../app/json/pals-A.json";
 import Modal from "./Components/Modal";
+import { Monster } from "./interface/Monster";
 
 export default function Home() {
   const [theme, setTheme] = useState("dark"); // or "dark" depending on your default theme
-  const [selectedMonster, setSelectedMonster] = useState<{}[]>([]);
+  const [selectedMonster, setSelectedMonster] = useState<Monster | null>(null);
 
   const Monster = pals2;
 
@@ -34,7 +35,25 @@ export default function Home() {
         <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {Monster.map((monster, index) => (
             <Card
-              onClick={() => setSelectedMonster(monster)}
+              onClick={() =>
+                setSelectedMonster({
+                  ...monster,
+                  elementType: Array.isArray(monster.elementType)
+                    ? monster.elementType
+                    : [monster.elementType],
+                  activeSkills: (monster.activeSkills || []).map((skill) => ({
+                    ...skill,
+                    cooldownTime:
+                      "cooldownTime" in skill
+                        ? skill.cooldownTime
+                        : skill.cooldown,
+                  })),
+                  partnerSkill: monster.partnerSkill ?? {
+                    name: "",
+                    description: "",
+                  },
+                })
+              }
               monsterID={monster.monsterID}
               key={index}
               name={monster.monsterName}
@@ -57,18 +76,8 @@ export default function Home() {
               }
               description={monster.description || ""}
               parent={[]}
-              partnerSkill={
-                monster.partnerSkill
-                  ? [
-                      `${monster.partnerSkill.name}: ${monster.partnerSkill.description}`,
-                    ]
-                  : []
-              }
-              activeSkills={
-                monster.activeSkills
-                  ? monster.activeSkills.map((skill) => skill.name)
-                  : []
-              }
+              partnerSkill={[]}
+              activeSkills={[]}
             />
           ))}
           <Modal monster={selectedMonster} />
