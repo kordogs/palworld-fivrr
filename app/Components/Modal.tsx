@@ -8,6 +8,14 @@ interface modalProps {
     elementType: string[];
     description: string;
     partnerSkill: { description: string; name: string };
+    activeSkills: {
+      name: string;
+      type: string;
+      power: number;
+      cooldownTime: number;
+      description: string;
+    }[];
+
     workSuitability: string[];
   };
 }
@@ -17,7 +25,7 @@ export default function Modal({ monster }: modalProps) {
     <div>
       {/* You can open the modal using document.getElementById('ID').showModal() method */}
       <dialog id="my_modal_3" className="modal overflow-y-auto">
-        <div className="bg-base-200 rounded-xl relative sm:p-8 my-5">
+        <div className="bg-base-200 rounded-xl relative sm:p-8 my-5 py-10">
           <form method="dialog">
             {/* if there is a button in form, it will close the modal */}
             <button className="btn sm:btn-lg btn-lg btn-circle btn-ghost absolute right-0 top-0 ">
@@ -131,12 +139,17 @@ export default function Modal({ monster }: modalProps) {
                         {monster.activeSkills?.map((skill, index) => (
                           <div key={index}>
                             <div className="flex justify-between">
-                              <span className="font-bold mb-1">
+                              <span className="font-bold sm:text-sm">
                                 {skill.name}
                               </span>
-                              <div className="font-bold mb-1">
-                                <span>CD: {skill.cooldownTime}</span>
-                              </div>
+                              <span className="font-bold sm:text-sm">
+                                Pwr: {skill.power}
+                              </span>
+
+                              <span className="font-bold sm:text-sm">
+                                CD: {skill.cooldownTime}
+                              </span>
+
                               <div>
                                 <Image
                                   src={`/type/${skill.type.trim()}.png`}
