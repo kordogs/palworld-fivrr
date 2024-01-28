@@ -1,15 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-interface CardProps {
-  name: string;
-  type: string[];
-  work: string[];
-  monsterID: number;
-  workPower: number[];
-  description: string;
-  parent: string[];
-}
+import { CardProps } from "../interface/CardProps";
 
 export default function Card({
   name,
@@ -19,10 +10,16 @@ export default function Card({
   workPower,
   description,
   parent,
+  onClick,
 }: CardProps) {
   return (
-    <div className="card bg-base-100 border-base-200 h-fit shadow-lg hover:shadow-glow hover:cursor-pointer hover:animate-pulse w-fit bg-opacity-50 min-h-[400px] max-h-[400px] overflow-auto box-content">
-      <div className="card-body">
+    <div
+      className="card bg-base-100 border-base-200 h-fit shadow-lg hover:shadow-glow hover:cursor-pointer hover:animate-pulse w-fit bg-opacity-50 min-h-[400px] max-h-[400px] overflow-auto box-content"
+      onClick={() =>
+        (document.getElementById("my_modal_3") as HTMLDialogElement).showModal()
+      }
+    >
+      <div className="card-body overflow-hidden" onClick={onClick}>
         <span className="absolute left-3 top-3">
           <div className="border rounded-full px-1 bg-base-300">
             {monsterID}
@@ -72,7 +69,9 @@ export default function Card({
           </div>
         </div>
 
-        <span className="text-xs text-center">{description}</span>
+        <span className="text-xs text-center whitespace-normal">
+          {description}
+        </span>
       </div>
     </div>
   );

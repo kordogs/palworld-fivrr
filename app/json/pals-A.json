@@ -16,28 +16,28 @@
     "activeSkills": [
       {
         "name": "Rock Lance",
-        "type": "Palworld - Ground Type Icon",
+        "type": "Ground",
         "power": 150,
         "cooldownTime": 55,
         "description": "Generates a sharp rock spear under an enemy."
       },
       {
         "name": "Ground Smash",
-        "type": "Palworld - Ground Type Icon",
+        "type": " Ground ",
         "power": 140,
         "cooldownTime": 35,
         "description": "Anubis special skill. Leaps high into the air before diving to the ground with a punch. The force of the impact deals damage over a wide area."
       },
       {
         "name": "Forceful Charge",
-        "type": "Palworld - Ground Type Icon",
+        "type": " Ground ",
         "power": 120,
         "cooldownTime": 28,
         "description": "Anubis special skill. Pursues its foe with a high-speed dash while releasing energy and unleashes a powerful punch."
       },
       {
         "name": "Spinning Roundhouse",
-        "type": "Palworld - Ground Type Icon",
+        "type": " Ground ",
         "power": 100,
         "cooldownTime": 21,
         "description": "Anubis special skill. Performs a spin kick with its strong legs, cutting down enemies over a wide area."
@@ -60,35 +60,35 @@
     "activeSkills": [
       {
         "name": "Ignis Breath",
-        "type": "Palworld - Fire Type Icon",
+        "type": "Fire",
         "power": 70,
         "cooldownTime": 15,
         "description": "Shoots flames at an enemy, dealing continuous damage."
       },
       {
         "name": "Spirit Fire",
-        "type": "Palworld - Fire Type Icon",
+        "type": " Fire ",
         "power": 45,
         "cooldownTime": 7,
         "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
       },
       {
         "name": "Ignis Blast",
-        "type": "Palworld - Fire Type Icon",
+        "type": " Fire ",
         "power": 30,
         "cooldownTime": 2,
         "description": "Hurls a ball of fire straight at an enemy."
       },
       {
         "name": "Flare Arrow",
-        "type": "Palworld - Fire Type Icon",
+        "type": " Fire ",
         "power": 55,
         "cooldownTime": 10,
         "description": "Fires three flaming arrows in succession that home in on an enemy."
       },
       {
         "name": "Blazing Horn",
-        "type": "Palworld - Fire Type Icon",
+        "type": " Fire ",
         "power": 50,
         "cooldownTime": 9,
         "description": "Arsox exclusive skill. Takes aim and rushes at an enemy with a mad dash."
@@ -126,28 +126,28 @@
     "activeSkills": [
       {
         "name": "Dark Laser",
-        "type": "Palworld - Dark Type Icon",
+        "type": " Dark ",
         "power": 150,
         "cooldownTime": 55,
         "description": "Charges dark energy before blasting enemies with a powerful beam."
       },
       {
         "name": "Nightmare Ball",
-        "type": "Palworld - Dark Type Icon",
+        "type": " Dark ",
         "power": 100,
         "cooldownTime": 30,
         "description": "Creates a giant ball of darkness and hurls it at an enemy."
       },
       {
         "name": "Draconic Breath",
-        "type": "Palworld - Dragon Type Icon",
+        "type": " Dragon ",
         "power": 70,
         "cooldownTime": 15,
         "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it."
       },
       {
         "name": "Dragon Meteor",
-        "type": "Palworld - Dragon Type Icon",
+        "type": " Dragon ",
         "power": 150,
         "cooldownTime": 55,
         "description": "Calls down numerous small meteorites and launches them at an enemy."
@@ -185,35 +185,35 @@
     "activeSkills": [
       {
         "name": "Aqua Gun",
-        "type": "Palworld - Water Type Icon",
+        "type": " Water ",
         "power": 40,
         "cooldownTime": 4,
         "description": "Hurls a ball of water straight at an enemy."
       },
       {
         "name": "Bubble Blast",
-        "type": "Palworld - Water Type Icon",
+        "type": " Water ",
         "power": 65,
         "cooldownTime": 13,
         "description": "Fires numerous bubbles that slowly pursue an enemy."
       },
       {
         "name": "Draconic Breath",
-        "type": "Palworld - Dragon Type Icon",
+        "type": " Dragon ",
         "power": 70,
         "cooldownTime": 15,
         "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it."
       },
       {
         "name": "Dragon Burst",
-        "type": "Palworld - Dragon Type Icon",
+        "type": " Dragon ",
         "power": 55,
         "cooldownTime": 10,
         "description": "Quickly discharges draconic energy, damaging those around it."
       },
       {
         "name": "Dragon Cannon",
-        "type": "Palworld - Dragon Type Icon",
+        "type": " Dragon ",
         "power": 30,
         "cooldownTime": 2,
         "description": "Hurls an energy ball imbued with draconic energy at an enemy."

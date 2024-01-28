@@ -81,14 +81,14 @@ export default function BreedingCalculator() {
         <h1 className=" text-lg font-bold mb-2 from-green-500 to-orange-500">
           Breeding Parents
         </h1>
-        <div className="flex justify-between gap-10 mb-2 border px-5 py-7 rounded-lg">
+        <div className="flex justify-between gap-10 mb-2 px-5 py-7 rounded-lg bg-base-200">
           <div className="right flex flex-col">
             <h2 className="text-center font-bold text-sm mb-2">Parent 1</h2>
             <Image
               src={getImageUrl(parent1)}
               height={200}
               width={200}
-              className="border mb-2"
+              className=" mb-2"
               alt={""}
             />
             <span className="text-center">Number: {id}</span>
@@ -111,7 +111,7 @@ export default function BreedingCalculator() {
               src={getImageUrl(parent2)}
               height={200}
               width={200}
-              className="border mb-2"
+              className=" mb-2"
               alt={""}
             />
             <span className="text-center">Number: {id}</span>
@@ -157,7 +157,7 @@ export default function BreedingCalculator() {
       {/* egg result */}
       <div className="flex flex-col justify-center items-center">
         <h1 className=" text-lg font-bold mb-2 text-center">Egg Result</h1>
-        <motion.div className="tilt flex justify-center flex-col border border-accent px-5 py-7 rounded-lg w-[250px] shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out bg-glass bg-base-100 shadow-xl">
+        <motion.div className="tilt flex justify-center flex-col border border-accent px-5 py-7 rounded-lg w-[250px] hover:shadow-lg transition-shadow duration-300 ease-in-out bg-glass bg-base-100 shadow-xl">
           <Image
             src={getImageUrl(result)}
             height={200}
