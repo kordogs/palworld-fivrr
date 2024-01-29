@@ -1,6 +1,6 @@
 export interface Monster {
   monsterName: string;
-  monsterID: number;
+  monsterID: string | number;
   elementType: string[];
   description: string;
   workSuitability: {
@@ -19,4 +19,28 @@ export interface Monster {
     cooldownTime: number;
     description: string;
   }[];
+  passiveSkills?: string[]; // Add type if possible
+  catchStrategyAndWeakness: {
+    strategy: string;
+    weaknesses: string;
+  };
+  baseStats: {
+    HP: number;
+    Hunger: number;
+    Attack: number;
+    Defense: number;
+  };
+  materialAndItemDrops?: {
+    materialsDropped: string[];
+    possibleDrops: string | string[]; // Make 'possibleDrops' flexible
+  };
+  tierListRanking: {
+    combatTier: string;
+    rideTier: string;
+    baseTier?: string;
+  };
+  breeding: {
+    breedingCombos: { parent1: string; parent2: string }[];
+    recommendedCombos: { parent1: string; parent2: string; child: string }[];
+  };
 }

@@ -31,9 +31,11 @@ export default function Modal({ monster }: modalProps) {
                 />
               </div>
 
-              <span className=" text-2xl font-bold text-center flex justify-center">
-                {monster?.monsterName}
-              </span>
+              <div className="flex justify-center">
+                <span className=" text-lg text-white bg-gradient-to-r from-gray-400 via-gray-500 to-gray-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 shadow-lg shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-800/80 font-medium rounded-full  text-center px-2">
+                  {monster?.monsterName}
+                </span>
+              </div>
 
               <div className="overflow-x-auto">
                 <table className="table table-zebra">
@@ -75,7 +77,7 @@ export default function Modal({ monster }: modalProps) {
                     </tr>
                     {/* row 3 */}
                     <tr>
-                      <td>Work Suitability</td>
+                      <td>Work Suitability:</td>
                       <td className="flex flex-col gap-2">
                         {monster?.workSuitability ? (
                           Object.entries(monster.workSuitability).map(
@@ -97,14 +99,35 @@ export default function Modal({ monster }: modalProps) {
                         )}
                       </td>
                     </tr>
+                    <tr>
+                      <td>Drops:</td>
+                      <td>
+                        <div className="flex flex-col gap-1">
+                          {monster?.materialAndItemDrops?.materialsDropped.map(
+                            (material, index) => (
+                              <div key={index} className="flex gap-1">
+                                <Image
+                                  src={`/drop/${material.trim()}.png`}
+                                  width={20}
+                                  height={20}
+                                  alt=""
+                                />
+                                <div>{material}</div>
+                              </div>
+                            )
+                          )}
+                        </div>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
             </div>
-            <div className="info overflow-y-auto flex flex-col items-center">
-              <div className="description sm:w-[500px] mb-5 text-center">
+            <div className="info overflow-y-auto flex flex-col items-center h-[600px]">
+              <div className="description sm:w-[500px] text-center">
                 <p className="font-bold">{monster?.description}</p>
               </div>
+              <div className="divider"></div>
               <div className="overflow-x-auto">
                 <table className="table">
                   <tbody>
@@ -139,7 +162,7 @@ export default function Modal({ monster }: modalProps) {
 
                               <div>
                                 <Image
-                                  src={`/type/${skill.type.trim()}.png`}
+                                  src={`/type/${skill.type?.trim()}.png`}
                                   height={70}
                                   width={70}
                                   alt={skill.type}
@@ -151,6 +174,60 @@ export default function Modal({ monster }: modalProps) {
                             </p>
                           </div>
                         ))}
+                      </td>
+                    </tr>
+                    <tr className="flex">
+                      <td className="font-bold">
+                        CATCH STRATEGY
+                        <br /> AND WEAKNESS
+                      </td>
+                      <td className="flex flex-col gap-5">
+                        <div>
+                          <div className="flex justify-between">
+                            <span className="font-bold sm:text-sm">
+                              Strategy
+                            </span>
+                          </div>
+                          <p className="max-w-96 text-xs">
+                            {monster?.catchStrategyAndWeakness?.strategy || ""}
+                          </p>
+                        </div>
+                        <div>
+                          <div className="flex justify-between">
+                            <span className="font-bold sm:text-sm">
+                              Weakness
+                            </span>
+                          </div>
+                          <p className="max-w-96 text-xs">
+                            {monster?.catchStrategyAndWeakness?.weaknesses ||
+                              ""}
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr className="flex">
+                      <td className="font-bold">BASE STATS</td>
+                      <td className="flex gap-5">
+                        <div className="flex justify-between">
+                          <span className="font-bold sm:text-sm text-green-500">
+                            HP: {monster?.baseStats.HP}
+                          </span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="font-bold sm:text-sm text-red-500">
+                            Hunger: {monster?.baseStats.HP}
+                          </span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="font-bold sm:text-sm text-orange-500">
+                            Attack: {monster?.baseStats.Attack}
+                          </span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="font-bold sm:text-sm text-blue-500">
+                            Defense: {monster?.baseStats.Defense}
+                          </span>
+                        </div>
                       </td>
                     </tr>
                   </tbody>

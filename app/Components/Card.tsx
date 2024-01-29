@@ -21,7 +21,7 @@ export default function Card({
     >
       <div className="card-body overflow-hidden" onClick={onClick}>
         <span className="absolute left-3 top-3">
-          <div className="border rounded-full px-1 bg-base-300">
+          <div className="border rounded-full px-1 bg-base-300 bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
             {monsterID}
           </div>
         </span>
@@ -49,7 +49,9 @@ export default function Card({
         </div>
 
         <div className="flex gap-2 justify-center">
-          <h2 className="card-title text-lg">{name}</h2>
+          <h2 className="card-title text-lg text-white bg-gradient-to-r from-gray-400 via-gray-500 to-gray-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 shadow-lg shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-800/80 font-medium rounded-full  text-center px-2">
+            {name}
+          </h2>
         </div>
 
         <div className="flex justify-center gap-2">

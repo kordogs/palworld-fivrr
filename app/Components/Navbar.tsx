@@ -26,10 +26,17 @@ export default function Navbar() {
             className="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="/parentSearch">Parent Search</a>
+              <a href="/parentSearch" className="btn btn-outline btn-primary">
+                Parent Search
+              </a>
             </li>
             <li>
-              <a href="breedingCalculator">Breeding Calculator</a>
+              <a
+                href="/breedingCalculator"
+                className="btn btn-outline btn-accent"
+              >
+                Breeding Calculator
+              </a>
             </li>
           </ul>
         </div>

@@ -808,5 +808,1486 @@
       "rideTier": "A Tier (Ground Mount)",
       "baseTier": "A Tier (for Late Game)"
     }
+  },
+  {
+    "monsterName": "Blazehowl Noct",
+    "monsterID": "84B",
+    "elementType": ["Fire", "Dark"],
+    "description": "Blazehowl Noct, a Fire and Dark Element Pal, is a nocturnal creature found exclusively during the night in Palworld.",
+    "workSuitability": {
+      "Kindling": 3,
+      "Lumbering": 2
+    },
+    "partnerSkill": {
+      "name": "Darkflame Lion",
+      "description": "Can be ridden. While fighting together, Neutral Pals drop more items when defeated."
+    },
+    "activeSkills": [
+      {
+        "name": "Ignis Breath",
+        "type": "Fire",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Shoots flames at an enemy, dealing continuous damage."
+      },
+      {
+        "name": "Flare Arrow",
+        "type": "Fire",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires three flaming arrows in succession that home in on an enemy."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Ignis Rage",
+        "type": "Fire",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Energizes the surrounding ground, causing it to explode after a set amount of time."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Water or Dragon Type Pal",
+      "weaknesses": "Weak to Water or Dragon element Pals due to its Fire Dark Elemental Type."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 4,
+      "Attack": 3,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Flame Organ"],
+      "possibleDrops": "Palworld - Flame Organ Material"
+    },
+    "tierListRanking": {
+      "combatTier": "C Tier",
+      "rideTier": "A Tier (Ground Mount)",
+      "baseTier": "B Tier (for Late Game)"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Blazehowl", "parent2": "Felbat" },
+        { "parent1": "Blazehowl Noct", "parent2": "Blazehowl Noct" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Blazehowl Noct",
+          "parent2": "Suzaku Aqua",
+          "child": "Quivern"
+        },
+        {
+          "parent1": "Lifmunk",
+          "parent2": "Blazehowl Noct",
+          "child": "Vaelet"
+        },
+        {
+          "parent1": "Lamball",
+          "parent2": "Blazehowl Noct",
+          "child": "Beegarde"
+        },
+        {
+          "parent1": "Blazehowl Noct",
+          "parent2": "Relaxaurus Lux",
+          "child": "Kingpaca"
+        },
+        {
+          "parent1": "Blazehowl Noct",
+          "parent2": "Jormuntide",
+          "child": "Cinnamoth"
+        },
+        {
+          "parent1": "Blazehowl Noct",
+          "parent2": "Jormuntide Ignis",
+          "child": "Cinnamoth"
+        },
+        {
+          "parent1": "Blazehowl Noct",
+          "parent2": "Quivern",
+          "child": "Grintale"
+        }
+      ]
+    }
+  },
+  {
+    "monsterName": "Bristla",
+    "monsterID": 30,
+    "elementType": ["Grass"],
+    "description": "Bristla, a Grass Element Pal, can be found in the desert northeast of the Sealed Realm of the Winged Tyrant teleport point in Palworld.",
+    "workSuitability": {
+      "Planting": 1,
+      "Handiwork": 1,
+      "Medicine": 2,
+      "Transporting": 1,
+      "Gathering": 1
+    },
+    "partnerSkill": {
+      "name": "Princess Gaze",
+      "description": "While in the team, increases the attack power of Grass Pals."
+    },
+    "activeSkills": [
+      {
+        "name": "Seed Machine Gun",
+        "type": "Grass",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires a volley of hard seeds at enemies in front of it."
+      },
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Iceberg",
+        "type": "Ice",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Summons a sharp ice lance under an enemy."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Spine Vine",
+        "type": "Grass",
+        "power": 95,
+        "cooldownTime": 25,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal",
+      "weaknesses": "Weak to Fire element Pals due to its Grass Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 3,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Lettuce Seeds", "Wheat Seeds"],
+      "possibleDrops": "Palworld - Lettuce Seeds Material, Palworld - Wheat Seeds Material"
+    },
+    "tierListRanking": {
+      "combatTier": "B Tier (for Mid Game)",
+      "rideTier": "N/A",
+      "baseTier": "N/A"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Foxparks", "parent2": "Tanzee" },
+        { "parent1": "Foxparks", "parent2": "Gumoss" },
+        { "parent1": "Rooby", "parent2": "Teafant" },
+        { "parent1": "Cattiva", "parent2": "Woolipop" },
+        { "parent1": "Sparkit", "parent2": "Gumoss" },
+        { "parent1": "Chikipi", "parent2": "Rushoar" },
+        { "parent1": "Lifmunk", "parent2": "Fuddler" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Teafant", "parent2": "Bristla", "child": "Flambelle" },
+        { "parent1": "Bristla", "parent2": "Eikthyrdeer", "child": "Leezpunk" },
+        { "parent1": "Celaray", "parent2": "Bristla", "child": "Gobfin" },
+        { "parent1": "Rooby", "parent2": "Bristla", "child": "Gumoss" },
+        { "parent1": "Bristla", "parent2": "Nitewing", "child": "Celaray" },
+        { "parent1": "Chikipi", "parent2": "Bristla", "child": "Sparkit" },
+        { "parent1": "Rushoar", "parent2": "Bristla", "child": "Fuddler" }
+      ]
+    }
+  },
+  {
+    "monsterName": "Broncherry",
+    "monsterID": 86,
+    "elementType": ["Grass"],
+    "description": "Broncherry, a Grass Element Pal, can be found west of the Sea Breeze Archipelago fast travel point in Palworld.",
+    "workSuitability": {
+      "Planting": 3
+    },
+    "partnerSkill": {
+      "name": "Overaffectionate",
+      "description": "Can be ridden. While in the team, Broncherry helps carry supplies, increasing the player's max carrying capacity."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Seed Mine",
+        "type": "Grass",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Spine Vine",
+        "type": "Grass",
+        "power": 95,
+        "cooldownTime": 25,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below."
+      },
+      {
+        "name": "Muscle Slam",
+        "type": "Neutral",
+        "power": 80,
+        "cooldownTime": 12,
+        "description": "Broncherry exclusive skill. Turns sideways before tackling enemies in front of it, sending them flying into the air."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal",
+      "weaknesses": "Weak to Fire element Pals due to its Grass Elemental Type."
+    },
+    "baseStats": {
+      "HP": 3,
+      "Hunger": 4,
+      "Attack": 2,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Broncherry Meat", "Tomato Seeds"],
+      "possibleDrops": [
+        "Palworld - Broncherry Meat Material",
+        "Palworld - Tomato Seeds Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "C Tier (for Mid Game)",
+      "rideTier": "D Tier (Ground Mount)",
+      "baseTier": "N/A"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Gumoss", "parent2": "Cinnamoth" },
+        { "parent1": "Killamari", "parent2": "Mossanda" },
+        { "parent1": "Celaray", "parent2": "Digtoise" },
+        { "parent1": "Rushoar", "parent2": "Incineram" },
+        { "parent1": "Caprity", "parent2": "Arsox" },
+        { "parent1": "Rooby", "parent2": "Surfent" },
+        { "parent1": "Foxparks", "parent2": "Elizabee" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Fuack",
+          "parent2": "Broncherry",
+          "child": "Broncherry Aqua"
+        },
+        { "parent1": "Gumoss", "parent2": "Broncherry", "child": "Vaelet" },
+        { "parent1": "Penking", "parent2": "Broncherry", "child": "Univolt" },
+        { "parent1": "Flopie", "parent2": "Broncherry", "child": "Beegarde" },
+        { "parent1": "Vixy", "parent2": "Broncherry", "child": "Rooby" },
+        { "parent1": "Melpaca", "parent2": "Broncherry", "child": "Reindrix" },
+        { "parent1": "Lifmunk", "parent2": "Broncherry", "child": "Maraith" }
+      ]
+    }
+  },
+  {
+    "monsterName": "Broncherry Aqua",
+    "monsterID": "86B",
+    "elementType": ["Grass", "Water"],
+    "description": "Broncherry Aqua, a Grass/Water Element Pal, can be found inside the Shoal Mineshaft in the central area of the map, in the bay just west of the Sealed Realm of the Swordmaster fast travel point.",
+    "workSuitability": {
+      "Watering": 3
+    },
+    "partnerSkill": {
+      "name": "Overaffectionate",
+      "description": "Can be ridden. While in the team, Broncherry helps carry supplies, increasing the player's max carrying capacity."
+    },
+    "activeSkills": [
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Seed Mine",
+        "type": "Grass",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes."
+      },
+      {
+        "name": "Bubble Blast",
+        "type": "Water",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Fires numerous bubbles that slowly pursue an enemy."
+      },
+      {
+        "name": "Spine Vine",
+        "type": "Grass",
+        "power": 95,
+        "cooldownTime": 25,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below."
+      },
+      {
+        "name": "Aqua Burst",
+        "type": "Water",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of water and hurls it at an enemy."
+      },
+      {
+        "name": "Muscle Slam",
+        "type": "Neutral",
+        "power": 80,
+        "cooldownTime": 12,
+        "description": "Broncherry exclusive skill. Turns sideways before tackling enemies in front of it, sending them flying into the air."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire or Electric Type Pal",
+      "weaknesses": "Weak to Fire or Electric element Pals due to its Grass Water Elemental Type."
+    },
+    "baseStats": {
+      "HP": 3,
+      "Hunger": 4,
+      "Attack": 2,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Broncherry Meat", "Lettuce Seeds"],
+      "possibleDrops": [
+        "Palworld - Broncherry Meat Material",
+        "Palworld - Lettuce Seeds Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "C Tier",
+      "rideTier": "D Tier (Ground Mount)",
+      "baseTier": "B Tier (for Late Game)"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Fuack", "parent2": "Broncherry" },
+        { "parent1": "Broncherry Aqua", "parent2": "Broncherry Aqua" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Lamball",
+          "parent2": "Broncherry Aqua",
+          "child": "Rooby"
+        },
+        {
+          "parent1": "Foxparks",
+          "parent2": "Broncherry Aqua",
+          "child": "Leezpunk"
+        },
+        {
+          "parent1": "Broncherry Aqua",
+          "parent2": "Orserk",
+          "child": "Cinnamoth"
+        },
+        {
+          "parent1": "Broncherry Aqua",
+          "parent2": "Frostallion Noct",
+          "child": "Kingpaca"
+        },
+        {
+          "parent1": "Kelpsea",
+          "parent2": "Broncherry Aqua",
+          "child": "Vaelet"
+        },
+        {
+          "parent1": "Swee",
+          "parent2": "Broncherry Aqua",
+          "child": "Beegarde"
+        },
+        {
+          "parent1": "Flambelle",
+          "parent2": "Broncherry Aqua",
+          "child": "Leezpunk"
+        }
+      ]
+    }
+  },
+  {
+    "monsterName": "Bushi",
+    "monsterID": 72,
+    "elementType": ["Fire"],
+    "description": "Bushi, a Fire Element Pal, can be found at the southwest part of the map and in the Sealed Realm of the Swordmaster in Palworld.",
+    "workSuitability": {
+      "Kindling": 2,
+      "Handiwork": 1,
+      "Lumbering": 3,
+      "Transporting": 2,
+      "Gathering": 1
+    },
+    "partnerSkill": {
+      "name": "Brandish Blade",
+      "description": "When activated, attacks targeted enemy with a powerful laigiri."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Ignis Breath",
+        "type": "Fire",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Shoots flames at an enemy, dealing continuous damage."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      },
+      {
+        "name": "Iaigiri",
+        "type": "Fire",
+        "power": 65,
+        "cooldownTime": 9,
+        "description": "Bushi exclusive skill. After holding the sword, he appears in front of the enemy in an instant and unleashes an ultra-fast sword draw attack."
+      },
+      {
+        "name": "Lightning Strike",
+        "type": "Electric",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Acts as a lightning rod, calling down thunderbolts that electrocute the surrounding area."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Water Type Pal",
+      "weaknesses": "Weak to Water element Pals due to its Fire Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 3,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Bone", "Ingot"],
+      "possibleDrops": ["Palworld - Bone Material", "Palworld - Ingot Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "B Tier",
+      "rideTier": "N/A",
+      "baseTier": "A Tier (for Late Game)"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Celaray", "parent2": "Nitewing" },
+        { "parent1": "Celaray", "parent2": "Sweepa" },
+        { "parent1": "Caprity", "parent2": "Elizabee" },
+        { "parent1": "Eikthyrdeer", "parent2": "Elizabee" },
+        { "parent1": "Melpaca", "parent2": "Pyrin" },
+        { "parent1": "Caprity", "parent2": "Pyrin" },
+        { "parent1": "Cinnamoth", "parent2": "Arsox" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Penking", "parent2": "Bushi", "child": "Anubis" },
+        { "parent1": "Cattiva", "parent2": "Bushi", "child": "Vaelet" },
+        { "parent1": "Celaray", "parent2": "Bushi", "child": "Tombat" },
+        { "parent1": "Mossanda", "parent2": "Bushi", "child": "Elphidran" },
+        { "parent1": "Bushi", "parent2": "Shadowbeak", "child": "Quivern" },
+        { "parent1": "Nitewing", "parent2": "Bushi", "child": "Elphidran" },
+        { "parent1": "Elizabee", "parent2": "Bushi", "child": "Wumpo Botan" }
+      ]
+    }
+  },
+  {
+    "monsterName": "Caprity",
+    "monsterID": 35,
+    "elementType": ["Grass"],
+    "description": "Caprity is a Pal with the Berry Picker Partner Skill and the Grass Element type.",
+    "workSuitability": {
+      "Planting": 2,
+      "Farming": 1
+    },
+    "partnerSkill": {
+      "name": "Berry Picker",
+      "description": "Sometimes drops Red Berries from its back when assigned to Ranch."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Spine Vine",
+        "type": "Grass",
+        "power": 95,
+        "cooldownTime": 25,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal",
+      "weaknesses": "Weak to Fire element Pals due to its Grass Elemental Type."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 2,
+      "Attack": 1,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Caprity Meat", "Horn", "Red Berries"],
+      "possibleDrops": [
+        "Palworld - Caprity Meat Material",
+        "Palworld - Horn Material",
+        "Palworld - Red Berries Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "B Tier (for Early Game)"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Pengullet", "parent2": "Penking" },
+        { "parent1": "Lifmunk", "parent2": "Mossanda" },
+        { "parent1": "Caprity", "parent2": "Caprity" },
+        { "parent1": "Vixy", "parent2": "Nitewing" },
+        { "parent1": "Penking", "parent2": "Tocotoco" },
+        { "parent1": "Jolthog", "parent2": "Cinnamoth" },
+        { "parent1": "Cattiva", "parent2": "Sweepa" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Lamball", "parent2": "Caprity", "child": "Dazzi" },
+        { "parent1": "Penking", "parent2": "Caprity", "child": "Rayhound" },
+        { "parent1": "Celaray", "parent2": "Caprity", "child": "Dumud" },
+        { "parent1": "Caprity", "parent2": "Incineram", "child": "Foxcicle" },
+        { "parent1": "Tanzee", "parent2": "Caprity", "child": "Gobfin" },
+        { "parent1": "Caprity", "parent2": "Melpaca", "child": "Mozzarina" },
+        { "parent1": "Chikipi", "parent2": "Caprity", "child": "Dazzi" }
+      ]
+    }
+  },
+  {
+    "monsterName": "Cattiva",
+    "monsterID": 2,
+    "elementType": ["Neutral"],
+    "description": "Cattiva is a Pal with the Cat Helper Partner Skill and the Neutral Element type.",
+    "workSuitability": {
+      "Handiwork": 1,
+
+      "Transporting": 1,
+
+      "Gathering": 1,
+      "Mining": 1,
+
+      "Farming": 1
+    },
+    "partnerSkill": {
+      "name": "Cat Helper",
+      "description": "While in the team, Cattiva helps carry supplies, increasing the player’s max carrying capacity."
+    },
+    "activeSkills": [
+      {
+        "name": "Seed Machine Gun",
+        "type": "Grass",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires a volley of hard seeds at enemies in front of it."
+      },
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Punch Flurry",
+        "type": "Neutral",
+        "power": 40,
+        "cooldownTime": 1,
+        "description": "Cattiva special skill. Pursues enemies, repeatedly punching them with both its fists."
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dark Type Pal",
+      "weaknesses": "Weak to Dark element Pals due to its Neutral Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 1,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Red Berries"],
+      "possibleDrops": ["Palworld - Red Berries Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Cattiva", "parent2": "Cattiva" },
+        { "parent1": "Lifmunk", "parent2": "Teafant" },
+        { "parent1": "Lamball", "parent2": "Cremis" },
+        { "parent1": "Lamball", "parent2": "Vixy" },
+        { "parent1": "Cattiva", "parent2": "Cremis" },
+        { "parent1": "Chikipi", "parent2": "Hangyu" },
+        { "parent1": "Chikipi", "parent2": "Hangyu Cryst" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Cattiva", "parent2": "Pengullet", "child": "Flambelle" },
+        { "parent1": "Cattiva", "parent2": "Nitewing", "child": "Lovander" },
+        { "parent1": "Lamball", "parent2": "Cattiva", "child": "Lamball" },
+        { "parent1": "Cattiva", "parent2": "Tanzee", "child": "Pengullet" },
+        { "parent1": "Cattiva", "parent2": "Celaray", "child": "Wixen" },
+        { "parent1": "Cattiva", "parent2": "Penking", "child": "Verdash" },
+        { "parent1": "Cattiva", "parent2": "Direhowl", "child": "Kelpsea" }
+      ]
+    }
+  },
+  {
+    "monsterName": "Cawgnito",
+    "monsterID": 44,
+    "elementType": ["Dark"],
+    "description": "Cawgnito is a Pal with the Telepeck Partner Skill and the Dark Element type.",
+    "partnerSkill": {
+      "name": "Telepeck",
+      "description": "When activated, attacks targeted enemy with a powerful Phantom Peck."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Dark Ball",
+        "type": "Dark",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Phantom Peck",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 7,
+        "description": "Cawgnito exclusive skill. Teleports next to an enemy before attacking with its beak."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Lumbering": 1
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dragon Type Pal",
+      "weaknesses": "Weak to Dragon element Pals due to its Dark Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 3,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Bone", "Small Pal Soul", "Venom Gland"],
+      "possibleDrops": [
+        "Palworld - Bone Material",
+        "Palworld - Small Pal Soul Material",
+        "Palworld - Venom Gland Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
+    },
+    "location": {
+      "day": false,
+      "night": true,
+      "source": "Black Marketeer"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Killamari", "parent2": "Celaray" },
+        { "parent1": "Gumoss", "parent2": "Eikthyrdeer" },
+        { "parent1": "Celaray", "parent2": "Flopie" },
+        { "parent1": "Tanzee", "parent2": "Mozzarina" },
+        { "parent1": "Gumoss", "parent2": "Mozzarina" },
+        { "parent1": "Fuddler", "parent2": "Caprity" },
+        { "parent1": "Direhowl", "parent2": "Gobfin" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Rooby", "parent2": "Cawgnito", "child": "Leezpunk" },
+        { "parent1": "Penking", "parent2": "Cawgnito", "child": "Chillet" },
+        { "parent1": "Direhowl", "parent2": "Cawgnito", "child": "Beegarde" },
+        { "parent1": "Foxparks", "parent2": "Cawgnito", "child": "Gumoss" },
+        { "parent1": "Mossanda", "parent2": "Cawgnito", "child": "Tombat" },
+        { "parent1": "Nitewing", "parent2": "Cawgnito", "child": "Tombat" },
+        { "parent1": "Mau", "parent2": "Cawgnito", "child": "Flopie" }
+      ]
+    }
+  },
+  {
+    "monsterName": "Celaray",
+    "monsterID": 25,
+    "elementType": ["Water"],
+    "description": "Celaray is a Pal with the Zephyr Glider Partner Skill and the Water Element type.",
+    "partnerSkill": {
+      "name": "Zephyr Glider",
+      "description": "While in the team, can be summoned and used instead of a glider. Allows you to move quickly for long periods of time while gliding with this Pal."
+    },
+    "activeSkills": [
+      {
+        "name": "Seed Machine Gun",
+        "type": "Grass",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires a volley of hard seeds at enemies in front of it."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Hydro Jet",
+        "type": "Water",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a high-speed ball of water at an enemy."
+      },
+      {
+        "name": "Bubble Blast",
+        "type": "Water",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Fires numerous bubbles that slowly pursue an enemy."
+      },
+      {
+        "name": "Aqua Burst",
+        "type": "Water",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of water and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Transporting": 1,
+      "Watering": 1
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring an Electric Type Pal",
+      "weaknesses": "Weak to Electric element Pals due to its Water Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Pal Fluids"],
+      "possibleDrops": ["Palworld - Pal Fluids Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "S Tier (Gliding Mount)",
+      "baseTier": "C Tier (for Early Game)"
+    },
+    "location": {
+      "day": true,
+      "night": false,
+      "source": "Cawgnito Breeding Combo (Parent 1: Celaray, Parent 2: Celaray)"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Celaray", "parent2": "Celaray" },
+        { "parent1": "Penking", "parent2": "Fuddler" },
+        { "parent1": "Tanzee", "parent2": "Cinnamoth" },
+        { "parent1": "Rooby", "parent2": "Incineram" },
+        { "parent1": "Bristla", "parent2": "Nitewing" },
+        { "parent1": "Fuack", "parent2": "Sweepa" },
+        { "parent1": "Melpaca", "parent2": "Digtoise" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Rooby", "parent2": "Celaray", "child": "Felbat" },
+        { "parent1": "Lamball", "parent2": "Celaray", "child": "Wixen" },
+        { "parent1": "Lifmunk", "parent2": "Celaray", "child": "Maraith" },
+        { "parent1": "Pengullet", "parent2": "Celaray", "child": "Lunaris" },
+        { "parent1": "Penking", "parent2": "Celaray", "child": "Katress" },
+        { "parent1": "Celaray", "parent2": "Direhowl", "child": "Loupmoon" },
+        { "parent1": "Celaray", "parent2": "Melpaca", "child": "Reindrix" }
+      ]
+    }
+  },
+  {
+    "monsterName": "Chikipi",
+    "monsterID": 3,
+    "elementType": ["Neutral"],
+    "description": "Chikipi is a Pal with the Egg Layer Partner Skill and the Neutral Element type.",
+    "partnerSkill": {
+      "name": "Egg Layer",
+      "description": "Sometimes lays eggs when assigned to Ranch."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Chicken Rush",
+        "type": "Neutral",
+        "power": 30,
+        "cooldownTime": 1,
+        "description": "Chikipi special skill. Flies at enemies in its sights, attacking them with its sharp beak."
+      },
+      {
+        "name": "Implode",
+        "type": "Neutral",
+        "power": 180,
+        "cooldownTime": 55,
+        "description": "Risks its life to cause a violent explosion. Becomes incapacitated afterwards."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Gathering": 1,
+      "Farming": 1
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dark Type Pal",
+      "weaknesses": "Weak to Dark element Pals due to its Neutral Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 1,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Chikipi Poultry", "Egg"],
+      "possibleDrops": [
+        "Palworld - Chikipi Poultry Material",
+        "Palworld - Egg Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "B Tier (for Early Game)"
+    },
+    "location": {
+      "day": true,
+      "night": false,
+      "source": "Can Be Purchased from the Pal Merchant"
+    },
+    "breeding": {
+      "breedingCombos": [{ "parent1": "Chikipi", "parent2": "Chikipi" }],
+      "recommendedCombos": [
+        { "parent1": "Lamball", "parent2": "Chikipi", "child": "Mau" },
+        { "parent1": "Chikipi", "parent2": "Direhowl", "child": "Flopie" },
+        { "parent1": "Chikipi", "parent2": "Celaray", "child": "Woolipop" },
+        { "parent1": "Chikipi", "parent2": "Sparkit", "child": "Cremis" },
+        { "parent1": "Chikipi", "parent2": "Teafant", "child": "Teafant" },
+        { "parent1": "Chikipi", "parent2": "Rooby", "child": "Fuack" },
+        { "parent1": "Chikipi", "parent2": "Penking", "child": "Felbat" }
+      ]
+    }
+  },
+  {
+    "monsterName": "Chillet",
+    "monsterID": 55,
+    "elementType": ["Ice", "Dragon"],
+    "description": "Chillet, an Ice and Dragon Element Pal, can be found south of the Fort Ruins teleport point in Palworld.",
+    "partnerSkill": {
+      "name": "Wriggling Weasel",
+      "description": "Can be ridden. Applies Dragon damage to the player's attacks while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      },
+      {
+        "name": "Draconic Breath",
+        "type": "Dragon",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it."
+      },
+      {
+        "name": "Dragon Burst",
+        "type": "Dragon",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges draconic energy, damaging those around it."
+      },
+      {
+        "name": "Dragon Cannon",
+        "type": "Dragon",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls an energy ball imbued with draconic energy at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Gathering": 1,
+      "Cooling": 1
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "The easiest way to catch Chillet is to use a Foxparks with the Foxparks's Harness Technology, which unlocks its Huggy Fire Partner Skill.",
+      "weaknesses": "Hit Chillet from behind with Huggy Fire for an easier catch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Leather"],
+      "possibleDrops": ["Palworld - Leather Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "C Tier",
+      "rideTier": "B Tier (Ground Mount)",
+      "baseTier": "C Tier (for Mid Game)"
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Can Be Bought from the Black Marketeer, Lv. 11 Field Boss"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Woolipop", "parent2": "Nitewing" },
+        { "parent1": "Penking", "parent2": "Gobfin" },
+        { "parent1": "Nox", "parent2": "Mossanda" },
+        { "parent1": "Tanzee", "parent2": "Pyrin" },
+        { "parent1": "Woolipop", "parent2": "Sweepa" },
+        { "parent1": "Nox", "parent2": "Nitewing" },
+        { "parent1": "Celaray", "parent2": "Rayhound" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Penking", "parent2": "Chillet", "child": "Vanwyrm" },
+        { "parent1": "Incineram", "parent2": "Chillet", "child": "Katress" },
+        { "parent1": "Elizabee", "parent2": "Chillet", "child": "Anubis" },
+        { "parent1": "Caprity", "parent2": "Chillet", "child": "Broncherry" },
+        { "parent1": "Mossanda", "parent2": "Chillet", "child": "Incineram" },
+        { "parent1": "Chillet", "parent2": "Beakon", "child": "Grintale" },
+        { "parent1": "Celaray", "parent2": "Chillet", "child": "Kitsun" }
+      ]
+    }
+  },
+  {
+    "monsterName": "Cinnamoth",
+    "monsterID": 41,
+    "elementType": ["Grass"],
+    "description": "Cinnamoth is a Pal with the Mysterious Scales Partner Skill and the Grass Element type.",
+    "partnerSkill": {
+      "name": "Mysterious Scales",
+      "description": "When activated, attacks target enemy with Poison Fog."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Poison Fog",
+        "type": "Dark",
+        "power": 0,
+        "cooldownTime": 30,
+        "description": "Generates a fog of poison in front causing the opponent to become poisoned."
+      },
+      {
+        "name": "Seed Mine",
+        "type": "Grass",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Planting": 2,
+      "Medicine": 1
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Can Be Bought from the Black Marketeer"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Cinnamoth", "parent2": "Cinnamoth" },
+        { "parent1": "Nitewing", "parent2": "Surfent" },
+        { "parent1": "Mossanda", "parent2": "Surfent Terra" },
+        { "parent1": "Penking", "parent2": "Wumpo" },
+        { "parent1": "Caprity", "parent2": "Suzaku" },
+        { "parent1": "Digtoise", "parent2": "Cryolinx" },
+        { "parent1": "Eikthyrdeer", "parent2": "Shadowbeak" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Mossanda", "parent2": "Cinnamoth", "child": "Wumpo" },
+        { "parent1": "Gumoss", "parent2": "Cinnamoth", "child": "Broncherry" },
+        { "parent1": "Penking", "parent2": "Cinnamoth", "child": "Azurobe" },
+        { "parent1": "Celaray", "parent2": "Cinnamoth", "child": "Univolt" },
+        { "parent1": "Nitewing", "parent2": "Cinnamoth", "child": "Sibelyx" },
+        {
+          "parent1": "Cinnamoth",
+          "parent2": "Cryolinx",
+          "child": "Jormuntide"
+        },
+        { "parent1": "Rooby", "parent2": "Cinnamoth", "child": "Dinossom" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Hit Cinnamoth from behind with a Fire Type Pal to exploit its weakness.",
+      "weaknesses": "Cinnamoth is weak to Fire element Pals due to its Grass Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Honey", "Lettuce Seeds", "Wheat Seeds"],
+      "possibleDrops": [
+        "Palworld - Honey Material",
+        "Palworld - Lettuce Seeds Material",
+        "Palworld - Wheat Seeds Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "C Tier",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
+    }
+  },
+  {
+    "monsterName": "Cremis",
+    "monsterID": 18,
+    "elementType": ["Neutral"],
+    "description": "Cremis is a Pal with the Fluffy Wool Partner Skill and the Neutral Element type.",
+    "partnerSkill": {
+      "name": "Fluffy Wool",
+      "description": "While in the team, increases the attack power of Neutral Pals. Sometimes drops Wool when assigned to the Ranch."
+    },
+    "activeSkills": [
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Spark Blast",
+        "type": "Electric",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "The user releases a lightning ball that expands outward in a forward, circular pattern."
+      },
+      {
+        "name": "Shockwave",
+        "type": "Electric",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Quickly discharges electricity, shocking those around it."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Gathering": 1,
+      "Farming": 1
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Can Be Bought from the Black Marketeer"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Chikipi", "parent2": "Sparkit" },
+        { "parent1": "Cattiva", "parent2": "Vixy" },
+        { "parent1": "Cremis", "parent2": "Cremis" },
+        { "parent1": "Vixy", "parent2": "Cremis" },
+        { "parent1": "Lifmunk", "parent2": "Mau" },
+        { "parent1": "Teafant", "parent2": "Hangyu" },
+        { "parent1": "Lamball", "parent2": "Mau Cryst" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Cremis", "parent2": "Mossanda", "child": "Lovander" },
+        { "parent1": "Fuack", "parent2": "Cremis", "child": "Hoocrates" },
+        { "parent1": "Cremis", "parent2": "Celaray", "child": "Wixen" },
+        { "parent1": "Pengullet", "parent2": "Cremis", "child": "Flambelle" },
+        { "parent1": "Cremis", "parent2": "Nitewing", "child": "Lovander" },
+        { "parent1": "Lamball", "parent2": "Cremis", "child": "Cattiva" },
+        { "parent1": "Teafant", "parent2": "Cremis", "child": "Lamball" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dark Type Pal. Hit Cremis from behind with a Dark Type Pal to exploit its weakness.",
+      "weaknesses": "Cremis is weak to Dark element Pals due to its Neutral Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Wool"],
+      "possibleDrops": ["Palworld - Wool Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "B Tier (for Early Game)"
+    }
+  },
+  {
+    "monsterName": "Cryolinx",
+    "monsterID": 83,
+    "elementType": ["Ice"],
+    "description": "Cryolinx is a Pal with the Dragon Hunter Partner Skill and the Ice Element type.",
+    "partnerSkill": {
+      "name": "Dragon Hunter",
+      "description": "While fighting together, Dragon Pals drop more items when defeated."
+    },
+    "activeSkills": [
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Iceberg",
+        "type": "Ice",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Summons a sharp ice lance under an enemy."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      },
+      {
+        "name": "Stone Cannon",
+        "type": "Ground",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Digs up a boulder and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 1,
+      "Lumbering": 2,
+      "Cooling": 3
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Can Be Purchased from the Black Marketeer"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Cryolinx", "parent2": "Cryolinx" },
+        { "parent1": "Cryolinx", "parent2": "Astegon" },
+        { "parent1": "Beakon", "parent2": "Blazamut" },
+        { "parent1": "Cryolinx", "parent2": "Orserk" },
+        { "parent1": "Cryolinx", "parent2": "Shadowbeak" },
+        { "parent1": "Beakon", "parent2": "Suzaku" },
+        { "parent1": "Beakon", "parent2": "Shadowbeak" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Mossanda", "parent2": "Cryolinx", "child": "Relaxaurus" },
+        {
+          "parent1": "Cinnamoth",
+          "parent2": "Cryolinx",
+          "child": "Jormuntide"
+        },
+        { "parent1": "Penking", "parent2": "Cryolinx", "child": "Reptyro" },
+        { "parent1": "Cryolinx", "parent2": "Blazamut", "child": "Suzaku" },
+        { "parent1": "Nitewing", "parent2": "Cryolinx", "child": "Relaxaurus" },
+        { "parent1": "Surfent", "parent2": "Cryolinx", "child": "Warsect" },
+        { "parent1": "Melpaca", "parent2": "Cryolinx", "child": "Grintale" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Hit Cryolinx from behind with a Fire Type Pal to exploit its weakness.",
+      "weaknesses": "Cryolinx is weak to Fire element Pals due to its Ice Elemental Type."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 4,
+      "Attack": 4,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Ice Organ"],
+      "possibleDrops": ["Palworld - Ice Organ Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "S Tier",
+      "rideTier": "N/A",
+      "baseTier": "B Tier (for Late Game)"
+    }
   }
 ]
