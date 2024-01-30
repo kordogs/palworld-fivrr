@@ -12,7 +12,7 @@ export interface Monster {
     name: string;
     description: string;
   };
-  activeSkills: {
+  activeSkills?: {
     name: string;
     type: string;
     power: number;
@@ -34,9 +34,9 @@ export interface Monster {
     materialsDropped: string[];
     possibleDrops: string | string[]; // Make 'possibleDrops' flexible
   };
-  tierListRanking: {
-    combatTier: string;
-    rideTier: string;
+  tierListRanking?: {
+    combatTier?: string;
+    rideTier?: string;
     baseTier?: string;
   };
   breeding: {

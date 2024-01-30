@@ -4132,5 +4132,2605 @@
       "rideTier": "S Tier (Ground Mount)",
       "baseTier": "C Tier (for Late Game)"
     }
+  },
+  {
+    "monsterName": "Flambelle",
+    "monsterID": "69",
+    "elementType": ["Fire"],
+    "description": "Flambelle is a Pal with the Magma Tears Partner Skill and the Fire Element type.",
+    "partnerSkill": {
+      "name": "Magma Tears",
+      "description": "Sometimes produces Flame Organ when assigned to Ranch."
+    },
+    "activeSkills": [
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Flare Arrow",
+        "type": "Fire",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires three flaming arrows in succession that home in on an enemy."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Flare Storm",
+        "type": "Fire",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two flaming tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Ignis Rage",
+        "type": "Fire",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Energizes the surrounding ground, causing it to explode after a set amount of time."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Kindling": 1,
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Farming": 1
+    },
+    "location": {
+      "source": "Flambelle can be purchased from the Black Marketeer. It can also be found in the Falls Mineshaft during both day and night.",
+      "additionalLocations": [
+        { "locationType": "Daytime", "locationName": "Falls Mineshaft" },
+        { "locationType": "Nighttime", "locationName": "Falls Mineshaft" }
+      ]
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Cattiva", "parent2": "Pengullet" },
+        { "parent1": "Foxparks", "parent2": "Sparkit" },
+        { "parent1": "Pengullet", "parent2": "Cremis" },
+        { "parent1": "Lamball", "parent2": "Tocotoco" },
+        { "parent1": "Teafant", "parent2": "Bristla" },
+        { "parent1": "Fuack", "parent2": "Mau" },
+        { "parent1": "Lifmunk", "parent2": "Depresso" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Leezpunk",
+          "parent2": "Flambelle",
+          "child": "Leezpunk Ignis"
+        },
+        { "parent1": "Chikipi", "parent2": "Flambelle", "child": "Cremis" },
+        { "parent1": "Sparkit", "parent2": "Flambelle", "child": "Sparkit" },
+        { "parent1": "Hangyu", "parent2": "Flambelle", "child": "Sparkit" },
+        { "parent1": "Jolthog", "parent2": "Flambelle", "child": "Hoocrates" },
+        {
+          "parent1": "Hangyu Cryst",
+          "parent2": "Flambelle",
+          "child": "Sparkit"
+        },
+        { "parent1": "Teafant", "parent2": "Flambelle", "child": "Vixy" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Water Type Pal. Since Flambelle is weak to Water element Pals due to its Fire Elemental Type, it's best to bring Water type Pals to fight against it.",
+      "weaknesses": "Flambelle is weak to Water element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Flame Organ", "High Quality Pal Oil"],
+      "possibleDrops": [
+        "Palworld - Flame Organ Material",
+        "Palworld - High Quality Pal Oil Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "B Tier (for Mid Game)"
+    }
+  },
+  {
+    "monsterName": "Flopie",
+    "monsterID": "28",
+    "elementType": ["Grass"],
+    "description": "Flopie is a Pal with the Helper Bunny Partner Skill and the Grass Element type.",
+    "partnerSkill": {
+      "name": "Helper Bunny",
+      "description": "When in the team, appears near the player and automatically picks up nearby items."
+    },
+    "activeSkills": [
+      {
+        "name": "Seed Machine Gun",
+        "type": "Grass",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires a volley of hard seeds at enemies in front of it."
+      },
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Hydro Jet",
+        "type": "Water",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a high-speed ball of water at an enemy."
+      },
+      {
+        "name": "Bubble Blast",
+        "type": "Water",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Fires numerous bubbles that slowly pursue an enemy."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Planting": 1,
+      "Handiwork": 1,
+      "Medicine": 1,
+      "Transporting": 1,
+      "Gathering": 1
+    },
+    "location": {
+      "source": "Flopie can be bought from the Black Marketeer. It can also be found in the Falls Mineshaft during both day and night.",
+      "additionalLocations": [
+        { "locationType": "Daytime", "locationName": "Falls Mineshaft" },
+        { "locationType": "Nighttime", "locationName": "Falls Mineshaft" }
+      ]
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Chikipi", "parent2": "Direhowl" },
+        { "parent1": "Foxparks", "parent2": "Rooby" },
+        { "parent1": "Lifmunk", "parent2": "Rushoar" },
+        { "parent1": "Sparkit", "parent2": "Rooby" },
+        { "parent1": "Jolthog", "parent2": "Woolipop" },
+        { "parent1": "Lamball", "parent2": "Gobfin" },
+        { "parent1": "Gumoss", "parent2": "Bristla" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Celaray", "parent2": "Flopie", "child": "Cawgnito" },
+        { "parent1": "Rooby", "parent2": "Flopie", "child": "Fuddler" },
+        { "parent1": "Chikipi", "parent2": "Flopie", "child": "Hoocrates" },
+        { "parent1": "Teafant", "parent2": "Flopie", "child": "Depresso" },
+        { "parent1": "Penking", "parent2": "Flopie", "child": "Dumud" },
+        { "parent1": "Flopie", "parent2": "Mossanda", "child": "Digtoise" },
+        { "parent1": "Fuack", "parent2": "Flopie", "child": "SweeSwee" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Since Flopie is weak to Fire element Pals due to its Grass Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Flopie is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Low Grade Medical Supplies", "Wheat Seeds"],
+      "possibleDrops": [
+        "Palworld - Low Grade Medical Supplies Material",
+        "Palworld - Wheat Seeds Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "B Tier (for Mid Game)"
+    }
+  },
+  {
+    "monsterName": "Foxcicle",
+    "monsterID": "57",
+    "elementType": ["Ice"],
+    "description": "Foxcicle is a Pal with the Aurora Guide Partner Skill and the Ice Element type.",
+    "partnerSkill": {
+      "name": "Aurora Guide",
+      "description": "While in the team, increases the attack power of Ice Pals."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Iceberg",
+        "type": "Ice",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Summons a sharp ice lance under an enemy."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Cooling": 2
+    },
+    "location": {
+      "source": "Foxcicle can be bought from the Black Marketeer. It can also be found in the Frozen Tundra during both day and night.",
+      "additionalLocations": [
+        { "locationType": "Daytime", "locationName": "Frozen Tundra" },
+        { "locationType": "Nighttime", "locationName": "Frozen Tundra" }
+      ]
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Caprity", "parent2": "Incineram" },
+        { "parent1": "Gobfin", "parent2": "Mossanda" },
+        { "parent1": "Rushoar", "parent2": "Sweepa" },
+        { "parent1": "Gobfin Ignis", "parent2": "Mossanda" },
+        { "parent1": "Woolipop", "parent2": "Elizabee" },
+        { "parent1": "Gobfin Ignis", "parent2": "Nitewing" },
+        { "parent1": "Rooby", "parent2": "Pyrin" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Foxcicle", "parent2": "Reptyro", "child": "Ice Reptyro" },
+        {
+          "parent1": "Foxcicle",
+          "parent2": "Vanwyrm",
+          "child": "Vanwyrm Cryst"
+        },
+        { "parent1": "Celaray", "parent2": "Foxcicle", "child": "Dinossom" },
+        { "parent1": "Foxcicle", "parent2": "Pyrin", "child": "Surfent" },
+        { "parent1": "Foxcicle", "parent2": "Beakon", "child": "Cinnamoth" },
+        { "parent1": "Mossanda", "parent2": "Foxcicle", "child": "Incineram" },
+        { "parent1": "Penking", "parent2": "Foxcicle", "child": "Bushi" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Since Foxcicle is weak to Fire element Pals due to its Ice Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Foxcicle is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Ice Organ", "Leather"],
+      "possibleDrops": [
+        "Palworld - Ice Organ Material",
+        "Palworld - Leather Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "C Tier",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
+    }
+  },
+  {
+    "monsterName": "Foxparks",
+    "monsterID": "5",
+    "elementType": ["Fire"],
+    "description": "Foxparks is a Pal with the Huggy Fire Partner Skill and the Fire Element type.",
+    "partnerSkill": {
+      "name": "Huggy Fire",
+      "description": "When activated, equips to the player and transforms into a flamethrower."
+    },
+    "activeSkills": [
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Ignis Breath",
+        "type": "Fire",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Shoots flames at an enemy, dealing continuous damage."
+      },
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Flare Arrow",
+        "type": "Fire",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires three flaming arrows in succession that home in on an enemy."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Kindling": 1
+    },
+    "location": {
+      "source": "Foxparks can be bought from the Pal Merchant. Pal Merchants are found around settlements within the islands, denoted by their blue attire."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Foxparks", "parent2": "Foxparks" },
+        { "parent1": "Lamball", "parent2": "Fuack" },
+        { "parent1": "Cattiva", "parent2": "Fuack" },
+        { "parent1": "Lifmunk", "parent2": "Jolthog" },
+        { "parent1": "Pengullet", "parent2": "Vixy" },
+        { "parent1": "Chikipi", "parent2": "Killamari" },
+        { "parent1": "Cattiva", "parent2": "Tocotoco" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Lifmunk", "parent2": "Foxparks", "child": "Hangyu" },
+        { "parent1": "Foxparks", "parent2": "Tanzee", "child": "Bristla" },
+        { "parent1": "Foxparks", "parent2": "Direhowl", "child": "Daedream" },
+        { "parent1": "Foxparks", "parent2": "Celaray", "child": "Rushoar" },
+        { "parent1": "Lamball", "parent2": "Foxparks", "child": "Lifmunk" },
+        { "parent1": "Foxparks", "parent2": "Sparkit", "child": "Flambelle" },
+        { "parent1": "Foxparks", "parent2": "Melpaca", "child": "Maraith" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Water Type Pal. Foxparks is weak to Water element Pals due to its Fire Elemental Type, so it's best to bring Water type Pals to fight against it.",
+      "weaknesses": "Foxparks is weak to Water element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 1,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Flame Organ", "Leather"],
+      "possibleDrops": [
+        "Palworld - Flame Organ Material",
+        "Palworld - Leather Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
+    }
+  },
+  {
+    "monsterName": "Frostallion",
+    "monsterID": "110",
+    "elementType": ["Ice"],
+    "description": "Frostallion, an Ice Element Legendary Pal, can be found east of the Land of Absolute Zero teleport point in Palworld.",
+    "location": {
+      "source": "Frostallion, a Legendary Pal monster, can be found on the snowy mountain region of the map in the northwest. It can be located east of the Land of Absolute Zero teleport point, is found at the coordinates -357, 508, and is at Level 50."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Frostallion", "parent2": "Frostallion" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Helzephyr",
+          "parent2": "Frostallion",
+          "child": "Frostallion Noct"
+        },
+        { "parent1": "Penking", "parent2": "Frostallion", "child": "Reptyro" },
+        { "parent1": "Beakon", "parent2": "Frostallion", "child": "Astegon" },
+        {
+          "parent1": "Cryolinx",
+          "parent2": "Frostallion",
+          "child": "Cryolinx"
+        },
+        { "parent1": "Blazamut", "parent2": "Frostallion", "child": "Suzaku" },
+        {
+          "parent1": "Cinnamoth",
+          "parent2": "Frostallion",
+          "child": "Jormuntide"
+        },
+        { "parent1": "Celaray", "parent2": "Frostallion", "child": "Azurobe" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Frostallion is weak to Fire element Pals due to its Ice Elemental Type, so it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Frostallion is weak to Fire element Pals."
+    },
+    "eggHatching": {
+      "source": "Frostallion can be hatched from a Huge Frozen Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm."
+    },
+    "baseStats": {
+      "HP": 5,
+      "Hunger": 4,
+      "Attack": 4,
+      "Defense": 4
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Diamond", "Ice Organ"],
+      "possibleDrops": [
+        "Palworld - Diamond Material",
+        "Palworld - Ice Organ Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "SS Tier",
+      "rideTier": "S Tier (Flying Mount)",
+      "baseTier": "C Tier (for Late Game)"
+    },
+    "partnerSkill": {
+      "name": "Ice Steed",
+      "description": "Can be ridden as a flying mount. Changes the player's attack type to Ice and enhances Ice attacks while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Iceberg",
+        "type": "Ice",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Summons a sharp ice lance under an enemy."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      },
+      {
+        "name": "Blizzard Spike",
+        "type": "Ice",
+        "power": 130,
+        "cooldownTime": 45,
+        "description": "Creates a giant lump of ice and hurls it at any enemy. It deals damage to those in the surrounding area upon impact."
+      },
+      {
+        "name": "Crystal Wing",
+        "type": "Ice",
+        "power": 110,
+        "cooldownTime": 24,
+        "description": "Frostallion exclusive skill. Dashes forward while creating frigid air around its wings, using them to slash enemies."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Cooling": 4
+    }
+  },
+  {
+    "monsterName": "Frostallion Noct",
+    "monsterID": "110B",
+    "elementType": ["Dark"],
+    "description": "Frostallion Noct is a Pal with the Black Steed Partner Skill and the Dark Element type.",
+    "location": {
+      "source": "Daytime habitat information will be added soon!"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Frostallion", "parent2": "Frostallion" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Helzephyr",
+          "parent2": "Frostallion",
+          "child": "Frostallion Noct"
+        }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dragon Type Pal. Frostallion Noct is weak to Dragon element Pals due to its Dark Elemental Type, so it's best to bring Dragon type Pals to fight against it.",
+      "weaknesses": "Frostallion Noct is weak to Dragon element Pals."
+    },
+    "eggHatching": {
+      "source": "Frostallion Noct can be hatched from a Huge Dark Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm."
+    },
+    "baseStats": {
+      "HP": 5,
+      "Hunger": 4,
+      "Attack": 4,
+      "Defense": 4
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Large Pal Soul", "Pure Quartz"],
+      "possibleDrops": [
+        "Palworld - Large Pal Soul Material",
+        "Palworld - Pure Quartz Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "A Tier",
+      "rideTier": "S Tier (Flying Mount)",
+      "baseTier": "C Tier (for Late Game)"
+    },
+    "partnerSkill": {
+      "name": "Black Steed",
+      "description": "Can be ridden as an aerial mount. Changes the player's attack type to Dark and enhances Dark attacks while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Dark Ball",
+        "type": "Dark",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy."
+      },
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      },
+      {
+        "name": "Crystal Wing",
+        "type": "Ice",
+        "power": 110,
+        "cooldownTime": 24,
+        "description": "Frostallion exclusive skill. Dashes forward while creating frigid air around its wings, using them to slash enemies."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Gathering": 4
+    }
+  },
+  {
+    "monsterName": "Fuack",
+    "monsterID": "5",
+    "elementType": ["Water"],
+    "description": "Fuack is a Pal with the Surfing Slam Partner Skill and the Water Element type.",
+    "location": {
+      "source": "Fuack Location at Daytime - Palworld Day and Night Cycle",
+      "coordinates": "Coordinates not provided"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Chikipi", "parent2": "Rooby" },
+        { "parent1": "Lamball", "parent2": "Woolipop" },
+        { "parent1": "Sparkit", "parent2": "Tanzee" },
+        { "parent1": "Fuack", "parent2": "Fuack" },
+        { "parent1": "Jolthog", "parent2": "Killamari" },
+        { "parent1": "Lifmunk", "parent2": "Daedream" },
+        { "parent1": "Gumoss", "parent2": "Hangyu" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Fuack",
+          "parent2": "Broncherry",
+          "child": "Broncherry Aqua"
+        },
+        { "parent1": "Lifmunk", "parent2": "Fuack", "child": "Depresso" },
+        { "parent1": "Fuack", "parent2": "Penking", "child": "Eikthyrdeer" },
+        { "parent1": "Fuack", "parent2": "Celaray", "child": "Lunaris" },
+        { "parent1": "Chikipi", "parent2": "Fuack", "child": "Hangyu" },
+        { "parent1": "Fuack", "parent2": "Cremis", "child": "Hoocrates" },
+        { "parent1": "Fuack", "parent2": "Tanzee", "child": "Killamari" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring an Electric Type Pal. Fuack is weak to Electric element Pals due to its Water Elemental Type, so it's best to bring Electric type Pals to fight against it.",
+      "weaknesses": "Fuack is weak to Electric element Pals."
+    },
+    "eggHatching": {
+      "source": "Fuack can be hatched from a Damp Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Leather", "Pal Fluids"],
+      "possibleDrops": [
+        "Palworld - Leather Material",
+        "Palworld - Pal Fluids Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
+    },
+    "partnerSkill": {
+      "name": "Surfing Slam",
+      "description": "When activated, Fuack body surfs towards an enemy and slams into them."
+    },
+    "activeSkills": [
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Hydro Jet",
+        "type": "Water",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a high-speed ball of water at an enemy."
+      },
+      {
+        "name": "Bubble Blast",
+        "type": "Water",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Fires numerous bubbles that slowly pursue an enemy."
+      },
+      {
+        "name": "Aqua Burst",
+        "type": "Water",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of water and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Watering": 1
+    }
+  },
+  {
+    "monsterName": "Fuddler",
+    "monsterID": "22",
+    "elementType": ["Ground"],
+    "description": "Fuddler is a Pal with the Ore Detector Partner Skill and the Ground Element type.",
+    "location": {
+      "source": "Fuddler Can Be Purchased from the Black Marketeer - Black Marketeer Locations",
+      "coordinates": "Coordinates not provided"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Tanzee", "parent2": "Woolipop" },
+        { "parent1": "Pengullet", "parent2": "Gobfin" },
+        { "parent1": "Rooby", "parent2": "Killamari" },
+        { "parent1": "Rooby", "parent2": "Flopie" },
+        { "parent1": "Fuddler", "parent2": "Fuddler" },
+        { "parent1": "Rushoar", "parent2": "Bristla" },
+        { "parent1": "Pengullet", "parent2": "Gobfin Ignis" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Fuddler", "parent2": "Celaray", "child": "Gorirat" },
+        {
+          "parent1": "Fuddler",
+          "parent2": "Robinquill",
+          "child": "Robinquill Terra"
+        },
+        { "parent1": "Fuddler", "parent2": "Eikthyrdeer", "child": "Beegarde" },
+        { "parent1": "Penking", "parent2": "Fuddler", "child": "Celaray" },
+        { "parent1": "Fuddler", "parent2": "Nitewing", "child": "Dinossom" },
+        { "parent1": "Tanzee", "parent2": "Fuddler", "child": "Daedream" },
+        { "parent1": "Fuack", "parent2": "Fuddler", "child": "Kelpsea Ignis" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Grass Type Pal. Fuddler is weak to Grass element Pals due to its Ground Elemental Type, so it's best to bring Grass type Pals to fight against it.",
+      "weaknesses": "Fuddler is weak to Grass element Pals."
+    },
+    "eggHatching": {
+      "source": "Fuddler can be hatched from a Rocky Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Leather"],
+      "possibleDrops": ["Palworld - Leather Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
+    },
+    "partnerSkill": {
+      "name": "Ore Detector",
+      "description": "When activated, generates subtle vibrations to detect nearby ore."
+    },
+    "activeSkills": [
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Stone Cannon",
+        "type": "Ground",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Digs up a boulder and hurls it at an enemy."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Mining": 1
+    }
+  },
+  {
+    "monsterName": "Galeclaw",
+    "monsterID": "47",
+    "elementType": ["Neutral"],
+    "description": "Galeclaw is a Pal with the Galeclaw Rider Partner Skill and the Neutral Element type.",
+    "location": {
+      "source": "Galeclaw Can Be Purchased from the Black Marketeer - Black Marketeer Locations",
+      "coordinates": "Coordinates not provided"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Celaray", "parent2": "Woolipop" },
+        { "parent1": "Lamball", "parent2": "Incineram" },
+        { "parent1": "Rushoar", "parent2": "Caprity" },
+        { "parent1": "Rushoar", "parent2": "Eikthyrdeer" },
+        { "parent1": "Cattiva", "parent2": "Incineram" },
+        { "parent1": "Rooby", "parent2": "Mozzarina" },
+        { "parent1": "Nox", "parent2": "Celaray" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Penking", "parent2": "Galeclaw", "child": "Petallia" },
+        { "parent1": "Cremis", "parent2": "Galeclaw", "child": "Gumoss" },
+        { "parent1": "Lifmunk", "parent2": "Galeclaw", "child": "Daedream" },
+        { "parent1": "Mossanda", "parent2": "Galeclaw", "child": "Rayhound" },
+        { "parent1": "Lamball", "parent2": "Galeclaw", "child": "Tanzee" },
+        { "parent1": "Nitewing", "parent2": "Galeclaw", "child": "Rayhound" },
+        { "parent1": "Cinnamoth", "parent2": "Galeclaw", "child": "Foxcicle" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dark Type Pal. Galeclaw is weak to Dark element Pals due to its Neutral Elemental Type, so it's best to bring Dark type Pals to fight against it.",
+      "weaknesses": "Galeclaw is weak to Dark element Pals."
+    },
+    "eggHatching": {
+      "source": "Galeclaw can be hatched from a Common Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 3,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Galeclaw Poultry", "Leather"],
+      "possibleDrops": [
+        "Palworld - Galeclaw Poultry Material",
+        "Palworld - Leather Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "B Tier",
+      "rideTier": "S Tier (Gliding Mount)",
+      "baseTier": "C Tier (for Mid Game)"
+    },
+    "partnerSkill": {
+      "name": "Galeclaw Rider",
+      "description": "While in team, can be summoned and used instead of a glider. Allows you to fire a gun while gliding with this Pal."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Gale Claw",
+        "type": "Neutral",
+        "power": 60,
+        "cooldownTime": 8,
+        "description": "Galeclaw exclusive skill. Soars through the air with its talons outstretched forward."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Gathering": 2,
+      "Mining": 2
+    }
+  },
+  {
+    "monsterName": "Gobfin",
+    "monsterID": "31",
+    "elementType": ["Water"],
+    "description": "Gobfin is a Pal with the Angry Shark Partner Skill and the Water Element type.",
+    "location": {
+      "source": "Gobfin Can Be Purchased from the Pal Merchant - Pal Merchant Locations",
+      "coordinates": "Coordinates not provided"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Tanzee", "parent2": "Caprity" },
+        { "parent1": "Tanzee", "parent2": "Eikthyrdeer" },
+        { "parent1": "Gumoss", "parent2": "Caprity" },
+        { "parent1": "Celaray", "parent2": "Bristla" },
+        { "parent1": "Rushoar", "parent2": "Direhowl" },
+        { "parent1": "Killamari", "parent2": "Melpaca" },
+        { "parent1": "Celaray", "parent2": "Ribbuny" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Rooby", "parent2": "Gobfin", "child": "Gobfin Ignis" },
+        { "parent1": "Gobfin", "parent2": "Mossanda", "child": "Foxcicle" },
+        { "parent1": "Penking", "parent2": "Gobfin", "child": "Chillet" },
+        { "parent1": "Pengullet", "parent2": "Gobfin", "child": "Fuddler" },
+        { "parent1": "Celaray", "parent2": "Gobfin", "child": "Fenglope" },
+        { "parent1": "Gobfin", "parent2": "Nitewing", "child": "Tombat" },
+        { "parent1": "Cattiva", "parent2": "Gobfin", "child": "Kelpsea Ignis" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring an Electric Type Pal. Gobfin is weak to Electric element Pals due to its Water Elemental Type, so it's best to bring Electric type Pals to fight against it.",
+      "weaknesses": "Gobfin is weak to Electric element Pals."
+    },
+    "eggHatching": {
+      "source": "Gobfin can be hatched from a Damp Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Pal Fluids"],
+      "possibleDrops": ["Palworld - Pal Fluids Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "C Tier (for Mid Game)",
+      "rideTier": "N/A",
+      "baseTier": "N/A"
+    },
+    "partnerSkill": {
+      "name": "Angry Shark",
+      "description": "When activated, attacks targeted enemy with a powerful attack. While in team, increases player's attack power."
+    },
+    "activeSkills": [
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Hydro Jet",
+        "type": "Water",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a high-speed ball of water at an enemy."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      },
+      {
+        "name": "Bubble Blast",
+        "type": "Water",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Fires numerous bubbles that slowly pursue an enemy."
+      },
+      {
+        "name": "Aqua Burst",
+        "type": "Water",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of water and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Watering": 2
+    }
+  },
+  {
+    "monsterName": "Gobfin Ignis",
+    "monsterID": "31B",
+    "elementType": ["Fire"],
+    "description": "Gobfin Ignis is a Pal with the Angry Shark Partner Skill and the Fire Element type.",
+    "location": {
+      "source": "Hatch from Scorching Egg - Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch.",
+      "coordinates": "Coordinates not provided"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Rooby", "parent2": "Gobfin" },
+        { "parent1": "Gobfin Ignis", "parent2": "Gobfin Ignis" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Gobfin Ignis",
+          "parent2": "Mossanda",
+          "child": "Foxcicle"
+        },
+        {
+          "parent1": "Gobfin Ignis",
+          "parent2": "Nitewing",
+          "child": "Foxcicle"
+        },
+        {
+          "parent1": "Penking",
+          "parent2": "Gobfin Ignis",
+          "child": "Dinossom"
+        },
+        {
+          "parent1": "Pengullet",
+          "parent2": "Gobfin Ignis",
+          "child": "Fuddler"
+        },
+        {
+          "parent1": "Gobfin Ignis",
+          "parent2": "Caprity",
+          "child": "Robinquill"
+        },
+        { "parent1": "Cattiva", "parent2": "Gobfin Ignis", "child": "Flopie" },
+        { "parent1": "Celaray", "parent2": "Gobfin Ignis", "child": "Fenglope" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Water Type Pal. Gobfin Ignis is weak to Water element Pals due to its Fire Elemental Type, so it's best to bring Water type Pals to fight against it.",
+      "weaknesses": "Gobfin Ignis is weak to Water element Pals."
+    },
+    "eggHatching": {
+      "source": "Gobfin Ignis can be hatched from a Scorching Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Flame Organ"],
+      "possibleDrops": ["Palworld - Flame Organ Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "C Tier (for Mid Game)",
+      "rideTier": "N/A",
+      "baseTier": "N/A"
+    },
+    "partnerSkill": {
+      "name": "Angry Shark",
+      "description": "When activated, attacks targeted enemy with a powerful attack. While in team, increases player's attack power."
+    },
+    "activeSkills": [
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Flare Arrow",
+        "type": "Fire",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires three flaming arrows in succession that home in on an enemy."
+      },
+      {
+        "name": "Lightning Streak",
+        "type": "Electric",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Generates a lightning bolt that moves forward in a line."
+      },
+      {
+        "name": "Fire Ball",
+        "type": "Fire",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Kindling": 2,
+      "Handiwork": 1,
+      "Transporting": 1
+    }
+  },
+  {
+    "monsterName": "Gorirat",
+    "monsterID": "49",
+    "elementType": ["Neutral"],
+    "description": "Gorirat is a Pal with the Full-power Gorilla Mode Partner Skill and the Neutral Element type.",
+    "location": {
+      "source": "Hatch from Large Common Egg - Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch.",
+      "coordinates": "Coordinates not provided"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Fuddler", "parent2": "Celaray" },
+        { "parent1": "Rooby", "parent2": "Caprity" },
+        { "parent1": "Woolipop", "parent2": "Melpaca" },
+        { "parent1": "Rooby", "parent2": "Eikthyrdeer" },
+        { "parent1": "Chikipi", "parent2": "Incineram" },
+        { "parent1": "Teafant", "parent2": "Incineram" },
+        { "parent1": "Woolipop", "parent2": "Dumud" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Direhowl", "parent2": "Gorirat", "child": "Vaelet" },
+        { "parent1": "Penking", "parent2": "Gorirat", "child": "Petallia" },
+        { "parent1": "Lifmunk", "parent2": "Gorirat", "child": "Daedream" },
+        { "parent1": "Foxparks", "parent2": "Gorirat", "child": "Fuddler" },
+        { "parent1": "Mossanda", "parent2": "Gorirat", "child": "Rayhound" },
+        { "parent1": "Cinnamoth", "parent2": "Gorirat", "child": "Foxcicle" },
+        { "parent1": "Gorirat", "parent2": "Pyrin", "child": "Katress" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dark Type Pal. Gorirat is weak to Dark element Pals due to its Neutral Elemental Type, so it's best to bring Dark type Pals to fight against it.",
+      "weaknesses": "Gorirat is weak to Dark element Pals."
+    },
+    "eggHatching": {
+      "source": "Gorirat can be hatched from a Large Common Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 3,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Bone", "Leather"],
+      "possibleDrops": [
+        "Palworld - Bone Material",
+        "Palworld - Leather Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "A Tier",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
+    },
+    "partnerSkill": {
+      "name": "Full-power Gorilla Mode",
+      "description": "When activated, unleashes a primal fury that increases Gorirat's attack power."
+    },
+    "activeSkills": [
+      {
+        "name": "Seed Machine Gun",
+        "type": "Grass",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires a volley of hard seeds at enemies in front of it."
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
+      },
+      {
+        "name": "Ground Pound",
+        "type": "Neutral",
+        "power": 85,
+        "cooldownTime": 14,
+        "description": "Gorirat exclusive skill. Pounds the ground twice before leaping into the air and unleashing a powerful punch."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 1,
+      "Lumbering": 2,
+      "Transporting": 3
+    }
+  },
+  {
+    "monsterName": "Grintale",
+    "monsterID": "52",
+    "elementType": ["Neutral"],
+    "description": "Grintale is a Neutral Element Pal. It can be found northwest of the Marsh Island Church Ruins and at night throughout the middle of the map in Palworld.",
+    "location": {
+      "source": "Grintale is available both during the day and at night as a Field Alpha Boss at level 17. You can find it on Marsh Island, to the northwest of the Marsh Island Church Ruins fast travel point.",
+      "coordinates": "Coordinates not provided"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Mossanda", "parent2": "Incineram" },
+        { "parent1": "Melpaca", "parent2": "Cryolinx" },
+        { "parent1": "Penking", "parent2": "Azurobe" },
+        { "parent1": "Celaray", "parent2": "Astegon" },
+        { "parent1": "Dumud", "parent2": "Cryolinx" },
+        { "parent1": "Pyrin", "parent2": "Vanwyrm" },
+        { "parent1": "Grintale", "parent2": "Grintale" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Mossanda", "parent2": "Grintale", "child": "Kingpaca" },
+        { "parent1": "Penking", "parent2": "Grintale", "child": "Penking" },
+        { "parent1": "Nitewing", "parent2": "Grintale", "child": "Wumpo" },
+        { "parent1": "Melpaca", "parent2": "Grintale", "child": "Katress" },
+        { "parent1": "Cinnamoth", "parent2": "Grintale", "child": "Azurobe" },
+        { "parent1": "Grintale", "parent2": "Pyrin", "child": "Mossanda" },
+        { "parent1": "Grintale", "parent2": "Cryolinx", "child": "Reptyro" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dark Type Pal. Grintale is weak to Dark element Pals due to its Neutral Elemental Type, so it's best to bring Dark type Pals to fight against it.",
+      "weaknesses": "Grintale is weak to Dark element Pals."
+    },
+    "eggHatching": {
+      "source": "Grintale can be hatched from a Large Common Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["High Quality Pal Oil"],
+      "possibleDrops": ["Palworld - High Quality Pal Oil Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "D Tier",
+      "rideTier": "B Tier (Ground Mount)",
+      "baseTier": "C Tier (for Mid Game)"
+    },
+    "partnerSkill": {
+      "name": "Plump Body",
+      "description": "Can be ridden. Enhances Neutral attacks while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Stone Cannon",
+        "type": "Ground",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Digs up a boulder and hurls it at an enemy."
+      },
+      {
+        "name": "Cat Press",
+        "type": "Neutral",
+        "power": 60,
+        "cooldownTime": 9,
+        "description": "Grintale exclusive skill. Grins menacingly before leaping into the air and smashing foes with its body."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Gathering": 2
+    }
+  },
+  {
+    "monsterName": "Grizzbolt",
+    "monsterID": "103",
+    "elementType": ["Electric"],
+    "description": "Grizzbolt is a Pal with the Yellow Tank Partner Skill and the Electric Element type. It can be found on the No.1 Wildlife Sanctuary island on the map's southern edge in Palworld.",
+    "location": {
+      "source": "Grizzbolt can be found on the No.1 Wildlife Sanctuary island on the map's southern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent.",
+      "coordinates": "Coordinates not provided"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Mossanda", "parent2": "Rayhound" },
+        { "parent1": "Grizzbolt", "parent2": "Grizzbolt" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Mossanda",
+          "parent2": "Grizzbolt",
+          "child": "Mossanda Lux"
+        },
+        { "parent1": "Relaxaurus", "parent2": "Grizzbolt", "child": "Orserk" },
+        { "parent1": "Cryolinx", "parent2": "Grizzbolt", "child": "Astegon" },
+        {
+          "parent1": "Nitewing",
+          "parent2": "Grizzbolt",
+          "child": "Jormuntide"
+        },
+        { "parent1": "Cinnamoth", "parent2": "Grizzbolt", "child": "Warsect" },
+        { "parent1": "Penking", "parent2": "Grizzbolt", "child": "Pyrin" },
+        { "parent1": "Sweepa", "parent2": "Grizzbolt", "child": "Jormuntide" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Ground Type Pal. Grizzbolt is weak to Ground element Pals due to its Electric Elemental Type, so it's best to bring Ground type Pals to fight against it.",
+      "weaknesses": "Grizzbolt is weak to Ground element Pals."
+    },
+    "eggHatching": {
+      "source": "Grizzbolt can be hatched from a Huge Electric Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 4,
+      "Attack": 3,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Electric Organ", "Leather"],
+      "possibleDrops": [
+        "Palworld - Electric Organ Material",
+        "Palworld - Leather Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "S Tier",
+      "rideTier": "D Tier (Ground Mount)",
+      "baseTier": "A Tier (for Late Game)"
+    },
+    "partnerSkill": {
+      "name": "Yellow Tank",
+      "description": "Can be ridden. Can rapidly fire a minigun while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Spark Blast",
+        "type": "Electric",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "The user releases a lightning ball that expands outward in a forward, circular pattern."
+      },
+      {
+        "name": "Shockwave",
+        "type": "Electric",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Quickly discharges electricity, shocking those around it."
+      },
+      {
+        "name": "Lightning Streak",
+        "type": "Electric",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Generates a lightning bolt that moves forward in a line."
+      },
+      {
+        "name": "Tri-Lightning",
+        "type": "Electric",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Generates lightning that strikes an enemy three times from above."
+      },
+      {
+        "name": "Lightning Claw",
+        "type": "Electric",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Grizzbolt special skill. After leaping at an enemy and tearing at it twice with its electrically charged claws, it attacks the ground, sending an electric shock throughout the area."
+      },
+      {
+        "name": "Lightning Strike",
+        "type": "Electric",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Acts as a lightning rod, calling down thunderbolts that electrocute the surrounding area."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 2,
+      "Lumbering": 2,
+      "Transporting": 3,
+      "Electricity": 4
+    }
+  },
+  {
+    "monsterName": "Gumoss",
+    "monsterID": "13",
+    "elementType": ["Grass", "Ground"],
+    "description": "Gumoss is a Pal with the Logging Assistance Partner Skill, the Grass Element type, and a special Flower Gumoss variant. It can be found as a level 11 Field Alpha Boss south of the Sea Breeze Archipelago Church fast travel point and north of the Sea Breeze Archipelago Reef fast travel point in Palworld.",
+    "location": {
+      "day": "Gumoss is available as a level 11 Field Alpha Boss south of the Sea Breeze Archipelago Church fast travel point and north of the Sea Breeze Archipelago Reef fast travel point.",
+      "night": "Location not provided",
+      "specialFlowerGumoss": "The Special Flower Gumoss can be found in the southern coastal area of Windswept Hills. The closest fast travel points to this location are the Plateau of Blessings or Small Settlement locations. The spawn points are yet to be confirmed, but it can be assumed that the Special Flower Gumoss can spawn in any typical Gumoss habitat, though quite rarely."
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire or Grass Type Pal. Gumoss is weak to Fire or Grass element Pals due to its Grass Ground Elemental Type, so it's best to bring Fire or Grass type Pals to fight against it.",
+      "weaknesses": "Gumoss is weak to Fire or Grass element Pals."
+    },
+    "eggHatching": {
+      "source": "Gumoss can be hatched from a Verdant Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Berry Seeds", "Gumoss Leaf"],
+      "possibleDrops": [
+        "Palworld - Berry Seeds Material",
+        "Palworld - Gumoss Leaf Material"
+      ]
+    },
+    "tierListRanking": "Under research! Please check back soon.",
+    "partnerSkill": {
+      "name": "Logging Assistance",
+      "description": "While in the team, increases efficiency of cutting trees."
+    },
+    "activeSkills": [
+      {
+        "name": "Seed Machine Gun",
+        "type": "Grass",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires a volley of hard seeds at enemies in front of it."
+      },
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
+      },
+      {
+        "name": "Seed Mine",
+        "type": "Grass",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Planting": 1
+    }
+  },
+  {
+    "monsterName": "Hangyu",
+    "monsterID": "32",
+    "elementType": ["Ground"],
+    "description": "Hangyu is a Pal with the Flying Trapeze Partner Skill and the Ground Element type. It can be purchased from the Black Marketeer or hatched from a Rocky Egg in Palworld.",
+    "location": {
+      "day": "Hangyu can be purchased from the Black Marketeer.",
+      "night": "Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Grass Type Pal. Since Hangyu is weak to Grass element Pals due to its Ground Elemental Type, it's best to bring Grass type Pals to fight against it.",
+      "weaknesses": "Hangyu is weak to Grass element Pals."
+    },
+    "eggHatching": {
+      "source": "Hangyu can be hatched from a Rocky Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 1,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Fiber"],
+      "possibleDrops": ["Palworld - Fiber Material"]
+    },
+    "tierListRanking": {
+      "riding": "A Tier (Gliding Mount)",
+      "combat": "N/A",
+      "base": "B Tier (for Mid Game)"
+    },
+    "partnerSkill": {
+      "name": "Flying Trapeze",
+      "description": "While in the team, can be summoned and used instead of a glider. Carries the player up high while gliding."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 1,
+      "Transporting": 2,
+      "Gathering": 1
+    }
+  },
+  {
+    "monsterName": "Hangyu Cryst",
+    "monsterID": "32B",
+    "elementType": ["Ice"],
+    "description": "Hangyu Cryst is a Pal with the Winter Trapeze Partner Skill and the Ice Element type. It can be hatched from a Frozen Egg in Palworld and is exclusive to the night.",
+    "location": {
+      "day": "Hangyu Cryst is Nocturnal and thus exclusive to Night!",
+      "night": "Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Since Hangyu Cryst is weak to Fire element Pals due to its Ice Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Hangyu Cryst is weak to Fire element Pals."
+    },
+    "eggHatching": {
+      "source": "Hangyu Cryst can be hatched from a Frozen Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Fiber", "Ice Organ"],
+      "possibleDrops": [
+        "Palworld - Fiber Material",
+        "Palworld - Ice Organ Material"
+      ]
+    },
+    "tierListRanking": {
+      "riding": "A Tier (Gliding Mount)",
+      "combat": "N/A",
+      "base": "B Tier (for Mid Game)"
+    },
+    "partnerSkill": {
+      "name": "Winter Trapeze",
+      "description": "While in the team, can be summoned and used instead of a glider. Carries the player up high while gliding."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Iceberg",
+        "type": "Ice",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Summons a sharp ice lance under an enemy."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 1,
+      "Transporting": 2,
+      "Gathering": 1,
+      "Cooling": 1
+    }
+  },
+  {
+    "monsterName": "Helzephyr",
+    "monsterID": "97",
+    "elementType": ["Dark"],
+    "description": "Helzephyr is a Pal with the Wings of Death Partner Skill and the Dark Element type. It can be hatched from a Large Dark Egg in Palworld and is exclusive to the night.",
+    "location": {
+      "day": "Helzephyr is Nocturnal and thus exclusive to Night!",
+      "night": "Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dragon Type Pal. Since Helzephyr is weak to Dragon element Pals due to its Dark Elemental Type, it's best to bring Dragon type Pals to fight against it.",
+      "weaknesses": "Helzephyr is weak to Dragon element Pals."
+    },
+    "eggHatching": {
+      "source": "Helzephyr can be hatched from a Large Dark Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 4,
+      "Attack": 3,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Medium Pal Soul", "Venom Gland"],
+      "possibleDrops": [
+        "Palworld - Medium Pal Soul Material",
+        "Palworld - Venom Gland Material"
+      ]
+    },
+    "tierListRanking": {
+      "riding": "B Tier (Flying Mount)",
+      "combat": "B Tier",
+      "base": "SS Tier (for Late Game)"
+    },
+    "partnerSkill": {
+      "name": "Wings of Death",
+      "description": "Can be ridden as a flying mount. Applies Dark damage to the player's attacks while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Dark Ball",
+        "type": "Dark",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy."
+      },
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      },
+      {
+        "name": "Flare Storm",
+        "type": "Fire",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two flaming tornadoes on either side before launching them at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Transporting": 3
+    }
+  },
+  {
+    "monsterName": "Hoocrates",
+    "monsterID": "15",
+    "elementType": ["Dark"],
+    "description": "Hoocrates is a Pal with the Dark Knowledge Partner Skill and the Dark Element type. It can be hatched from a Dark Egg in Palworld and is exclusive to the night.",
+    "location": {
+      "day": "Hoocrates is Nocturnal and thus exclusive to Night!",
+      "night": "Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dragon Type Pal. Since Hoocrates is weak to Dragon element Pals due to its Dark Elemental Type, it's best to bring Dragon type Pals to fight against it.",
+      "weaknesses": "Hoocrates is weak to Dragon element Pals."
+    },
+    "eggHatching": {
+      "source": "Hoocrates can be hatched from a Dark Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 1,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Fiber", "High Grade Technical Manual"],
+      "possibleDrops": [
+        "Palworld - Fiber Material",
+        "Palworld - High Grade Technical Manual Material"
+      ]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "N/A",
+      "base": "C Tier (for Early Game)"
+    },
+    "partnerSkill": {
+      "name": "Dark Knowledge",
+      "description": "While in team, increases attack power of Dark Pals."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Dark Ball",
+        "type": "Dark",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Gathering": 1
+    }
+  },
+  {
+    "monsterName": "Incineram",
+    "monsterID": "40",
+    "elementType": ["Fire", "Dark"],
+    "description": "Incineram is a Pal with the Flameclaw Hunter Partner Skill and the Fire Element type. It can be purchased from the Black Marketeer or hatched from a Scorching Egg in Palworld. Incineram is weak to Water or Dragon element Pals due to its Fire Dark Elemental Type.",
+    "location": {
+      "day": "Incineram Location at Daytime: Incineram can be purchased from the Black Marketeer. While there is a fixed pool of available Pals that can be bought at the Black Marketeer's shop, some of their stock is random and will change every day.",
+      "night": "Incineram Location at Nighttime: Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Water or Dragon Type Pal. Since Incineram is weak to Water or Dragon element Pals due to its Fire Dark Elemental Type, it's best to bring Water or Dragon type Pals to fight against it.",
+      "weaknesses": "Incineram is weak to Water or Dragon element Pals."
+    },
+    "eggHatching": {
+      "source": "Incineram can be hatched from a Scorching Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 3,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Horn", "Leather"],
+      "possibleDrops": [
+        "Palworld - Horn Material",
+        "Palworld - Leather Material"
+      ]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "A Tier",
+      "base": "B Tier (for Late Game)"
+    },
+    "partnerSkill": {
+      "name": "Flameclaw Hunter",
+      "description": "When activated, attacks targeted enemy with a powerful Hellfire Claw."
+    },
+    "activeSkills": [
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Flare Arrow",
+        "type": "Fire",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires three flaming arrows in succession that home in on an enemy."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Hellfire Claw",
+        "type": "Fire",
+        "power": 70,
+        "cooldownTime": 10,
+        "description": "Incineram exclusive skill. Draws near enemies using its left claw to slash them into the air before cutting them down with its right claw."
+      },
+      {
+        "name": "Fire Ball",
+        "type": "Fire",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Kindling": 1,
+      "Handiwork": 2,
+      "Transporting": 2,
+      "Mining": 1
+    }
+  },
+  {
+    "monsterName": "Incineram Noct",
+    "monsterID": "40B",
+    "elementType": ["Dark"],
+    "description": "Incineram Noct is a Pal with the Darkclaw Hunter Partner Skill and the Dark Element type. It can be purchased from the Black Marketeer, found on the 2nd and 3rd Wildlife Sanctuary islands, or hatched from a Large Dark Egg in Palworld. Incineram Noct is weak to Dragon element Pals due to its Dark Elemental Type.",
+    "location": {
+      "day": "Incineram Noct can be purchased from the Black Marketeer. It can also be found on the 2nd and 3rd Wildlife Sanctuary islands on the map's western and eastern edge respectively. You can access these locations by riding a flying mount Pal or a swimming Pal such as Surfent.",
+      "night": "Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dragon Type Pal. Since Incineram Noct is weak to Dragon element Pals due to its Dark Elemental Type, it's best to bring Dragon type Pals to fight against it.",
+      "weaknesses": "Incineram Noct is weak to Dragon element Pals."
+    },
+    "eggHatching": {
+      "source": "Incineram Noct can be hatched from a Large Dark Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 4,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Horn", "Leather"],
+      "possibleDrops": [
+        "Palworld - Horn Material",
+        "Palworld - Leather Material"
+      ]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "S Tier",
+      "base": "C Tier (for Late Game)"
+    },
+    "partnerSkill": {
+      "name": "Darkclaw Hunter",
+      "description": "When activated, attacks targeted enemy with a powerful Hellfire Claw."
+    },
+    "activeSkills": [
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Flare Arrow",
+        "type": "Fire",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires three flaming arrows in succession that home in on an enemy."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Hellfire Claw",
+        "type": "Fire",
+        "power": 70,
+        "cooldownTime": 10,
+        "description": "Incineram exclusive skill. Draws near enemies using its left claw to slash them into the air before cutting them down with its right claw."
+      },
+      {
+        "name": "Fire Ball",
+        "type": "Fire",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Kindling": 0,
+      "Handiwork": 2,
+      "Transporting": 2,
+      "Mining": 1
+    }
+  },
+  {
+    "monsterName": "Jetragon",
+    "monsterID": "111",
+    "elementType": ["Dragon"],
+    "description": "Jetragon, a Dragon Element Legendary Pal, can be found north of the Beach of Everlasting Summer teleport point in Palworld. It is available as a Field Alpha Boss at Level 50. Jetragon can also be hatched from a Huge Dragon Egg. It's weak to Ice element Pals due to its Dragon Elemental Type.",
+    "location": {
+      "day": "Jetragon can be found north of the Beach of Everlasting Summer teleport point, located at the coordinates -789, -321, and is at Level 50.",
+      "night": "Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring an Ice Type Pal. Since Jetragon is weak to Ice element Pals due to its Dragon Elemental Type, it's best to bring Ice type Pals to fight against it.",
+      "weaknesses": "Jetragon is weak to Ice element Pals."
+    },
+    "eggHatching": {
+      "source": "Jetragon can be hatched from a Huge Dragon Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 5,
+      "Hunger": 5,
+      "Attack": 4,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Carbon Fiber", "Diamond", "Polymer", "Pure Quartz"],
+      "possibleDrops": [
+        "Palworld - Carbon Fiber Material",
+        "Palworld - Diamond Material",
+        "Palworld - Polymer Material",
+        "Palworld - Pure Quartz Material"
+      ]
+    },
+    "tierListRanking": {
+      "riding": "SS Tier (Flying Mount)",
+      "combat": "S Tier",
+      "base": "C Tier (for Late Game)"
+    },
+    "partnerSkill": {
+      "name": "Aerial Missile",
+      "description": "Can be ridden as a flying mount. Can rapidly fire a missile launcher while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Fire Ball",
+        "type": "Fire",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
+      },
+      {
+        "name": "Flare Storm",
+        "type": "Fire",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two flaming tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Draconic Breath",
+        "type": "Dragon",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it."
+      },
+      {
+        "name": "Dragon Burst",
+        "type": "Dragon",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges draconic energy, damaging those around it."
+      },
+      {
+        "name": "Dragon Meteor",
+        "type": "Dragon",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Calls down numerous small meteorites and launches them at an enemy."
+      },
+      {
+        "name": "Beam Comet",
+        "type": "Dragon",
+        "power": 140,
+        "cooldownTime": 50,
+        "description": "Jetragon exclusive skill. Flies at enemies on illuminated wings while firing innumerable beams. The beams explode on impact."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Gathering": 3
+    }
+  },
+  {
+    "monsterName": "Jolthog",
+    "monsterID": "12",
+    "elementType": ["Electric"],
+    "description": "Jolthog is a Pal with the Jolt Bomb Partner Skill and the Electric Element type. It can be purchased from the Pal Merchant and hatched from an Electric Egg. Jolthog is weak to Ground element Pals due to its Electric Elemental Type.",
+    "location": {
+      "day": "Jolthog can be purchased from the Pal Merchant. Pal Merchants are merchants found around settlements within the islands who have a selection of common Pals that change every day and can be bought with gold.",
+      "night": "Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Ground Type Pal. Since Jolthog is weak to Ground element Pals due to its Electric Elemental Type, it's best to bring Ground type Pals to fight against it.",
+      "weaknesses": "Jolthog is weak to Ground element Pals."
+    },
+    "eggHatching": {
+      "source": "Jolthog can be hatched from an Electric Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 1,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Electric Organ"],
+      "possibleDrops": ["Palworld - Electric Organ Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "N/A",
+      "base": "C Tier (for Early Game)"
+    },
+    "partnerSkill": {
+      "name": "Jolt Bomb",
+      "description": "When activated, equips Jolthog to the player’s hand. When thrown at an enemy, causes an electrical explosion upon impact."
+    },
+    "activeSkills": [
+      {
+        "name": "Shockwave",
+        "type": "Electric",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Quickly discharges electricity, shocking those around it."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Electric Ball",
+        "type": "Electric",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires an electric ball that slowly pursues an enemy."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Lightning Streak",
+        "type": "Electric",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Generates a lightning bolt that moves forward in a line."
+      },
+      {
+        "name": "Tri-Lightning",
+        "type": "Electric",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Generates lightning that strikes an enemy three times from above."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Electricity": 1
+    }
+  },
+  {
+    "monsterName": "Jolthog Cryst",
+    "monsterID": "12B",
+    "elementType": ["Ice"],
+    "description": "Jolthog Cryst is a Pal with the Cold Bomb Partner Skill and the Ice Element type. It can be purchased from the Black Marketeer and hatched from an Electric Egg. Jolthog Cryst is weak to Fire element Pals due to its Ice Elemental Type.",
+    "location": {
+      "day": "Jolthog Cryst can be purchased from the Black Marketeer. While there is a fixed pool of available Pals that can be bought at the Black Marketeer's shop, some of their stock is random and will change every day.",
+      "night": "Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Since Jolthog Cryst is weak to Fire element Pals due to its Ice Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Jolthog Cryst is weak to Fire element Pals."
+    },
+    "eggHatching": {
+      "source": "Jolthog Cryst can be hatched from an Electric Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 1,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Ice Organ"],
+      "possibleDrops": ["Palworld - Ice Organ Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "N/A",
+      "base": "C Tier (for Early Game)"
+    },
+    "partnerSkill": {
+      "name": "Cold Bomb",
+      "description": "When activated, equips Jolthog Cryst to the player’s hand. When thrown at an enemy, causes an icy explosion upon impact."
+    },
+    "activeSkills": [
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Iceberg",
+        "type": "Ice",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Summons a sharp ice lance under an enemy."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Cooling": 1
+    }
+  },
+  {
+    "monsterName": "Jormuntide",
+    "monsterID": "101",
+    "elementType": ["Water", "Dragon"],
+    "description": "Jormuntide is a Water and Dragon Element Pal. It can be found in lakes southeast of the Investigator's Fork and east of the Mossandra Forest teleport point. Jormuntide is available as a Field Alpha Boss at Level 45. It can also be hatched from a Huge Dragon Egg, which can be found spread across the islands or obtained through breeding Pals together in a Breeding Farm.",
+    "location": {
+      "day": "Jormuntide can be found on a lake just southeast of the Investigator's Fork teleport point. It swims around on a lake at the coordinates -176, -268. Jormuntide is also available in another location, on a lake east of the Mossandra Forest teleport point. It swims around on the lake with a giant skeleton at the coordinates 351, -85.",
+      "night": "Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring an Ice or Electric Type Pal. Since Jormuntide is weak to Ice or Electric element Pals due to its Dragon Water Elemental Type, it's best to bring Ice or Electric type Pals to fight against it.",
+      "weaknesses": "Jormuntide is weak to Ice or Electric element Pals."
+    },
+    "eggHatching": {
+      "source": "Jormuntide can be hatched from a Huge Dragon Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 3,
+      "Hunger": 4,
+      "Attack": 5,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Pal Fluids"],
+      "possibleDrops": ["Palworld - Pal Fluids Material"]
+    },
+    "tierListRanking": {
+      "riding": "A Tier (Swimming Mount)",
+      "combat": "SS Tier",
+      "base": "A Tier (for Late Game)"
+    },
+    "partnerSkill": {
+      "name": "Stormbringer Sea Dragon",
+      "description": "Can be ridden to travel on water. While mounted, prevents stamina depletion while moving over water."
+    },
+    "activeSkills": [
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Tri-Lightning",
+        "type": "Electric",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Generates lightning that strikes an enemy three times from above."
+      },
+      {
+        "name": "Aqua Burst",
+        "type": "Water",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of water and hurls it at an enemy."
+      },
+      {
+        "name": "Draconic Breath",
+        "type": "Dragon",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it."
+      },
+      {
+        "name": "Dragon Cannon",
+        "type": "Dragon",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls an energy ball imbued with draconic energy at an enemy."
+      },
+      {
+        "name": "Hydro Laser",
+        "type": "Water",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Shoots pressurized water at extreme velocities, sweeping over a wide area in front of it."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Watering": 4
+    }
+  },
+  {
+    "monsterName": "Jormuntide Ignis",
+    "monsterID": "101B",
+    "elementType": ["Fire", "Dragon"],
+    "description": "Jormuntide Ignis is a Fire and Dragon Element Pal. It can be found at the No. 2 Wildlife Sanctuary located at the northwest part of the map, northwest of the Ruined Fortress City teleport point. Jormuntide Ignis is available both during the day and at night. It can be hatched from a Huge Dragon Egg, which can be found spread across the islands or obtained through breeding Pals together in a Breeding Farm.",
+    "location": {
+      "day": "Jormuntide Ignis can be found at the No. 2 Wildlife Sanctuary located at the northwest part of the map, northwest of the Ruined Fortress City teleport point.",
+      "night": "Location not provided"
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring an Ice or Water Type Pal. Since Jormuntide Ignis is weak to Ice or Water element Pals due to its Dragon Fire Elemental Type, it's best to bring Ice or Water type Pals to fight against it.",
+      "weaknesses": "Jormuntide Ignis is weak to Ice or Water element Pals."
+    },
+    "eggHatching": {
+      "source": "Jormuntide Ignis can be hatched from a Huge Dragon Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "baseStats": {
+      "HP": 3,
+      "Hunger": 4,
+      "Attack": 5,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Flame Organ", "High Quality Pal Oil"],
+      "possibleDrops": [
+        "Palworld - Flame Organ Material",
+        "Palworld - High Quality Pal Oil Material"
+      ]
+    },
+    "tierListRanking": {
+      "riding": "C Tier (Ground Mount)",
+      "combat": "SS Tier",
+      "base": "S Tier (for Late Game)"
+    },
+    "partnerSkill": {
+      "name": "Stormbringer Lava Dragon",
+      "description": "Can be ridden. Enhances Fire attacks while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Ignis Breath",
+        "type": "Fire",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Shoots flames at an enemy, dealing continuous damage."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Tri-Lightning",
+        "type": "Electric",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Generates lightning that strikes an enemy three times from above."
+      },
+      {
+        "name": "Fire Ball",
+        "type": "Fire",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
+      },
+      {
+        "name": "Flare Storm",
+        "type": "Fire",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two flaming tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Dragon Cannon",
+        "type": "Dragon",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls an energy ball imbued with draconic energy at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Kindling": 4
+    }
   }
 ]

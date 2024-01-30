@@ -90,6 +90,7 @@ export default function Home() {
                       "cooldownTime" in skill
                         ? skill.cooldownTime
                         : skill.cooldown,
+                    description: skill.description || "",
                   })),
                   passiveSkills: Array.isArray(monster.passiveSkills)
                     ? monster.passiveSkills
@@ -114,11 +115,14 @@ export default function Home() {
                         ],
                       },
 
-                  tierListRanking: monster.tierListRanking ?? {
-                    combatTier: "",
-                    rideTier: "",
-                    baseTier: "",
-                  },
+                  tierListRanking:
+                    typeof monster.tierListRanking === "string"
+                      ? { combatTier: "", rideTier: "", baseTier: "" }
+                      : monster.tierListRanking ?? {
+                          combatTier: "",
+                          rideTier: "",
+                          baseTier: "",
+                        },
                   breeding: monster.breeding ?? {
                     breedingCombos: [],
                     recommendedCombos: [],
