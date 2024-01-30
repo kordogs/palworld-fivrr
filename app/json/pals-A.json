@@ -2289,5 +2289,1848 @@
       "rideTier": "N/A",
       "baseTier": "B Tier (for Late Game)"
     }
+  },
+  {
+    "monsterName": "Daedream",
+    "monsterID": 19,
+    "elementType": ["Dark"],
+    "description": "Daedream is a Pal with the Dream Chaser Partner Skill and the Dark Element type.",
+    "partnerSkill": {
+      "name": "Dream Chaser",
+      "description": "While in team, appears near the player. Follows up player attacks with magic bullets."
+    },
+    "activeSkills": [
+      {
+        "name": "Poison Blast",
+        "type": "Dark",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls poison sludge at an enemy."
+      },
+      {
+        "name": "Dark Ball",
+        "type": "Dark",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Gathering": 1
+    },
+    "location": {
+      "day": false,
+      "night": true,
+      "source": "Can Be Purchased from the Black Marketeer"
+    },
+    "crafting": {
+      "item": "Daedream's Necklace",
+      "effect": "Activates the Dream Chaser Partner Skill",
+      "description": "Crafting Daedream's Necklace activates its Dream Chaser Partner Skill, allowing Daedream to manifest alongside your character even when it's not out of its Pal Sphere!"
+    },
+    "workSuitability": {
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Gathering": 1
+    },
+    "location": {
+      "day": false,
+      "night": true,
+      "source": "Can Be Purchased from the Black Marketeer"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Foxparks", "parent2": "Direhowl" },
+        { "parent1": "Sparkit", "parent2": "Direhowl" },
+        { "parent1": "Fuack", "parent2": "Rushoar" },
+        { "parent1": "Tanzee", "parent2": "Fuddler" },
+        { "parent1": "Gumoss", "parent2": "Fuddler" },
+        { "parent1": "Jolthog", "parent2": "Gobfin" },
+        { "parent1": "Flopie", "parent2": "Woolipop" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Daedream", "parent2": "Celaray", "child": "Vaelet" },
+        { "parent1": "Penking", "parent2": "Daedream", "child": "Reindrix" },
+        { "parent1": "Lifmunk", "parent2": "Daedream", "child": "FuackFuack" },
+        { "parent1": "Tanzee", "parent2": "Daedream", "child": "GumossGumoss" },
+        { "parent1": "Daedream", "parent2": "Mozzarina", "child": "Beegarde" },
+        { "parent1": "Daedream", "parent2": "Caprity", "child": "Cawgnito" },
+        { "parent1": "Fuack", "parent2": "Daedream", "child": "FlopieFlopie" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dragon Type Pal. Hit Daedream from behind with a Dragon Type Pal to exploit its weakness.",
+      "weaknesses": "Daedream is weak to Dragon element Pals due to its Dark Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Small Pal Soul", "Venom Gland"],
+      "possibleDrops": [
+        "Palworld - Small Pal Soul Material",
+        "Palworld - Venom Gland Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
+    }
+  },
+  {
+    "monsterName": "Dazzi",
+    "monsterID": 62,
+    "elementType": ["Electric"],
+    "description": "Dazzi is a Pal with the Lady of Lightning Partner Skill and the Electric Element type.",
+    "partnerSkill": {
+      "name": "Lady of Lightning",
+      "description": "While in team, appears near the player. Follows up player attacks with lightning bolts."
+    },
+    "activeSkills": [
+      {
+        "name": "Shockwave",
+        "type": "Electric",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Quickly discharges electricity, shocking those around it."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Lightning Streak",
+        "type": "Electric",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Generates a lightning bolt that moves forward in a line."
+      },
+      {
+        "name": "Tri-Lightning",
+        "type": "Electric",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Generates lightning that strikes an enemy three times from above."
+      },
+      {
+        "name": "Acid Rain",
+        "type": "Water",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Creates acidic clouds that pour down acid rain on enemies."
+      },
+      {
+        "name": "Lightning Strike",
+        "type": "Electric",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Acts as a lightning rod, calling down thunderbolts that electrocute the surrounding area."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Generating Electricity": 1
+    },
+    "location": {
+      "day": false,
+      "night": true,
+      "source": "Can Be Purchased from the Black Marketeer"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Lamball", "parent2": "Caprity" },
+        { "parent1": "Chikipi", "parent2": "Caprity" },
+        { "parent1": "Chikipi", "parent2": "Eikthyrdeer" },
+        { "parent1": "Pengullet", "parent2": "Direhowl" },
+        { "parent1": "Tanzee", "parent2": "Rooby" },
+        { "parent1": "Teafant", "parent2": "Caprity" },
+        { "parent1": "Teafant", "parent2": "Eikthyrdeer" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Melpaca", "parent2": "Dazzi", "child": "Vaelet" },
+        { "parent1": "Cremis", "parent2": "Dazzi", "child": "FuackFuack" },
+        { "parent1": "Sparkit", "parent2": "Dazzi", "child": "Ribbuny" },
+        { "parent1": "Vixy", "parent2": "Dazzi", "child": "FuackFuack" },
+        { "parent1": "Pengullet", "parent2": "Dazzi", "child": "FlopieFlopie" },
+        { "parent1": "Dazzi", "parent2": "Flambelle", "child": "Ribbuny" },
+        { "parent1": "Caprity", "parent2": "Dazzi", "child": "Beegarde" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Ground Type Pal. Hit Dazzi from behind with a Ground Type Pal to exploit its weakness.",
+      "weaknesses": "Dazzi is weak to Ground element Pals due to its Electric Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Electric Organ"],
+      "possibleDrops": ["Palworld - Electric Organ Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Late Game)"
+    }
+  },
+  {
+    "monsterName": "Depresso",
+    "monsterID": 17,
+    "elementType": ["Dark"],
+    "description": "Depresso is a Pal with the Caffeine Inoculation Partner Skill and the Dark Element type.",
+    "partnerSkill": {
+      "name": "Caffeine Inoculation",
+      "description": "When activated, Depresso drinks a massive amount of energy drinks, causing its movement speed to increase."
+    },
+    "activeSkills": [
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Poison Blast",
+        "type": "Dark",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls poison sludge at an enemy."
+      },
+      {
+        "name": "Dark Ball",
+        "type": "Dark",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Mining": 1
+    },
+    "location": {
+      "day": false,
+      "night": true,
+      "source": "Nocturnal and thus exclusive to Night! Can Be Purchased from the Black Marketeer"
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Lifmunk", "parent2": "FuackFuack" },
+        { "parent1": "Sparkit", "parent2": "Pengullet" },
+        { "parent1": "Foxparks", "parent2": "Jolthog" },
+        { "parent1": "Lamball", "parent2": "Killamari" },
+        { "parent1": "Lifmunk", "parent2": "Tocotoco" },
+        { "parent1": "Teafant", "parent2": "FlopieFlopie" },
+        { "parent1": "Pengullet", "parent2": "HangyuHangyu" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Lifmunk",
+          "parent2": "Depresso",
+          "child": "FlambelleFlambelle"
+        },
+        {
+          "parent1": "Gumoss",
+          "parent2": "Depresso",
+          "child": "RibbunyRibbuny"
+        },
+        {
+          "parent1": "Foxparks",
+          "parent2": "Depresso",
+          "child": "HoocratesHoocrates"
+        },
+        {
+          "parent1": "Cattiva",
+          "parent2": "Depresso",
+          "child": "HangyuHangyu"
+        },
+        {
+          "parent1": "Depresso",
+          "parent2": "DirehowlDirehowl",
+          "child": "FuddlerFuddler"
+        },
+        {
+          "parent1": "Depresso",
+          "parent2": "CaprityCaprity",
+          "child": "RoobyRooby"
+        },
+        {
+          "parent1": "RoobyRooby",
+          "parent2": "Depresso",
+          "child": "Kelpsea IgnisKelpsea Ignis"
+        }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dragon Type Pal. Hit Depresso from behind with a Dragon Type Pal to exploit its weakness.",
+      "weaknesses": "Depresso is weak to Dragon element Pals due to its Dark Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 1,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Venom Gland"],
+      "possibleDrops": ["Palworld - Venom Gland Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
+    }
+  },
+  {
+    "monsterName": "Digtoise",
+    "monsterID": 67,
+    "elementType": ["Ground"],
+    "description": "Digtoise is a Pal with the Drill Crusher Partner Skill and the Ground Element type.",
+    "partnerSkill": {
+      "name": "Drill Crusher",
+      "description": "When activated, performs Shell Spin, follows the player while spinning, and mines ores efficiently."
+    },
+    "activeSkills": [
+      {
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
+      },
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Stone Cannon",
+        "type": "Ground",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Digs up a boulder and hurls it at an enemy."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Aqua Burst",
+        "type": "Water",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of water and hurls it at an enemy."
+      },
+      {
+        "name": "Shell Spin",
+        "type": "Ground",
+        "power": 65,
+        "cooldownTime": 9,
+        "description": "Digtoise exclusive skill. Moves while spinning its whole body at high speeds. Drills through enemies, dealing continuous damage."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Mining": 3
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Hatch from Large Rocky Egg. Digtoise can be hatched from a Large Rocky Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Penking", "parent2": "Woolipop" },
+        { "parent1": "Tanzee", "parent2": "Mossanda" },
+        { "parent1": "Woolipop", "parent2": "Cinnamoth" },
+        { "parent1": "Killamari", "parent2": "Nitewing" },
+        { "parent1": "Penking", "parent2": "Nox" },
+        { "parent1": "Melpaca", "parent2": "Arsox" },
+        { "parent1": "Flopie", "parent2": "Mossanda" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Celaray",
+          "parent2": "Digtoise",
+          "child": "BroncherryBroncherry"
+        },
+        { "parent1": "Tanzee", "parent2": "Digtoise", "child": "VaeletVaelet" },
+        { "parent1": "Cattiva", "parent2": "Digtoise", "child": "RoobyRooby" },
+        {
+          "parent1": "Digtoise",
+          "parent2": "CryolinxCryolinx",
+          "child": "CinnamothCinnamoth"
+        },
+        {
+          "parent1": "Melpaca",
+          "parent2": "Digtoise",
+          "child": "CelarayCelaray"
+        },
+        {
+          "parent1": "Gumoss",
+          "parent2": "Digtoise",
+          "child": "GoriratGorirat"
+        },
+        { "parent1": "Mossanda", "parent2": "Digtoise", "child": "BushiBushi" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Grass Type Pal. Hit Digtoise from behind with a Grass Type Pal to exploit its weakness.",
+      "weaknesses": "Digtoise is weak to Grass element Pals due to its Ground Elemental Type."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 3,
+      "Attack": 2,
+      "Defense": 4
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["High Quality Pal Oil", "Ore"],
+      "possibleDrops": [
+        "Palworld - High Quality Pal Oil Material",
+        "Palworld - Ore Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "C Tier",
+      "rideTier": "N/A",
+      "baseTier": "A Tier (for Mid Game)"
+    }
+  },
+  {
+    "monsterName": "Dinossom",
+    "monsterID": 64,
+    "elementType": ["Grass", "Dragon"],
+    "description": "Dinossom is a Pal with the Fragrant Dragon Partner Skill and the Grass Element type.",
+    "partnerSkill": {
+      "name": "Fragrant Dragon",
+      "description": "Can be ridden. Enhances Grass attacks while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Botanical Smash",
+        "type": "Grass",
+        "power": 60,
+        "cooldownTime": 8,
+        "description": "Dinossom exclusive skill. Uses its large tail to smash the ground in front of it, damaging enemies over a wide area."
+      },
+      {
+        "name": "Seed Mine",
+        "type": "Grass",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes."
+      },
+      {
+        "name": "Spine Vine",
+        "type": "Grass",
+        "power": 95,
+        "cooldownTime": 25,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below."
+      },
+      {
+        "name": "Draconic Breath",
+        "type": "Dragon",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it."
+      },
+      {
+        "name": "Dragon Burst",
+        "type": "Dragon",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges draconic energy, damaging those around it."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Planting": 2,
+      "Lumbering": 2
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Dinossom can be purchased from the Black Marketeer. Prices for the Pals at the Black Marketeer vary between their rarity and level."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Mossanda", "parent2": "Woolipop" },
+        { "parent1": "Rooby", "parent2": "Cinnamoth" },
+        { "parent1": "Fuddler", "parent2": "Nitewing" },
+        { "parent1": "Rushoar", "parent2": "Cinnamoth" },
+        { "parent1": "Direhowl", "parent2": "Surfent" },
+        { "parent1": "Penking", "parent2": "Gobfin Ignis" },
+        { "parent1": "Celaray", "parent2": "Foxcicle" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Rayhound",
+          "parent2": "Dinossom",
+          "child": "Dinossom Lux"
+        },
+        { "parent1": "Direhowl", "parent2": "Dinossom", "child": "Lovander" },
+        { "parent1": "Eikthyrdeer", "parent2": "Dinossom", "child": "Celaray" },
+        { "parent1": "Penking", "parent2": "Dinossom", "child": "Univolt" },
+        { "parent1": "Teafant", "parent2": "Dinossom", "child": "Rooby" },
+        { "parent1": "Fuack", "parent2": "Dinossom", "child": "Cawgnito" },
+        { "parent1": "Flopie", "parent2": "Dinossom", "child": "Vaelet" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire or Ice Type Pal. Hit Dinossom from behind with a Fire or Ice Type Pal to exploit its weakness.",
+      "weaknesses": "Dinossom is weak to Fire or Ice element Pals due to its Grass Dragon Elemental Type."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 3,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Wheat Seeds"],
+      "possibleDrops": ["Palworld - Wheat Seeds Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "D Tier",
+      "rideTier": "C Tier (Ground Mount)",
+      "baseTier": "C Tier (for Mid Game)"
+    }
+  },
+  {
+    "monsterName": "Dinossom Lux",
+    "monsterID": "64B",
+    "elementType": ["Electric", "Dragon"],
+    "description": "Dinossom Lux, an Electric and Dragon Element Pal, can be found in the Furthest Mineshaft in Palworld.",
+    "partnerSkill": {
+      "name": "Thunder Dragon",
+      "description": "Can be ridden. Enhances Electric attacks while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Shockwave",
+        "type": "Electric",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Quickly discharges electricity, shocking those around it."
+      },
+      {
+        "name": "Botanical Smash",
+        "type": "Grass",
+        "power": 60,
+        "cooldownTime": 8,
+        "description": "Dinossom exclusive skill. Uses its large tail to smash the ground in front of it, damaging enemies over a wide area."
+      },
+      {
+        "name": "Tri-Lightning",
+        "type": "Electric",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Generates lightning that strikes an enemy three times from above."
+      },
+      {
+        "name": "Draconic Breath",
+        "type": "Dragon",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it."
+      },
+      {
+        "name": "Plasma Tornado",
+        "type": "Electric",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Creates two balls of electric energy that fire numerous bolts of lightning at enemies."
+      },
+      {
+        "name": "Lightning Strike",
+        "type": "Electric",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Acts as a lightning rod, calling down thunderbolts that electrocute the surrounding area."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Lumbering": 2,
+      "Electricity": 2
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Dinossom Lux, an Electric/Dragon Element Pal, can be found inside The Furthest Mineshaft in the desert region of the map in the northeast."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Rayhound", "parent2": "Dinossom" },
+        { "parent1": "Dinossom Lux", "parent2": "Dinossom Lux" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Dinossom Lux",
+          "parent2": "Cryolinx",
+          "child": "Kingpaca"
+        },
+        {
+          "parent1": "Lifmunk",
+          "parent2": "Dinossom Lux",
+          "child": "Leezpunk"
+        },
+        {
+          "parent1": "Killamari",
+          "parent2": "Dinossom Lux",
+          "child": "Vaelet"
+        },
+        { "parent1": "Chikipi", "parent2": "Dinossom Lux", "child": "Rooby" },
+        { "parent1": "Fuack", "parent2": "Dinossom Lux", "child": "Beegarde" },
+        { "parent1": "Caprity", "parent2": "Dinossom Lux", "child": "Celaray" },
+        { "parent1": "Penking", "parent2": "Dinossom Lux", "child": "Vanwyrm" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Ground or Ice Type Pal. Dinossom Lux is weak to Ground or Ice element Pals due to its Electric Dragon Elemental Type.",
+      "weaknesses": "Dinossom Lux is weak to Ground or Ice element Pals."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 3,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Tomato Seeds"],
+      "possibleDrops": ["Palworld - Tomato Seeds Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "D Tier",
+      "rideTier": "C Tier (Ground Mount)",
+      "baseTier": "C Tier (for Late Game)"
+    }
+  },
+  {
+    "monsterName": "Direhowl",
+    "monsterID": "26",
+    "elementType": ["Neutral"],
+    "description": "Direhowl is a Pal with the Direhowl Rider Partner Skill and the Neutral Element type.",
+    "partnerSkill": {
+      "name": "Direhowl Rider",
+      "description": "Can be ridden. Moves slightly faster than most mounts."
+    },
+    "activeSkills": [
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Fierce Fang",
+        "type": "Neutral",
+        "power": 45,
+        "cooldownTime": 2,
+        "description": "Direhowl special skill. Swiftly leaps at an enemy and bites into them."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Gathering": 1
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Direhowl can be bought from the Pal Merchant. Pal Merchants are merchants found around settlements within the islands who are denoted by their blue attire."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Tanzee", "parent2": "Celaray" },
+        { "parent1": "Gumoss", "parent2": "Celaray" },
+        { "parent1": "Gumoss", "parent2": "Melpaca" },
+        { "parent1": "Direhowl", "parent2": "Direhowl" },
+        { "parent1": "Woolipop", "parent2": "Caprity" },
+        { "parent1": "Woolipop", "parent2": "Eikthyrdeer" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Celaray", "parent2": "Direhowl", "child": "Loupmoon" },
+        { "parent1": "Lamball", "parent2": "Direhowl", "child": "Kelpsea" },
+        {
+          "parent1": "Teafant",
+          "parent2": "Direhowl",
+          "child": "Kelpsea Ignis"
+        },
+        { "parent1": "Direhowl", "parent2": "Mossanda", "child": "Tombat" },
+        { "parent1": "Foxparks", "parent2": "Direhowl", "child": "Daedream" },
+        { "parent1": "Chikipi", "parent2": "Direhowl", "child": "Flopie" },
+        { "parent1": "Penking", "parent2": "Direhowl", "child": "Arsox" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dark Type Pal. Direhowl is weak to Dark element Pals due to its Neutral Elemental Type.",
+      "weaknesses": "Direhowl is weak to Dark element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 3,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Gold Coin", "Leather", "Ruby"],
+      "possibleDrops": [
+        "Palworld - Gold Coin Material",
+        "Palworld - Leather Material",
+        "Palworld - Ruby Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "S Tier (Ground Mount)",
+      "baseTier": "C Tier (for Early Game)"
+    }
+  },
+  {
+    "monsterName": "Dumud",
+    "monsterID": "43",
+    "elementType": ["Ground"],
+    "description": "Dumud, a Ground Element Pal, can be found in the desert northeast of the Sealed Realm of the Winged Tyrant teleport point and on Ice Wind Island in Palworld.",
+    "partnerSkill": {
+      "name": "Soil Improver",
+      "description": "While in the team, increases attack power of Ground Pals."
+    },
+    "activeSkills": [
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
+      },
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Bubble Blast",
+        "type": "Water",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Fires numerous bubbles that slowly pursue an enemy."
+      },
+      {
+        "name": "Aqua Burst",
+        "type": "Water",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of water and hurls it at an enemy."
+      },
+      {
+        "name": "Rock Lance",
+        "type": "Ground",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Generates a sharp rock spear under an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Transporting": 1,
+      "Watering": 1,
+      "Mining": 2
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Dumud can be found both day and night in the desert area northeast of the Sealed Realm of the Winged Tyrant teleport point and southeast of the Ice Wind Island teleport point."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Celaray", "parent2": "Caprity" },
+        { "parent1": "Celaray", "parent2": "Eikthyrdeer" },
+        { "parent1": "Jolthog", "parent2": "Mossanda" },
+        { "parent1": "Jolthog", "parent2": "Nitewing" },
+        { "parent1": "Mozzarina", "parent2": "Melpaca" },
+        { "parent1": "Penking", "parent2": "Flopie" },
+        { "parent1": "Lamball", "parent2": "Elizabee" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Dumud", "parent2": "Surfent", "child": "Surfent Terra" },
+        { "parent1": "Tanzee", "parent2": "Dumud", "child": "Beegarde" },
+        { "parent1": "Pengullet", "parent2": "Dumud", "child": "Leezpunk" },
+        { "parent1": "Cinnamoth", "parent2": "Dumud", "child": "Katress" },
+        { "parent1": "Celaray", "parent2": "Dumud", "child": "Reindrix" },
+        { "parent1": "Gumoss", "parent2": "Dumud", "child": "Beegarde" },
+        { "parent1": "Dumud", "parent2": "Cryolinx", "child": "Grintale" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Grass Type Pal. Since Dumud is weak to Grass element Pals due to its Ground Elemental Type, it's best to bring Grass type Pals to fight against it.",
+      "weaknesses": "Dumud is weak to Grass element Pals."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["High Quality Pal Oil", "Raw Dumud"],
+      "possibleDrops": [
+        "Palworld - High Quality Pal Oil Material",
+        "Palworld - Raw Dumud Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "D Tier",
+      "rideTier": "N/A",
+      "baseTier": "B Tier (for Mid Game)"
+    }
+  },
+  {
+    "monsterName": "Eikthyrdeer",
+    "monsterID": "37",
+    "elementType": ["Neutral"],
+    "description": "Eikthyrdeer is a Pal with the Guardian of the Forest Partner Skill and the Neutral Element type.",
+    "partnerSkill": {
+      "name": "Guardian of the Forest",
+      "description": "Can be ridden. Can perform a double jump while mounted. Increases efficiency of cutting trees."
+    },
+    "activeSkills": [
+      {
+        "name": "Antler Uppercut",
+        "type": "Neutral",
+        "power": 50,
+        "cooldownTime": 5,
+        "description": "Eikthyrdeer exclusive skill. Charges at foes and uses antlers to launch them into the air. If used while riding, the direction of the charge can be controlled."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "descrition": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Stone Cannon",
+        "type": "Ground",
+        "power": 70,
+        "cooldownTime": 15,
+        "descrition": "Digs up a boulder and hurls it at an enemy."
+      },
+      {
+        "name": "Rock Lance",
+        "type": "Ground",
+        "power": 150,
+        "cooldownTime": 55,
+        "descrition": "Generates a sharp rock spear under an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Lumbering": 2
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Eikthyrdeer can be purchased from the Pal Merchant. Pal Merchants have a selection of common Pals that change every day and can be bought with gold."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Fuack", "parent2": "Penking" },
+        { "parent1": "Foxparks", "parent2": "Mossanda" },
+        { "parent1": "Lifmunk", "parent2": "Nitewing" },
+        { "parent1": "Caprity", "parent2": "Eikthyrdeer" },
+        { "parent1": "Eikthyrdeer", "parent2": "Eikthyrdeer" },
+        { "parent1": "Sparkit", "parent2": "Mossanda" },
+        { "parent1": "Sparkit", "parent2": "Nitewing" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Hangyu",
+          "parent2": "Eikthyrdeer",
+          "child": "Eikthyrdeer Terra"
+        },
+        {
+          "parent1": "Penking",
+          "parent2": "Eikthyrdeer",
+          "child": "Blazehowl"
+        },
+        { "parent1": "Gumoss", "parent2": "Eikthyrdeer", "child": "Cawgnito" },
+        { "parent1": "Celaray", "parent2": "Eikthyrdeer", "child": "Dumud" },
+        { "parent1": "Fuddler", "parent2": "Eikthyrdeer", "child": "Beegarde" },
+        { "parent1": "Eikthyrdeer", "parent2": "Incineram", "child": "Tombat" },
+        { "parent1": "Tanzee", "parent2": "Eikthyrdeer", "child": "Gobfin" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dark Type Pal. Since Eikthyrdeer is weak to Dark element Pals due to its Neutral Elemental Type, it's best to bring Dark type Pals to fight against it.",
+      "weaknesses": "Eikthyrdeer is weak to Dark element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 3,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Eikthyrdeer Venison", "Horn", "Leather"],
+      "possibleDrops": [
+        "Palworld - Eikthyrdeer Venison Material",
+        "Palworld - Horn Material",
+        "Palworld - Leather Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "A Tier (Ground Mount)",
+      "baseTier": "C Tier (for Early Game)"
+    }
+  },
+  {
+    "monsterName": "Eikthyrdeer Terra",
+    "monsterID": "37B",
+    "elementType": ["Ground"],
+    "description": "Eikthyrdeer Terra is a Pal with the Guardian of the Golden Forest Partner Skill and the Ground Element type.",
+    "partnerSkill": {
+      "name": "Guardian of the Golden Forest",
+      "description": "Can be ridden. Can perform a double jump while mounted. Increases efficiency of cutting trees."
+    },
+    "activeSkills": [
+      {
+        "name": "Antler Uppercut",
+        "type": "Neutral",
+        "power": 50,
+        "cooldownTime": 5,
+        "description": "Eikthyrdeer exclusive skill. Charges at foes and uses antlers to launch them into the air. If used while riding, the direction of the charge can be controlled."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Stone Cannon",
+        "type": "Ground",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Digs up a boulder and hurls it at an enemy."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Lumbering": 2
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Eikthyrdeer Terra can be purchased from the Pal Merchant. Pal Merchants have a selection of common Pals that change every day and can be bought with gold."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Hangyu", "parent2": "Eikthyrdeer" },
+        { "parent1": "Eikthyrdeer Terra", "parent2": "Eikthyrdeer Terra" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Gumoss",
+          "parent2": "Eikthyrdeer Terra",
+          "child": "Beegarde"
+        },
+        {
+          "parent1": "Eikthyrdeer Terra",
+          "parent2": "Cinnamoth",
+          "child": "Katress"
+        },
+        {
+          "parent1": "Celaray",
+          "parent2": "Eikthyrdeer Terra",
+          "child": "Melpaca"
+        },
+        {
+          "parent1": "Sparkit",
+          "parent2": "Eikthyrdeer Terra",
+          "child": "Rooby"
+        },
+        {
+          "parent1": "Penking",
+          "parent2": "Eikthyrdeer Terra",
+          "child": "Blazehowl"
+        },
+        {
+          "parent1": "Mossanda",
+          "parent2": "Eikthyrdeer Terra",
+          "child": "Vanwyrm"
+        },
+        {
+          "parent1": "Eikthyrdeer Terra",
+          "parent2": "Nitewing",
+          "child": "Vanwyrm"
+        }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Grass Type Pal. Since Eikthyrdeer Terra is weak to Grass element Pals due to its Ground Elemental Type, it's best to bring Grass type Pals to fight against it.",
+      "weaknesses": "Eikthyrdeer Terra is weak to Grass element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 3,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Eikthyrdeer Venison", "Horn", "Leather"],
+      "possibleDrops": [
+        "Palworld - Eikthyrdeer Venison Material",
+        "Palworld - Horn Material",
+        "Palworld - Leather Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "A Tier (Ground Mount)",
+      "baseTier": "C Tier (for Mid Game)"
+    }
+  },
+  {
+    "monsterName": "Elizabee",
+    "monsterID": "51",
+    "elementType": ["Grass"],
+    "description": "Elizabee is a Pal with the Queen Bee Command Partner Skill and the Grass Element type.",
+    "partnerSkill": {
+      "name": "Queen Bee Command",
+      "description": "When fighting together, stats will increase the more Beegarde are in your team."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Poison Blast",
+        "type": "Dark",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls poison sludge at an enemy."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Spine Vine",
+        "type": "Grass",
+        "power": 95,
+        "cooldownTime": 25,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below."
+      },
+      {
+        "name": "Spinning Lance",
+        "type": "Grass",
+        "power": 70,
+        "cooldownTime": 9,
+        "description": "Elizabee exclusive skill. Channels power into its staff, and unleashes it in a whirl."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Planting": 2,
+      "Handiwork": 2,
+      "Lumbering": 1,
+      "Medicine": 2,
+      "Gathering": 2
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Elizabee is available as a level 31 Field Alpha Boss inside the Devout Mineshaft. The entrance to the Devout Mineshaft can be found northeast of the Lake Center teleport point, at the coordinates 37, -187."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Elizabee", "parent2": "Elizabee" },
+        { "parent1": "Mossanda", "parent2": "Pyrin Noct" },
+        { "parent1": "Nitewing", "parent2": "Pyrin Noct" },
+        { "parent1": "Penking", "parent2": "Astegon" },
+        { "parent1": "Penking", "parent2": "Orserk" },
+        { "parent1": "Nitewing", "parent2": "Lyleen" },
+        { "parent1": "Mossanda", "parent2": "Ice Reptyro" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Mossanda", "parent2": "Elizabee", "child": "Ragnahawk" },
+        { "parent1": "Elizabee", "parent2": "Pyrin", "child": "Warsect" },
+        { "parent1": "Celaray", "parent2": "Elizabee", "child": "Incineram" },
+        { "parent1": "Elizabee", "parent2": "Suzaku", "child": "Helzephyr" },
+        { "parent1": "Elizabee", "parent2": "Blazamut", "child": "Astegon" },
+        { "parent1": "Nitewing", "parent2": "Elizabee", "child": "Ragnahawk" },
+        { "parent1": "Cinnamoth", "parent2": "Elizabee", "child": "Sweepa" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Since Elizabee is weak to Fire element Pals due to its Grass Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Elizabee is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 5,
+      "Attack": 3,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Elizabee's Staff", "Honey"],
+      "possibleDrops": [
+        "Palworld - Elizabee's Staff Material",
+        "Palworld - Honey Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "B Tier",
+      "rideTier": "N/A",
+      "baseTier": "B Tier (for Mid Game)"
+    }
+  },
+  {
+    "monsterName": "Elphidran",
+    "monsterID": "80",
+    "elementType": ["Dragon"],
+    "description": "Elphidran, a Dragon Element Pal, can be found in the No. 1 Wildlife Sanctuary and southwest of the Hypocrite Hill teleport point in Palworld.",
+    "partnerSkill": {
+      "name": "Amicable Holy Dragon",
+      "description": "Can be ridden as a flying mount. While fighting together, Dark Pals drop more items when defeated."
+    },
+    "activeSkills": [
+      {
+        "name": "Flare Arrow",
+        "type": "Fire",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires three flaming arrows in succession that home in on an enemy."
+      },
+      {
+        "name": "Draconic Breath",
+        "type": "Dragon",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it."
+      },
+      {
+        "name": "Dragon Burst",
+        "type": "Dragon",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges draconic energy, damaging those around it."
+      },
+      {
+        "name": "Dragon Cannon",
+        "type": "Dragon",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls an energy ball imbued with draconic energy at an enemy."
+      },
+      {
+        "name": "Mystic Whirlwind",
+        "type": "Dragon",
+        "power": 70,
+        "cooldownTime": 10,
+        "description": "Elphidran exclusive skill. Generates twin whirlwinds imbued with a mysterious power that pursues enemies."
+      },
+      {
+        "name": "Pal Blast",
+        "type": "Neutral",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Charges destructive energy before firing a high-powered beam forward across a wide area."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Lumbering": 2
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Elphidran can be found on the No.1 Wildlife Sanctuary island on the map's southern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent. Elphidran can also be bought from the Black Marketeer. Prices for the Pals at the Black Marketeer vary between their rarity and level."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Penking", "parent2": "Surfent" },
+        { "parent1": "Incineram", "parent2": "Cinnamoth" },
+        { "parent1": "Nitewing", "parent2": "Univolt" },
+        { "parent1": "Celaray", "parent2": "Beakon" },
+        { "parent1": "Caprity", "parent2": "Cryolinx" },
+        { "parent1": "Penking", "parent2": "Elphidran" },
+        { "parent1": "Mossanda", "parent2": "Vanwyrm" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Surfent",
+          "parent2": "Elphidran",
+          "child": "Elphidran Aqua"
+        },
+        {
+          "parent1": "Mossanda",
+          "parent2": "Elphidran",
+          "child": "Wumpo Botan"
+        },
+        {
+          "parent1": "Nitewing",
+          "parent2": "Elphidran",
+          "child": "Wumpo Botan"
+        },
+        { "parent1": "Cinnamoth", "parent2": "Elphidran", "child": "Penking" },
+        { "parent1": "Elizabee", "parent2": "Elphidran", "child": "Mossanda" },
+        { "parent1": "Celaray", "parent2": "Elphidran", "child": "Blazehowl" },
+        { "parent1": "Elphidran", "parent2": "Cryolinx", "child": "Elizabee" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring an Ice Type Pal. Since Elphidran is weak to Ice element Pals due to its Dragon Elemental Type, it's best to bring Ice type Pals to fight against it.",
+      "weaknesses": "Elphidran is weak to Ice element Pals."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 3,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["High Quality Pal Oil"],
+      "possibleDrops": ["Palworld - High Quality Pal Oil Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "D Tier",
+      "rideTier": "C Tier (Flying Mount)",
+      "baseTier": "C Tier (for Late Game)"
+    }
+  },
+  {
+    "monsterName": "Elphidran Aqua",
+    "monsterID": "80B",
+    "elementType": ["Dragon", "Water"],
+    "description": "Elphidran Aqua is a Pal with the Amicable Water Dragon Partner Skill and the Dragon Element type.",
+    "partnerSkill": {
+      "name": "Amicable Water Dragon",
+      "description": "Can be ridden as a flying mount. While fighting together, Fire Pals drop more items when defeated."
+    },
+    "activeSkills": [
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Hydro Jet",
+        "type": "Water",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a high-speed ball of water at an enemy."
+      },
+      {
+        "name": "Dragon Burst",
+        "type": "Dragon",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges draconic energy, damaging those around it."
+      },
+      {
+        "name": "Dragon Cannon",
+        "type": "Dragon",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls an energy ball imbued with draconic energy at an enemy."
+      },
+      {
+        "name": "Dragon Cannon",
+        "type": "Dragon",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls an energy ball imbued with draconic energy at an enemy."
+      },
+      {
+        "name": "Acid Rain",
+        "type": "Water",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Creates acidic clouds that pour down acid rain on enemies."
+      },
+      {
+        "name": "Mystic Whirlwind",
+        "type": "Dragon",
+        "power": 70,
+        "cooldownTime": 10,
+        "description": "Elphidran exclusive skill. Generates twin whirlwinds imbued with a mysterious power that pursues enemies."
+      },
+      {
+        "name": "Hydro Laser",
+        "type": "Water",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Shoots pressurized water at extreme velocities, sweeping over a wide area in front of it."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Lumbering": 2,
+      "Watering": 3
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Elphidran Aqua can be hatched from a Huge Dragon Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Surfent", "parent2": "Elphidran" },
+        { "parent1": "Elphidran Aqua", "parent2": "Elphidran Aqua" },
+        { "parent1": "Cinnamoth", "parent2": "Elphidran Aqua" },
+        { "parent1": "Sweepa", "parent2": "Elphidran Aqua" },
+        { "parent1": "Penking", "parent2": "Elphidran Aqua" },
+        { "parent1": "Elphidran Aqua", "parent2": "Cryolinx" },
+        { "parent1": "Sibelyx", "parent2": "Elphidran Aqua" },
+        { "parent1": "Elizabee", "parent2": "Elphidran Aqua" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Cinnamoth",
+          "parent2": "Elphidran Aqua",
+          "child": "Grintale"
+        },
+        {
+          "parent1": "Sweepa",
+          "parent2": "Elphidran Aqua",
+          "child": "Kingpaca"
+        },
+        {
+          "parent1": "Penking",
+          "parent2": "Elphidran Aqua",
+          "child": "Penking"
+        },
+        {
+          "parent1": "Elphidran Aqua",
+          "parent2": "Cryolinx",
+          "child": "Elizabee"
+        },
+        {
+          "parent1": "Sibelyx",
+          "parent2": "Elphidran Aqua",
+          "child": "Cinnamoth"
+        },
+        {
+          "parent1": "Elizabee",
+          "parent2": "Elphidran Aqua",
+          "child": "Mossanda"
+        },
+        {
+          "parent1": "Mossanda",
+          "parent2": "Elphidran Aqua",
+          "child": "Wumpo Botan"
+        }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring an Ice or Electric Type Pal. Since Elphidran Aqua is weak to Ice or Electric element Pals due to its Dragon Water Elemental Type, it's best to bring Ice or Electric type Pals to fight against it.",
+      "weaknesses": "Elphidran Aqua is weak to Ice or Electric element Pals."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 3,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["High Quality Pal Oil"],
+      "possibleDrops": ["Palworld - High Quality Pal Oil Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "C Tier (Flying Mount)",
+      "baseTier": "B Tier (for Late Game)"
+    }
+  },
+  {
+    "monsterName": "Faleris",
+    "monsterID": "105",
+    "elementType": ["Fire"],
+    "description": "Faleris is a Pal with the Scorching Predator Partner Skill and the Fire Element type.",
+    "partnerSkill": {
+      "name": "Scorching Predator",
+      "description": "Can be ridden as a flying mount. While fighting together, Ice Pals drop more items when defeated."
+    },
+    "activeSkills": [
+      {
+        "name": "Ignis Breath",
+        "type": "Fire",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Shoots flames at an enemy, dealing continuous damage."
+      },
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Flare Arrow",
+        "type": "Fire",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires three flaming arrows in succession that home in on an enemy."
+      },
+      {
+        "name": "Ignis Rage",
+        "type": "Fire",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Energizes the surrounding ground, causing it to explode after a set amount of time."
+      },
+      {
+        "name": "Phoenix Flare",
+        "type": "Fire",
+        "power": 135,
+        "cooldownTime": 28,
+        "description": "Faleris special skill. Covers its body in a tornado of flames before charging forward."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Kindling": 3,
+      "Transporting": 3
+    },
+    "location": {
+      "day": true,
+      "night": true,
+      "source": "Faleris can be found on the No. 3 Wildlife Sanctuary island on the map's eastern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Vanwyrm", "parent2": "Anubis" },
+        { "parent1": "Faleris", "parent2": "Faleris" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Elizabee", "parent2": "Faleris", "child": "Quivern" },
+        { "parent1": "Cinnamoth", "parent2": "Faleris", "child": "Mossanda" },
+        { "parent1": "Penking", "parent2": "Faleris", "child": "Sibelyx" },
+        { "parent1": "Mossanda", "parent2": "Faleris", "child": "Sweepa" },
+        { "parent1": "Beakon", "parent2": "Faleris", "child": "Mammorest" },
+        { "parent1": "Surfent", "parent2": "Faleris", "child": "Wumpo" },
+        { "parent1": "Nitewing", "parent2": "Faleris", "child": "Sweepa" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Water Type Pal. Since Faleris is weak to Water element Pals due to its Fire Elemental Type, it's best to bring Water type Pals to fight against it.",
+      "weaknesses": "Faleris is weak to Water element Pals."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 4,
+      "Attack": 3,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Flame Organ"],
+      "possibleDrops": ["Palworld - Flame Organ Material"]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "S Tier (Flying Mount)",
+      "baseTier": "S Tier (for Late Game)"
+    }
+  },
+  {
+    "monsterName": "Felbat",
+    "monsterID": "94",
+    "elementType": ["Dark"],
+    "description": "Felbat, a Dark Element Pal, can be found in the Sealed Realm of the Abyssal Nights and purchased from the Black Marketeer in Palworld.",
+    "partnerSkill": {
+      "name": "Life Steal",
+      "description": "While fighting together, grants the player and Felbat the life steal effect which absorbs some of the received damage and restores HP."
+    },
+    "activeSkills": [
+      {
+        "name": "Poison Blast",
+        "type": "Dark",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls poison sludge at an enemy."
+      },
+      {
+        "name": "Dark Ball",
+        "type": "Dark",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      },
+      {
+        "name": "Ignis Rage",
+        "type": "Fire",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Energizes the surrounding ground, causing it to explode after a set amount of time."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Medicine": 3
+    },
+    "location": {
+      "source": "Felbat is available as a level 23 Field Alpha Boss at the Sealed Realm of the Abyssal Nights. This is located north of the Azurobe Hill fast travel point.",
+      "purchase": "Felbat can be bought from the Black Marketeer."
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Rooby", "parent2": "Celaray" },
+        { "parent1": "Chikipi", "parent2": "Penking" },
+        { "parent1": "Penking", "parent2": "Teafant" },
+        { "parent1": "Rushoar", "parent2": "Celaray" },
+        { "parent1": "Rushoar", "parent2": "Melpaca" },
+        { "parent1": "Lifmunk", "parent2": "Incineram" },
+        { "parent1": "Penking", "parent2": "Mau" }
+      ],
+      "recommendedCombos": [
+        {
+          "parent1": "Blazehowl",
+          "parent2": "Felbat",
+          "child": "Blazehowl Noct"
+        },
+        { "parent1": "Lamball", "parent2": "Felbat", "child": "Gumoss" },
+        { "parent1": "Celaray", "parent2": "Felbat", "child": "Lovander" },
+        { "parent1": "Gobfin", "parent2": "Felbat", "child": "Vaelet" },
+        { "parent1": "Swee", "parent2": "Felbat", "child": "Rooby" },
+        { "parent1": "Felbat", "parent2": "Blazamut", "child": "Grintale" },
+        { "parent1": "Rushoar", "parent2": "Felbat", "child": "Beegarde" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dragon Type Pal. Since Felbat is weak to Dragon element Pals due to its Dark Elemental Type, it's best to bring Dragon type Pals to fight against it.",
+      "weaknesses": "Felbat is weak to Dragon element Pals."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 3,
+      "Attack": 3,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Cloth", "Small Pal Soul"],
+      "possibleDrops": [
+        "Palworld - Cloth Material",
+        "Palworld - Small Pal Soul Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "N/A",
+      "rideTier": "N/A",
+      "baseTier": "C Tier (for Late Game)"
+    }
+  },
+  {
+    "monsterName": "Fenglope",
+    "monsterID": "92",
+    "elementType": ["Neutral"],
+    "description": "Fenglope, a Neutral Element Pal, can be found in the Falls Mineshaft and the No. 3 Wildlife Sanctuary in Palworld.",
+    "partnerSkill": {
+      "name": "Wind and Clouds",
+      "description": "Can be ridden. Can double jump while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Aqua Burst",
+        "type": "Water",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of water and hurls it at an enemy."
+      },
+      {
+        "name": "Acid Rain",
+        "type": "Water",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Creates acidic clouds that pour down acid rain on enemies."
+      },
+      {
+        "name": "Blizzard Spike",
+        "type": "Ice",
+        "power": 130,
+        "cooldownTime": 45,
+        "description": "Creates a giant lump of ice and hurls it at any enemy. It deals damage to those in the surrounding area upon impact."
+      },
+      {
+        "name": "Cloud Tempest",
+        "type": "Neutral",
+        "power": 90,
+        "cooldownTime": 15,
+        "description": "Fenglope exclusive skill. Charges forward while manipulating the atmosphere to create a pressurized wind tunnel around itself."
+      }
+    ],
+    "passiveSkills": "Under research! Please check back soon.",
+    "workSuitability": {
+      "Lumbering": 2
+    },
+    "location": {
+      "source": "Fenglope, a Neutral Element Pal, can be found inside the Falls Mineshaft in the forest region of the map in the center. The entrance to the Falls Mineshaft can be found west of the Ascetic Falls teleport point, at the coordinates -249, -434. Fenglope can also be found in the volcanic region and at the No. 3 Wildlife Sanctuary in the northeastern edge of the map.",
+      "additionalLocations": [
+        {
+          "locationType": "Daytime",
+          "locationName": "Volcanic Region and No. 3 Wildlife Sanctuary"
+        },
+        {
+          "locationType": "Nighttime",
+          "locationName": "No. 3 Wildlife Sanctuary"
+        }
+      ]
+    },
+    "breeding": {
+      "breedingCombos": [
+        { "parent1": "Lifmunk", "parent2": "Penking" },
+        { "parent1": "Direhowl", "parent2": "Melpaca" },
+        { "parent1": "Penking", "parent2": "Vixy" },
+        { "parent1": "Celaray", "parent2": "Gobfin" },
+        { "parent1": "Lamball", "parent2": "Cinnamoth" },
+        { "parent1": "Cattiva", "parent2": "Cinnamoth" },
+        { "parent1": "Direhowl", "parent2": "Mozzarina" }
+      ],
+      "recommendedCombos": [
+        { "parent1": "Chikipi", "parent2": "Fenglope", "child": "Gumoss" },
+        { "parent1": "Fuack", "parent2": "Fenglope", "child": "Rooby" },
+        { "parent1": "Rooby", "parent2": "Fenglope", "child": "Beegarde" },
+        { "parent1": "Nitewing", "parent2": "Fenglope", "child": "Katress" },
+        { "parent1": "Leezpunk", "parent2": "Fenglope", "child": "Vaelet" },
+        { "parent1": "Kelpsea", "parent2": "Fenglope", "child": "Leezpunk" },
+        { "parent1": "Dumud", "parent2": "Fenglope", "child": "Lovander" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dark Type Pal. Since Fenglope is weak to Dark element Pals due to its Neutral Elemental Type, it's best to bring Dark type Pals to fight against it.",
+      "weaknesses": "Fenglope is weak to Dark element Pals."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 3,
+      "Attack": 3,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Horn", "Leather"],
+      "possibleDrops": [
+        "Palworld - Horn Material",
+        "Palworld - Leather Material"
+      ]
+    },
+    "tierListRanking": {
+      "combatTier": "S Tier",
+      "rideTier": "S Tier (Ground Mount)",
+      "baseTier": "C Tier (for Late Game)"
+    }
   }
 ]
