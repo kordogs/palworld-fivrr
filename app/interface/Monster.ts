@@ -4,6 +4,7 @@ export interface Monster {
   elementType: string[];
   description: string;
   workSuitability: {
+    [key: string]: number | undefined;
     Handiwork?: number;
     Transporting?: number;
     Mining?: number;

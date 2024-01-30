@@ -1,6 +1,21 @@
+"use client";
 import Image from "next/image";
+import { SetStateAction, useState } from "react";
 
-export default function Navbar() {
+interface NavBarProps {
+  onSearch: (value: string) => void;
+}
+
+export default function Navbar({ onSearch }: NavBarProps) {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleInputChange = (event: {
+    target: { value: SetStateAction<string> };
+  }) => {
+    setSearchTerm(event.target.value);
+    onSearch(event.target.value.toString());
+  };
+
   return (
     <div className="navbar">
       <div className="navbar-start">
@@ -50,6 +65,15 @@ export default function Navbar() {
         />
       </div>
       <div className="navbar-end">
+        <div className="form-control hidden sm:block">
+          <input
+            type="text"
+            placeholder="Search by name"
+            value={searchTerm}
+            onChange={handleInputChange}
+            className="input input-bordered w-full max-w-xs"
+          />
+        </div>
         <button className="btn btn-ghost btn-circle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
