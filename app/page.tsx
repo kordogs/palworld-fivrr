@@ -13,6 +13,9 @@ export default function Home() {
   const [selectedMonster, setSelectedMonster] = useState<Monster | null>(null);
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
   const [sortBy, setSortBy] = useState<"id" | "name">("name");
+  const [selectedElementType, setSelectedElementType] = useState<string | null>(
+    null
+  );
 
   const Monster = pals2;
 
@@ -33,8 +36,15 @@ export default function Home() {
     if (sortOrder === "desc") {
       sorted.reverse();
     }
+    if (selectedElementType) {
+      sorted = sorted.filter((monster) =>
+        Array.isArray(monster.elementType)
+          ? monster.elementType.includes(selectedElementType)
+          : monster.elementType === selectedElementType
+      );
+    }
     return sorted;
-  }, [Monster, sortBy, sortOrder]);
+  }, [Monster, sortBy, sortOrder, selectedElementType]);
 
   return (
     <div
@@ -53,7 +63,7 @@ export default function Home() {
         <Navbar />
       </div>
 
-      <div>
+      <div className=" flex">
         <button
           onClick={() => setSortBy("name")}
           className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-2 mb-2"
@@ -66,6 +76,23 @@ export default function Home() {
         >
           Sort by ID
         </button>
+        <select
+          className="select select-bordered w-fit max-w-xs select-xs h-7 "
+          onChange={(e) => setSelectedElementType(e.target.value)}
+        >
+          <option disabled selected>
+            Sort By Element Type
+          </option>
+          <option>Dark</option>
+          <option>Dragon</option>
+          <option>Electric</option>
+          <option>Fire</option>
+          <option>Grass</option>
+          <option>Ground</option>
+          <option>Ice</option>
+          <option>Neutral</option>
+          <option>Water</option>
+        </select>
       </div>
 
       <div className="flex justify-center min-h-screen">
