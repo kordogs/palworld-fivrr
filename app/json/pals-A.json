@@ -2469,7 +2469,7 @@
     "workSuitability": {
       "Handiwork": 1,
       "Transporting": 1,
-      "Generating": 1
+      "Electricity": 1
     },
     "location": {
       "day": false,
@@ -9603,7 +9603,7 @@
       "Handiwork": 2,
       "Lumbering": 2,
       "Transporting": 3,
-      "Generating Electricity": 2
+      "Electricity": 2
     },
     "location": {
       "day": true,
@@ -10251,7 +10251,7 @@
       "base": "SS Tier (for Late Game)"
     },
     "workSuitability": {
-      "generatingElectricity": 4,
+      "Electricity": 4,
       "handiwork": 2,
       "transporting": 3
     }
@@ -10719,7 +10719,7 @@
     "workSuitability": {
       "Planting": 3,
       "Handiwork": 2,
-      "Medicine Production": 2,
+      "Medicine": 2,
       "Transporting": 1,
       "Gathering": 2
     },
@@ -11798,7 +11798,7 @@
     ],
     "workSuitability": {
       "transporting": 1,
-      "generatingElectricity": 3
+      "Electricity": 3
     },
     "location": {
       "day": [
@@ -12347,7 +12347,7 @@
       "planting": 1,
       "handiwork": 2,
       "lumbering": 1,
-      "medicineProduction": 1,
+      "medicine": 1,
       "transporting": 2,
       "gathering": 2
     },
@@ -12488,7 +12488,7 @@
     "workSuitability": {
       "handiwork": 2,
       "lumbering": 1,
-      "medicineProduction": 1,
+      "medicine": 1,
       "transporting": 2,
       "gathering": 2
     },
@@ -13049,7 +13049,7 @@
       }
     ],
     "workSuitability": {
-      "medicineProduction": 2,
+      "medicine": 2,
       "cooling": 2,
       "farming": 1
     },
