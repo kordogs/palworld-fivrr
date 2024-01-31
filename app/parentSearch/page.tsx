@@ -17,6 +17,14 @@ export default function Page() {
     return Monster.find((monster) => monster.monsterName === parentName);
   };
 
+  let parents: Iterable<any> | null | undefined = [];
+  const filteredMonsters = Monster.filter(
+    (monster) => monster.monsterName === selectedMonster
+  );
+  if (filteredMonsters.length > 0 && filteredMonsters[0].parent) {
+    parents = filteredMonsters[0].parent.flat();
+  }
+
   return (
     <div
       className="flex items-center flex-col pt-5 px-2 "
@@ -38,7 +46,7 @@ export default function Page() {
 
         <div className="mb-5">
           <Image
-            src={selectedMonsterObj ? selectedMonsterObj.image : ""}
+            src={selectedMonsterObj?.image || ""}
             height={200}
             width={200}
             alt=""
@@ -80,39 +88,14 @@ export default function Page() {
                 {Monster.filter(
                   (monster) => monster.monsterName === selectedMonster
                 ).map((monster, index) =>
-                  monster.parent.map((parentRow, parentIndex) => (
-                    <tr
-                      key={`${index}-${parentIndex}`}
-                      //   className="flex justify-start"
-                    >
-                      <td
-                      //    className="flex gap-1"
-                      >
-                        {/* {findParent(parentRow[0])?.image && (
-                          <Image
-                            src={findParent(parentRow[0])?.image}
-                            height={20}
-                            width={20}
-                            alt=""
-                          />
-                        )} */}
-                        {parentRow[0]}
-                      </td>
-                      <td
-                      //   className="flex gap-1"
-                      >
-                        {/* {findParent(parentRow[1])?.image && (
-                          <Image
-                            src={findParent(parentRow[1])?.image}
-                            height={20}
-                            width={20}
-                            alt=""
-                          />
-                        )} */}
-                        {parentRow[1]}
-                      </td>
-                    </tr>
-                  ))
+                  monster.parent
+                    ? monster.parent.map((parentRow, parentIndex) => (
+                        <tr key={`${index}-${parentIndex}`}>
+                          <td>{parentRow[0]}</td>
+                          <td>{parentRow[1]}</td>
+                        </tr>
+                      ))
+                    : null
                 )}
               </tbody>
             </table>
@@ -130,13 +113,7 @@ export default function Page() {
             <option disabled selected>
               Select First Parent
             </option>
-            {Array.from(
-              new Set(
-                Monster.filter(
-                  (monster) => monster.monsterName === selectedMonster
-                )[0].parent.flat()
-              )
-            )
+            {Array.from(new Set(parents))
               .sort()
               .map((parent, parentIndex) => [
                 <option key={`${parentIndex}-1`} value={parent}>
@@ -155,6 +132,7 @@ export default function Page() {
               </thead>
               <tbody>
                 {selectedMonsterObj &&
+                  selectedMonsterObj.parent &&
                   selectedMonsterObj.parent
                     .slice() // create a copy of the array
                     .sort((a, b) => a[0].localeCompare(b[0])) // sort the first element of each sub-array
