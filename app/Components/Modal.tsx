@@ -85,7 +85,9 @@ export default function Modal({ monster }: modalProps) {
                               <div key={index} className="flex gap-2">
                                 <span>Lvl {level}</span>
                                 <Image
-                                  src={`/work/${workType}.png`}
+                                  src={`/work/${workType
+                                    .charAt(0)
+                                    .toUpperCase()}${workType.slice(1)}.png`}
                                   height={20}
                                   width={20}
                                   alt=""
