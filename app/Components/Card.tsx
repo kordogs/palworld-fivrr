@@ -59,7 +59,7 @@ export default function Card({
             {work.map((workType, index) => (
               <div key={index} className="flex items-center gap-2">
                 <Image
-                  src={`/work/${workType}.png`}
+                  src={`/work/${workType.charAt(0).toUpperCase}.png`}
                   alt={workType}
                   width={20}
                   height={20}
