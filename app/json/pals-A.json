@@ -8049,11 +8049,11 @@
       "base": "B Tier (for Early Game)"
     },
     "workSuitability": {
-      "planting": 1,
-      "handiwork": 1,
-      "lumbering": 1,
-      "medicine": 1,
-      "gathering": 1
+      "Planting": 1,
+      "Handiwork": 1,
+      "Lumbering": 1,
+      "Medicine": 1,
+      "Gathering": 1
     }
   },
   {
@@ -12344,12 +12344,12 @@
       { "name": "Brave", "effect": "Attack +10%", "ranking": "★☆☆☆☆" }
     ],
     "workSuitability": {
-      "planting": 1,
-      "handiwork": 2,
-      "lumbering": 1,
-      "medicine": 1,
-      "transporting": 2,
-      "gathering": 2
+      "Planting": 1,
+      "Handiwork": 2,
+      "Lumbering": 1,
+      "Medicine": 1,
+      "Transporting": 2,
+      "Gathering": 2
     },
     "location": {
       "day": [],
@@ -12486,11 +12486,11 @@
       { "name": "Brave", "effect": "Attack +10%", "ranking": "★☆☆☆☆" }
     ],
     "workSuitability": {
-      "handiwork": 2,
-      "lumbering": 1,
-      "medicine": 1,
-      "transporting": 2,
-      "gathering": 2
+      "Handiwork": 2,
+      "Lumbering": 1,
+      "Medicine": 1,
+      "Transporting": 2,
+      "Gathering": 2
     },
     "location": {
       "day": [],
@@ -13049,9 +13049,9 @@
       }
     ],
     "workSuitability": {
-      "medicine": 2,
-      "cooling": 2,
-      "farming": 1
+      "Medicine": 2,
+      "Cooling": 2,
+      "Farming": 1
     },
     "location": {
       "day": ["Snowy area to the north"],
