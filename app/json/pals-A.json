@@ -256,7 +256,7 @@
       "day": "Beakon can be found as a Field Alpha Boss at Level 29.",
       "night": "No specific details about night habitat."
     },
-    "breedingCombos": [
+    "combos": [
       {
         "parent1": "Mossanda",
         "parent2": "Blazamut"
@@ -400,7 +400,7 @@
       "day": "Beegarde can be found as a Field Alpha Boss.",
       "night": "No specific details about night habitat."
     },
-    "breedingCombos": [
+    "combos": [
       {
         "parent1": "Tanzee",
         "parent2": "Melpaca"
@@ -493,7 +493,7 @@
       "day": "Blazamut can be found inside the Scorching Mineshaft in the volcanic region of the map in the west.",
       "night": "No specific details about night habitat."
     },
-    "breedingCombos": [
+    "combos": [
       {
         "parent1": "Blazamut",
         "parent2": "Blazamut"
@@ -665,7 +665,7 @@
       "day": "Blazehowl can be found inside the Scorching Mineshaft in the volcanic region of the map in the west.",
       "night": "No specific details about night habitat."
     },
-    "breedingCombos": [
+    "combos": [
       {
         "parent1": "Penking",
         "parent2": "Melpaca"
@@ -880,7 +880,7 @@
       "baseTier": "B Tier (for Late Game)"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Blazehowl", "parent2": "Felbat" },
         { "parent1": "Blazehowl Noct", "parent2": "Blazehowl Noct" }
       ],
@@ -1004,7 +1004,7 @@
       "baseTier": "N/A"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Foxparks", "parent2": "Tanzee" },
         { "parent1": "Foxparks", "parent2": "Gumoss" },
         { "parent1": "Rooby", "parent2": "Teafant" },
@@ -1104,7 +1104,7 @@
       "baseTier": "N/A"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Gumoss", "parent2": "Cinnamoth" },
         { "parent1": "Killamari", "parent2": "Mossanda" },
         { "parent1": "Celaray", "parent2": "Digtoise" },
@@ -1208,7 +1208,7 @@
       "baseTier": "B Tier (for Late Game)"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Fuack", "parent2": "Broncherry" },
         { "parent1": "Broncherry Aqua", "parent2": "Broncherry Aqua" }
       ],
@@ -1332,7 +1332,7 @@
       "baseTier": "A Tier (for Late Game)"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Celaray", "parent2": "Nitewing" },
         { "parent1": "Celaray", "parent2": "Sweepa" },
         { "parent1": "Caprity", "parent2": "Elizabee" },
@@ -1434,7 +1434,7 @@
       "baseTier": "B Tier (for Early Game)"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Pengullet", "parent2": "Penking" },
         { "parent1": "Lifmunk", "parent2": "Mossanda" },
         { "parent1": "Caprity", "parent2": "Caprity" },
@@ -1538,7 +1538,7 @@
       "baseTier": "C Tier (for Early Game)"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Cattiva", "parent2": "Cattiva" },
         { "parent1": "Lifmunk", "parent2": "Teafant" },
         { "parent1": "Lamball", "parent2": "Cremis" },
@@ -1644,7 +1644,7 @@
       "source": "Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Killamari", "parent2": "Celaray" },
         { "parent1": "Gumoss", "parent2": "Eikthyrdeer" },
         { "parent1": "Celaray", "parent2": "Flopie" },
@@ -1747,7 +1747,7 @@
       "source": "Cawgnito Breeding Combo (Parent 1: Celaray, Parent 2: Celaray)"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Celaray", "parent2": "Celaray" },
         { "parent1": "Penking", "parent2": "Fuddler" },
         { "parent1": "Tanzee", "parent2": "Cinnamoth" },
@@ -1853,7 +1853,7 @@
       "source": "Can Be Purchased from the Pal Merchant"
     },
     "breeding": {
-      "breedingCombos": [{ "parent1": "Chikipi", "parent2": "Chikipi" }],
+      "combos": [{ "parent1": "Chikipi", "parent2": "Chikipi" }],
       "recommendedCombos": [
         { "parent1": "Lamball", "parent2": "Chikipi", "child": "Mau" },
         { "parent1": "Chikipi", "parent2": "Direhowl", "child": "Flopie" },
@@ -1948,7 +1948,7 @@
       "source": "Can Be Bought from the Black Marketeer, Lv. 11 Field Boss"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Woolipop", "parent2": "Nitewing" },
         { "parent1": "Penking", "parent2": "Gobfin" },
         { "parent1": "Nox", "parent2": "Mossanda" },
@@ -2032,7 +2032,7 @@
       "source": "Can Be Bought from the Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Cinnamoth", "parent2": "Cinnamoth" },
         { "parent1": "Nitewing", "parent2": "Surfent" },
         { "parent1": "Mossanda", "parent2": "Surfent Terra" },
@@ -2143,7 +2143,7 @@
       "source": "Can Be Bought from the Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Chikipi", "parent2": "Sparkit" },
         { "parent1": "Cattiva", "parent2": "Vixy" },
         { "parent1": "Cremis", "parent2": "Cremis" },
@@ -2247,7 +2247,7 @@
       "source": "Can Be Purchased from the Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Cryolinx", "parent2": "Cryolinx" },
         { "parent1": "Cryolinx", "parent2": "Astegon" },
         { "parent1": "Beakon", "parent2": "Blazamut" },
@@ -2370,7 +2370,7 @@
       "source": "Can Be Purchased from the Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Foxparks", "parent2": "Direhowl" },
         { "parent1": "Sparkit", "parent2": "Direhowl" },
         { "parent1": "Fuack", "parent2": "Rushoar" },
@@ -2477,7 +2477,7 @@
       "source": "Can Be Purchased from the Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Lamball", "parent2": "Caprity" },
         { "parent1": "Chikipi", "parent2": "Caprity" },
         { "parent1": "Chikipi", "parent2": "Eikthyrdeer" },
@@ -2581,7 +2581,7 @@
       "source": "Nocturnal and thus exclusive to Night! Can Be Purchased from the Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Lifmunk", "parent2": "FuackFuack" },
         { "parent1": "Sparkit", "parent2": "Pengullet" },
         { "parent1": "Foxparks", "parent2": "Jolthog" },
@@ -2711,7 +2711,7 @@
       "source": "Hatch from Large Rocky Egg. Digtoise can be hatched from a Large Rocky Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Penking", "parent2": "Woolipop" },
         { "parent1": "Tanzee", "parent2": "Mossanda" },
         { "parent1": "Woolipop", "parent2": "Cinnamoth" },
@@ -2833,7 +2833,7 @@
       "source": "Dinossom can be purchased from the Black Marketeer. Prices for the Pals at the Black Marketeer vary between their rarity and level."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Mossanda", "parent2": "Woolipop" },
         { "parent1": "Rooby", "parent2": "Cinnamoth" },
         { "parent1": "Fuddler", "parent2": "Nitewing" },
@@ -2940,7 +2940,7 @@
       "source": "Dinossom Lux, an Electric/Dragon Element Pal, can be found inside The Furthest Mineshaft in the desert region of the map in the northeast."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Rayhound", "parent2": "Dinossom" },
         { "parent1": "Dinossom Lux", "parent2": "Dinossom Lux" }
       ],
@@ -3049,7 +3049,7 @@
       "source": "Direhowl can be bought from the Pal Merchant. Pal Merchants are merchants found around settlements within the islands who are denoted by their blue attire."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Tanzee", "parent2": "Celaray" },
         { "parent1": "Gumoss", "parent2": "Celaray" },
         { "parent1": "Gumoss", "parent2": "Melpaca" },
@@ -3160,7 +3160,7 @@
       "source": "Dumud can be found both day and night in the desert area northeast of the Sealed Realm of the Winged Tyrant teleport point and southeast of the Ice Wind Island teleport point."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Celaray", "parent2": "Caprity" },
         { "parent1": "Celaray", "parent2": "Eikthyrdeer" },
         { "parent1": "Jolthog", "parent2": "Mossanda" },
@@ -3265,7 +3265,7 @@
       "source": "Eikthyrdeer can be purchased from the Pal Merchant. Pal Merchants have a selection of common Pals that change every day and can be bought with gold."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Fuack", "parent2": "Penking" },
         { "parent1": "Foxparks", "parent2": "Mossanda" },
         { "parent1": "Lifmunk", "parent2": "Nitewing" },
@@ -3379,7 +3379,7 @@
       "source": "Eikthyrdeer Terra can be purchased from the Pal Merchant. Pal Merchants have a selection of common Pals that change every day and can be bought with gold."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Hangyu", "parent2": "Eikthyrdeer" },
         { "parent1": "Eikthyrdeer Terra", "parent2": "Eikthyrdeer Terra" }
       ],
@@ -3512,7 +3512,7 @@
       "source": "Elizabee is available as a level 31 Field Alpha Boss inside the Devout Mineshaft. The entrance to the Devout Mineshaft can be found northeast of the Lake Center teleport point, at the coordinates 37, -187."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Elizabee", "parent2": "Elizabee" },
         { "parent1": "Mossanda", "parent2": "Pyrin Noct" },
         { "parent1": "Nitewing", "parent2": "Pyrin Noct" },
@@ -3617,7 +3617,7 @@
       "source": "Elphidran can be found on the No.1 Wildlife Sanctuary island on the map's southern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent. Elphidran can also be bought from the Black Marketeer. Prices for the Pals at the Black Marketeer vary between their rarity and level."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Penking", "parent2": "Surfent" },
         { "parent1": "Incineram", "parent2": "Cinnamoth" },
         { "parent1": "Nitewing", "parent2": "Univolt" },
@@ -3746,7 +3746,7 @@
       "source": "Elphidran Aqua can be hatched from a Huge Dragon Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Surfent", "parent2": "Elphidran" },
         { "parent1": "Elphidran Aqua", "parent2": "Elphidran Aqua" },
         { "parent1": "Cinnamoth", "parent2": "Elphidran Aqua" },
@@ -3878,7 +3878,7 @@
       "source": "Faleris can be found on the No. 3 Wildlife Sanctuary island on the map's eastern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Vanwyrm", "parent2": "Anubis" },
         { "parent1": "Faleris", "parent2": "Faleris" }
       ],
@@ -3974,7 +3974,7 @@
       "purchase": "Felbat can be bought from the Black Marketeer."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Rooby", "parent2": "Celaray" },
         { "parent1": "Chikipi", "parent2": "Penking" },
         { "parent1": "Penking", "parent2": "Teafant" },
@@ -4091,7 +4091,7 @@
       ]
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Lifmunk", "parent2": "Penking" },
         { "parent1": "Direhowl", "parent2": "Melpaca" },
         { "parent1": "Penking", "parent2": "Vixy" },
@@ -4201,7 +4201,7 @@
       ]
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Cattiva", "parent2": "Pengullet" },
         { "parent1": "Foxparks", "parent2": "Sparkit" },
         { "parent1": "Pengullet", "parent2": "Cremis" },
@@ -4320,7 +4320,7 @@
       ]
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Chikipi", "parent2": "Direhowl" },
         { "parent1": "Foxparks", "parent2": "Rooby" },
         { "parent1": "Lifmunk", "parent2": "Rushoar" },
@@ -4427,7 +4427,7 @@
       ]
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Caprity", "parent2": "Incineram" },
         { "parent1": "Gobfin", "parent2": "Mossanda" },
         { "parent1": "Rushoar", "parent2": "Sweepa" },
@@ -4534,7 +4534,7 @@
       "source": "Foxparks can be bought from the Pal Merchant. Pal Merchants are found around settlements within the islands, denoted by their blue attire."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Foxparks", "parent2": "Foxparks" },
         { "parent1": "Lamball", "parent2": "Fuack" },
         { "parent1": "Cattiva", "parent2": "Fuack" },
@@ -4585,7 +4585,7 @@
       "source": "Frostallion, a Legendary Pal monster, can be found on the snowy mountain region of the map in the northwest. It can be located east of the Land of Absolute Zero teleport point, is found at the coordinates -357, 508, and is at Level 50."
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Frostallion", "parent2": "Frostallion" }
       ],
       "recommendedCombos": [
@@ -4704,7 +4704,7 @@
       "source": "Daytime habitat information will be added soon!"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Frostallion", "parent2": "Frostallion" }
       ],
       "recommendedCombos": [
@@ -4810,7 +4810,7 @@
       "coordinates": "Coordinates not provided"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Chikipi", "parent2": "Rooby" },
         { "parent1": "Lamball", "parent2": "Woolipop" },
         { "parent1": "Sparkit", "parent2": "Tanzee" },
@@ -4923,7 +4923,7 @@
       "coordinates": "Coordinates not provided"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Tanzee", "parent2": "Woolipop" },
         { "parent1": "Pengullet", "parent2": "Gobfin" },
         { "parent1": "Rooby", "parent2": "Killamari" },
@@ -5033,7 +5033,7 @@
       "coordinates": "Coordinates not provided"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Celaray", "parent2": "Woolipop" },
         { "parent1": "Lamball", "parent2": "Incineram" },
         { "parent1": "Rushoar", "parent2": "Caprity" },
@@ -5141,7 +5141,7 @@
       "coordinates": "Coordinates not provided"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Tanzee", "parent2": "Caprity" },
         { "parent1": "Tanzee", "parent2": "Eikthyrdeer" },
         { "parent1": "Gumoss", "parent2": "Caprity" },
@@ -5247,7 +5247,7 @@
       "coordinates": "Coordinates not provided"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Rooby", "parent2": "Gobfin" },
         { "parent1": "Gobfin Ignis", "parent2": "Gobfin Ignis" }
       ],
@@ -5368,7 +5368,7 @@
       "coordinates": "Coordinates not provided"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Fuddler", "parent2": "Celaray" },
         { "parent1": "Rooby", "parent2": "Caprity" },
         { "parent1": "Woolipop", "parent2": "Melpaca" },
@@ -5477,7 +5477,7 @@
       "coordinates": "Coordinates not provided"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Mossanda", "parent2": "Incineram" },
         { "parent1": "Melpaca", "parent2": "Cryolinx" },
         { "parent1": "Penking", "parent2": "Azurobe" },
@@ -5581,7 +5581,7 @@
       "coordinates": "Coordinates not provided"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Mossanda", "parent2": "Rayhound" },
         { "parent1": "Grizzbolt", "parent2": "Grizzbolt" }
       ],
@@ -8133,7 +8133,7 @@
       "source": "Northwest of Sealed Realm of the Winged Tyrant, Desert to the Northeast"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Cattiva", "parent2": "Nitewing" },
         { "parent1": "Cremis", "parent2": "Mossanda" },
         { "parent1": "Cremis", "parent2": "Nitewing" },
@@ -8269,7 +8269,7 @@
       "source": "Sealed Realm of the Esoteric, Can Be Purchased from the Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Pengullet", "parent2": "Celaray" },
         { "parent1": "Fuack", "parent2": "Celaray" },
         { "parent1": "Fuack", "parent2": "Melpaca" },
@@ -8380,7 +8380,7 @@
       "source": "No. 3 Wildlife Sanctuary"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Mossanda", "parent2": "Petallia" },
         { "parent1": "Lyleen", "parent2": "Lyleen" }
       ],
@@ -8493,7 +8493,7 @@
       "source": "Iceberg Mineshaft"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Menasting", "parent2": "Lyleen" },
         { "parent1": "Lyleen Noct", "parent2": "Lyleen Noct" }
       ],
@@ -8617,7 +8617,7 @@
       "source": "Grassy Behemoth Hills"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Incineram", "parent2": "Blazamut" },
         { "parent1": "Penking", "parent2": "Paladius" },
         { "parent1": "Penking", "parent2": "Necromus" },
@@ -8746,7 +8746,7 @@
       "source": "Huge Frozen Egg"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Mammorest", "parent2": "Wumpo" },
         { "parent1": "Mammorest Cryst", "parent2": "Mammorest Cryst" }
       ],
@@ -8890,7 +8890,7 @@
       "source": "Black Market or Large Dark Egg"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Lifmunk", "parent2": "Celaray" },
         { "parent1": "Foxparks", "parent2": "Melpaca" },
         { "parent1": "Gumoss", "parent2": "Direhowl" },
@@ -9012,7 +9012,7 @@
       "source": "Black Market or Dark Egg"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Lamball", "parent2": "Chikipi" },
         { "parent1": "Cattiva", "parent2": "Chikipi" },
         { "parent1": "Lamball", "parent2": "Teafant" },
@@ -9128,7 +9128,7 @@
       "source": "Black Market or Frozen Egg"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Pengullet", "parent2": "Mau" },
         { "parent1": "Mau Cryst", "parent2": "Mau Cryst" }
       ],
@@ -9241,7 +9241,7 @@
       "source": "Black Market or Common Egg"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Tanzee", "parent2": "Penking" },
         { "parent1": "Celaray", "parent2": "Mozzarina" },
         { "parent1": "Melpaca", "parent2": "Melpaca" },
@@ -9361,7 +9361,7 @@
       "source": "Dessicated Mineshaft or Wildlife Sanctuary 2"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Penking", "parent2": "Blazamut" },
         { "parent1": "Pyrin", "parent2": "Cryolinx" },
         { "parent1": "Mossanda", "parent2": "Shadowbeak" },
@@ -9483,7 +9483,7 @@
       "source": "Large Verdant Egg"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Mossanda", "parent2": "Mossanda" },
         { "parent1": "Nitewing", "parent2": "Sibelyx" },
         { "parent1": "Penking", "parent2": "Warsect" },
@@ -9611,7 +9611,7 @@
       "source": "Level 31 Field Alpha Boss on the Eastern Wild Island, northeast of the Natural Bridge fast travel point"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Mossanda", "parent2": "Grizzbolt" },
         { "parent1": "Mossanda Lux", "parent2": "Mossanda Lux" }
       ],
@@ -9741,7 +9741,7 @@
       "source": "Pal Merchant"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Caprity", "parent2": "Melpaca" },
         { "parent1": "Foxparks", "parent2": "Nitewing" },
         { "parent1": "Melpaca", "parent2": "Eikthyrdeer" },
@@ -9872,7 +9872,7 @@
       "source": "Deep Sand Dunes"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Penking", "parent2": "Necromus" },
         { "parent1": "Mossanda", "parent2": "Necromus" },
         { "parent1": "Celaray", "parent2": "Necromus" },
@@ -9984,7 +9984,7 @@
       "source": "Sealed Realm of the Winged Tyrant"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Mossanda", "parent2": "Nitewing" },
         { "parent1": "Nitewing", "parent2": "Nitewing" },
         { "parent1": "Penking", "parent2": "Elizabee" },
@@ -10092,7 +10092,7 @@
       "source": "Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Teafant", "parent2": "Celaray" },
         { "parent1": "Lamball", "parent2": "Melpaca" },
         { "parent1": "Cattiva", "parent2": "Melpaca" },
@@ -10481,7 +10481,7 @@
       "source": "Pal Merchant"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Cattiva", "parent2": "Tanzee" },
         { "parent1": "Lamball", "parent2": "Gumoss" },
         { "parent1": "Pengullet", "parent2": "Pengullet" },
@@ -10607,7 +10607,7 @@
       "source": "Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Penking", "parent2": "Penking" },
         { "parent1": "Cinnamoth", "parent2": "Surfent" },
         { "parent1": "Penking", "parent2": "Grintale" },
@@ -10729,7 +10729,7 @@
       "source": "Black Marketeer"
     },
     "breeding": {
-      "breedingCombos": [
+      "combos": [
         { "parent1": "Rushoar", "parent2": "Mossanda" },
         { "parent1": "Rushoar", "parent2": "Nitewing" },
         { "parent1": "Direhowl", "parent2": "Cinnamoth" },

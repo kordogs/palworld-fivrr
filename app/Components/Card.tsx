@@ -13,12 +13,14 @@ export default function Card({
   onClick,
 }: CardProps) {
   return (
-    <div
+    // biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
+<div
       className="card bg-base-100 border-base-200 h-fit shadow-lg hover:shadow-glow hover:cursor-pointer hover:animate-pulse w-fit bg-opacity-50 min-h-[400px] max-h-[400px] overflow-auto box-content"
       onClick={() =>
         (document.getElementById("my_modal_3") as HTMLDialogElement).showModal()
       }
     >
+      {/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
       <div className="card-body overflow-hidden" onClick={onClick}>
         <span className="absolute left-3 top-3">
           <div className="border rounded-full px-1 bg-base-300 bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
@@ -28,7 +30,8 @@ export default function Card({
         <span className="absolute right-3 top-3 flex gap-1">
           {type.map((elementType, index) => (
             <Image
-              key={index}
+              // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+key={index}
               src={`/type/${elementType}.png`}
               height={80}
               width={80}
@@ -57,7 +60,8 @@ export default function Card({
         <div className="flex justify-center gap-2">
           <div className="flex items-center gap-2">
             {work.map((workType, index) => (
-              <div key={index} className="flex items-center gap-2">
+              // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+<div key={index} className="flex items-center gap-2">
                 <Image
                   src={`/work/${workType
                     .charAt(0)

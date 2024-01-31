@@ -21,7 +21,7 @@ export interface Monster {
     description: string;
   }[];
   passiveSkills?: string[]; // Add type if possible
-  catchStrategyAndWeakness: {
+  catchStrategyAndWeakness?: {
     strategy: string;
     weaknesses: string;
   };
