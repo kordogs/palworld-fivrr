@@ -25,11 +25,11 @@ export interface Monster {
     strategy: string;
     weaknesses: string;
   };
-  baseStats: {
+  baseStats?: {
     HP: number;
-    Hunger: number;
-    Attack: number;
-    Defense: number;
+    Hunger?: number;
+    Attack?: number;
+    Defense?: number;
   };
   materialAndItemDrops?: {
     materialsDropped: string[];
