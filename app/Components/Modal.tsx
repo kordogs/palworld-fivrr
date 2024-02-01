@@ -130,7 +130,7 @@ export default function Modal({ monster }: modalProps) {
                 <p className="font-bold">{monster?.description}</p>
               </div>
               <div className="divider"></div>
-              <div className="overflow-x-auto">
+              <div className="overflow-x-auto sm:overflow-x-hidden">
                 <table className="table">
                   <tbody>
                     {/* row 1 */}
@@ -176,6 +176,22 @@ export default function Modal({ monster }: modalProps) {
                             </p>
                           </div>
                         ))}
+                      </td>
+                    </tr>
+                    <tr className="flex">
+                      <td className="font-bold">Tier List Ranking</td>
+                      <td className="flex flex-col gap-5">
+                            <div className="flex flex-col justify-between gap-5">
+                              <span className="font-bold sm:text-sm flex gap-1">
+                                Riding: <p className="text-blue-500">{monster?.tierListRanking?.rideTier}</p>
+                              </span>
+                              <span className="font-bold sm:text-sm flex gap-1">
+                                Combat: <p className="text-red-500">{monster?.tierListRanking?.combatTier}</p>
+                              </span>
+                              <span className="font-bold sm:text-sm flex gap-1">
+                                Base: <p className="text-green-500">{monster?.tierListRanking?.baseTier}</p>
+                              </span>
+                            </div>
                       </td>
                     </tr>
                     <tr className="flex">

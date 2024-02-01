@@ -20,7 +20,11 @@ export interface Monster {
     cooldownTime: number;
     description: string;
   }[];
-  passiveSkills?: string[]; // Add type if possible
+  passiveSkills?: {
+    name:string;
+    effect: string;
+    ranking: string;
+  }[]; // Add type if possible
   catchStrategyAndWeakness?: {
     strategy: string;
     weaknesses: string;

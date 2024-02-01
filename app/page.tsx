@@ -95,7 +95,7 @@ export default function Home() {
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
       }}
-      className="px-10"
+      className="px-10 pb-10"
     >
       <div className="mb-5">
         <Navbar onSearch={handleSearch} />

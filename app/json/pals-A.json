@@ -1,115 +1,206 @@
 [
   {
     "monsterName": "Anubis",
-    "monsterID": 100,
-    "elementType": ["Ground"],
-    "description": "Anubis, a Ground Element Pal, can be found in the desert northeast of the Sealed Realm of the Winged Tyrant teleport point in Palworld.",
-    "workSuitability": {
-      "Handiwork": 4,
-      "Transporting": 2,
-      "Mining": 3
-    },
-    "partnerSkill": {
-      "name": "Guardian of the Desert",
-      "description": "When fighting together, applies Ground damage to the player's attacks. Sometimes dodges attacks with a high-speed sidestep while in battle."
-    },
-    "activeSkills": [
-      {
-        "name": "Rock Lance",
-        "type": "Ground",
-        "power": 150,
-        "cooldownTime": 55,
-        "description": "Generates a sharp rock spear under an enemy."
-      },
-      {
-        "name": "Ground Smash",
-        "type": " Ground ",
-        "power": 140,
-        "cooldownTime": 35,
-        "description": "Anubis special skill. Leaps high into the air before diving to the ground with a punch. The force of the impact deals damage over a wide area."
-      },
-      {
-        "name": "Forceful Charge",
-        "type": " Ground ",
-        "power": 120,
-        "cooldownTime": 28,
-        "description": "Anubis special skill. Pursues its foe with a high-speed dash while releasing energy and unleashes a powerful punch."
-      },
-      {
-        "name": "Spinning Roundhouse",
-        "type": " Ground ",
-        "power": 100,
-        "cooldownTime": 21,
-        "description": "Anubis special skill. Performs a spin kick with its strong legs, cutting down enemies over a wide area."
-      }
+  "monsterID": "100",
+  "elementType": ["Ground"],
+  "description": "Anubis is a Ground Pal in Palworld. To breed Anubis, you need to unlock the Breeding Farm.",
+  "breedingGuide": {
+    "howToBreed": "To breed Anubis, you need to unlock the Breeding Farm. Choose two recommended Pals that are the opposite genders to start breeding. We recommend using Incineram and Surfent to breed Anubis.",
+    "breedingCombos": [
+      { "parent1": "Incineram", "parent2": "Surfent" },
+      { "parent1": "Nitewing", "parent2": "Rayhound" },
+      { "parent1": "Penking", "parent2": "Bushi" },
+      { "parent1": "Arsox", "parent2": "Pyrin" },
+      { "parent1": "Caprity", "parent2": "Beakon" },
+      { "parent1": "Mossanda", "parent2": "Katress" },
+      { "parent1": "Eikthyrdeer", "parent2": "Beakon" }
+    ],
+    "bestCombos": [
+      { "parent1": "Penking", "parent2": "Bushi", "child": "Anubis" }
     ]
   },
-  {
-    "monsterName": "Arsox",
-    "monsterID": 42,
-    "elementType": ["Fire"],
-    "description": "Arsox is a Fire Element type Pal with the Warm Body Partner Skill. ",
-    "workSuitability": {
-      "Kindling": 2,
-      "Lumbering": 1
+  "location": {
+    "spawnLocation": "Northeast of the Sealed Realm of the Winged Tyrant",
+    "coordinates": {
+      "x": -130,
+      "y": -96
     },
+    "fieldBossLevel": 47
+  },
+  "catchStrategyAndWeakness": {
+    "strategy": "Bring a Grass-Type Pal to fight Anubis, as it is a Ground-type Pal.",
+    "weaknesses": "Anubis is weak to Grass element Pals."
+  },
+  "tierListRanking": {
+    "rideTier": "N/A",
+    "combatTier": "SS Tier",
+    "baseTier": "SS Tier (for Late Game)"
+  },
+  "workSuitability": {
+    "handiwork": 4,
+    "transporting": 2,
+    "mining": 3
+  },
+
     "partnerSkill": {
-      "name": "Warm Body",
-      "description": "Can be ridden. Keeps the rider warm in cold environments."
+      "name": "Guardian of the Desert",
+      "description": "When fighting together, applies Ground damage to the player's attacks. Sometimes dodges attacks with a high speed sidestep while in a battle."
     },
     "activeSkills": [
-      {
-        "name": "Ignis Breath",
-        "type": "Fire",
-        "power": 70,
-        "cooldownTime": 15,
-        "description": "Shoots flames at an enemy, dealing continuous damage."
-      },
-      {
-        "name": "Spirit Fire",
-        "type": " Fire ",
-        "power": 45,
-        "cooldownTime": 7,
-        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
-      },
-      {
-        "name": "Ignis Blast",
-        "type": " Fire ",
-        "power": 30,
-        "cooldownTime": 2,
-        "description": "Hurls a ball of fire straight at an enemy."
-      },
-      {
-        "name": "Flare Arrow",
-        "type": " Fire ",
-        "power": 55,
-        "cooldownTime": 10,
-        "description": "Fires three flaming arrows in succession that home in on an enemy."
-      },
-      {
-        "name": "Blazing Horn",
-        "type": " Fire ",
-        "power": 50,
-        "cooldownTime": 9,
-        "description": "Arsox exclusive skill. Takes aim and rushes at an enemy with a mad dash."
-      }
+      { "name": "Stone Blast", "type": "Ground", "power": 55, "cooldownTime": 10, "description": "Fires a barrage of stones forward." },
+      { "name": "Power Bomb", "type": "Neutral", "power": 70, "cooldownTime": 15, "description": "Charges a massive amount of energy before firing a large destructive ball." },
+      { "name": "Sand Tornado", "type": "Ground", "power": 80, "cooldownTime": 18, "description": "Generates two sand tornadoes on either side before launching them at an enemy." },
+      { "name": "Ground Smash", "type": "Ground", "power": 140, "cooldownTime": 35, "description": "Anubis special skill. Leaps high into the air before diving to the ground with a punch. The force of the impact deals damage over a wide area." },
+      { "name": "Forceful Charge", "type": "Ground", "power": 120, "cooldownTime": 28, "description": "Anubis special skill. Pursues its foe with a high speed dash while releasing energy and unleashes a powerful punch." },
+      { "name": "Spinning Roundhouse", "type": "Ground", "power": 100, "cooldownTime": 21, "description": "Anubis special skill. Performs a spin kick with its strong legs, cutting down enemies over a wide area." }
     ],
-    "catchStrategy": "Bring a Water Type Pal since Arsox is weak to Water element Pals due to its Fire Elemental Type.",
-    "baseStats": {
-      "HP": 1,
-      "Hunger": 3,
-      "Attack": 2,
-      "Defense": 2
-    },
-    "materialAndItemDrops": {
-      "materialsDropped": ["Flame Organ", "Horn"],
-      "possibleDrops": "No specific details on item drops."
-    },
-    "tierListRanking": {
-      "combatTier": "S Tier (for Early Game)",
-      "rideTier": "A Tier (Ground Mount)"
-    }
+    "passiveSkills": [
+      { "name": "Artisan", "effect": "Work Speed +50%", "ranking": 5 },
+      { "name": "Musclehead", "effect": "Attack +30%\nWork Speed -50%", "ranking": 5 },
+      { "name": "Ferocious", "effect": "Attack +20%", "ranking": 4 },
+      { "name": "Burly Body", "effect": "Defense +20%", "ranking": 4 },
+      { "name": "Work Slave", "effect": "Work Speed +30%\nAttack -30%", "ranking": 4 },
+      { "name": "Earth Emperor", "effect": "20% increase to Ground attack damage", "ranking": 5 }
+    ]
+  ,
+  "baseStats": {
+    "HP": 3,
+    "Hunger": 3,
+    "Attack": 6,
+    "Defense": 3
   },
+  "materialAndItemDrops": {
+    "materialsDropped": ["Bone", "Innovative Technical Manual", "Large Pal Soul"],
+    "possibleDrops": ["Palworld - Bone Material", "Palworld - Innovative Technical Manual Material", "Palworld - Large Pal Soul Material"]
+  }
+},
+{
+  "monsterName": "Arsox",
+  "monsterID": "42",
+  "elementType": ["Fire"],
+  "description": "Arsox is a Pal with the Warm Body Partner Skill and the Fire Element type.",
+  "partnerSkill": {
+    "name": "Warm Body",
+    "description": "Can be ridden. Keeps the rider warm in cold environments."
+  },
+  "activeSkills": [
+    {
+      "name": "Ignis Breath",
+      "type": "Fire",
+      "power": 70,
+      "cooldownTime": 15,
+      "description": "Shoots flames at an enemy, dealing continuous damage."
+    },
+    {
+      "name": "Spirit Fire",
+      "type": "Fire",
+      "power": 45,
+      "cooldownTime": 7,
+      "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+    },
+    {
+      "name": "Ignis Blast",
+      "type": "Fire",
+      "power": 30,
+      "cooldownTime": 2,
+      "description": "Hurls a ball of fire straight at an enemy."
+    },
+    {
+      "name": "Flare Arrow",
+      "type": "Fire",
+      "power": 55,
+      "cooldownTime": 10,
+      "description": "Fires three flaming arrows in succession that home in on an enemy."
+    },
+    {
+      "name": "Blazing Horn",
+      "type": "Fire",
+      "power": 50,
+      "cooldownTime": 9,
+      "description": "Arsox exclusive skill. Takes aim and rushes at an enemy with a mad dash."
+    },
+    {
+      "name": "Ignis Rage",
+      "type": "Fire",
+      "power": 120,
+      "cooldownTime": 40,
+      "description": "Energizes the surrounding ground, causing it to explode after a set amount of time."
+    }
+  ],
+  "passiveSkills": [
+    {
+      "name": "Swift",
+      "effect": "30% increase to movement speed",
+      "ranking": 5
+    },
+    {
+      "name": "Legend",
+      "effect": "Attack +20%, Defense +20%, and Movement Speed +15%",
+      "ranking": 5
+    },
+    {
+      "name": "Runner",
+      "effect": "20% increase to movement speed",
+      "ranking": 4
+    },
+    {
+      "name": "Nimble",
+      "effect": "10% increase to movement speed",
+      "ranking": 3
+    }
+  ],
+  "workSuitability": {
+    "kindling": 2,
+    "lumbering": 1
+  },
+  "location": {
+    "day": ["Arsox can be found on the No.2 Wildlife Sanctuary island on the map's western edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."],
+    "night": []
+  },
+  "acquisition": {
+    "wildlifeSanctuary": true,
+    "sealedRealmOfTheSwift": false
+  },
+  "breeding": {
+    "combos": [
+      { "parent1": "Penking", "parent2": "Direhowl" },
+      { "parent1": "Rooby", "parent2": "Mossanda" },
+      { "parent1": "Rooby", "parent2": "Nitewing" },
+      { "parent1": "Tanzee", "parent2": "Elizabee" },
+      { "parent1": "Gumoss", "parent2": "Elizabee" },
+      { "parent1": "Gobfin", "parent2": "Cinnamoth" },
+      { "parent1": "Melpaca", "parent2": "Univolt" }
+    ],
+    "bestCombos": [
+      { "parent1": "Pengullet", "parent2": "Arsox", "child": "Beegarde" },
+      { "parent1": "Mossanda", "parent2": "Arsox", "child": "Incineram" },
+      { "parent1": "Arsox", "parent2": "Pyrin", "child": "Anubis" },
+      { "parent1": "Tanzee", "parent2": "Arsox", "child": "Robinquill" },
+      { "parent1": "Nitewing", "parent2": "Arsox", "child": "Incineram" },
+      { "parent1": "Arsox", "parent2": "Elizabee", "child": "Surfent" },
+      { "parent1": "Caprity", "parent2": "Arsox", "child": "Broncherry" }
+    ]
+  },
+  "catchStrategyAndWeakness": {
+    "strategy": "Bring a Water Type Pal. Since Arsox is weak to Water element Pals due to its Fire Elemental Type, it's best to bring Water type Pals to fight against it.",
+    "weaknesses": "Arsox is weak to Water element Pals."
+  },
+  "baseStats": {
+    "HP": 1,
+    "Hunger": 3,
+    "Attack": 2,
+    "Defense": 2
+  },
+  "materialAndItemDrops": {
+    "materialsDropped": ["Flame Organ", "Horn"],
+    "possibleDrops": ["Palworld - Flame Organ Material", "Palworld - Horn Material"]
+  },
+  "tierListRanking": {
+    "rideTier": "A Tier (Ground Mount)",
+    "combatTier": "N/A",
+    "baseTier": "C Tier (for Mid Game)"
+  }
+},
   {
     "monsterName": "Astegon",
     "monsterID": 98,
@@ -153,7 +244,9 @@
         "description": "Calls down numerous small meteorites and launches them at an enemy."
       }
     ],
-    "catchStrategy": "Bring an Ice or Dragon Type Pal since Astegon is weak to Ice or Dragon element Pals due to its Dragon Dark Elemental Type.",
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring an Ice or Dragon Type Pal since Astegon is weak to Ice or Dragon element Pals due to its Dragon Dark Elemental Type."
+    },
     "baseStats": {
       "HP": 2,
       "Hunger": 5,
@@ -219,7 +312,9 @@
         "description": "Hurls an energy ball imbued with draconic energy at an enemy."
       }
     ],
-    "catchStrategy": "Bring an Electric or Ice Type Pal since Azurobe is weak to Electric or Ice element Pals due to its Water Dragon Elemental Type.",
+    "catchStrategyAndWeakness":{
+      "strategy":  "Bring an Electric or Ice Type Pal since Azurobe is weak to Electric or Ice element Pals due to its Water Dragon Elemental Type."
+    },
     "baseStats": {
       "HP": 2,
       "Hunger": 3,
@@ -238,92 +333,116 @@
   },
   {
     "monsterName": "Beakon",
-    "monsterID": 73,
-    "elementType": "Electric",
-    "description": "Beakon is a Pal with the Thunderous Partner Skill and the Electric Element type. ",
-    "workSuitability": {
-      "Transporting": 3,
-      "Electricity": 2,
-      "Gathering": 1
-    },
+    "monsterID": "73",
+    "elementType": ["Electric"],
+    "description": "Beakon, an Electric Element Pal, can be found south of the Deep Bamboo Thicket teleport point and in the desert to the northeast in Palworld.",
     "partnerSkill": {
       "name": "Thunderous",
       "description": "Can be ridden as a flying mount. Applies Electric damage to the player's attacks while mounted."
     },
-    "activeSkills": [],
-    "passiveSkills": [],
-    "location": {
-      "day": "Beakon can be found as a Field Alpha Boss at Level 29.",
-      "night": "No specific details about night habitat."
+    "activeSkills": [
+      {
+        "name": "Spark Blast",
+        "type": "Electric",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "The user releases a lightning ball that expands outward in a forward, circular pattern."
+      },
+      {
+        "name": "Shockwave",
+        "type": "Electric",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Quickly discharges electricity, shocking those around it."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Lightning Streak",
+        "type": "Electric",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Generates a lightning bolt that moves forward in a line."
+      },
+      {
+        "name": "Tri-Lightning",
+        "type": "Electric",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Generates lightning that strikes an enemy three times from above."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Runner",
+        "effect": "20% increase to movement speed",
+        "ranking": 4
+      },
+      {
+        "name": "Nimble",
+        "effect": "10% increase to movement speed",
+        "ranking": 3
+      },
+      {
+        "name": "Swift",
+        "effect": "30% increase to movement speed",
+        "ranking": 5
+      },
+      {
+        "name": "Legend",
+        "effect": "Attack +20%, Defense +20%, and Movement Speed +15%",
+        "ranking": 5
+      }
+    ],
+    "workSuitability": {
+      "transporting": 3,
+      "electricity": 2,
+      "gathering": 1
     },
-    "combos": [
-      {
-        "parent1": "Mossanda",
-        "parent2": "Blazamut"
-      },
-      {
-        "parent1": "Nitewing",
-        "parent2": "Blazamut"
-      },
-      {
-        "parent1": "Mossanda",
-        "parent2": "Suzaku"
-      },
-      {
-        "parent1": "Elizabee",
-        "parent2": "CryolinxCryolinx"
-      },
-      {
-        "parent1": "Nitewing",
-        "parent2": "Suzaku"
-      },
-      {
-        "parent1": "Nitewing",
-        "parent2": "Shadowbeak"
-      },
-      {
-        "parent1": "Sweepa",
-        "parent2": "Blazamut"
-      }
-    ],
-    "bestBreedingCombos": [
-      {
-        "parent1": "Penking",
-        "parent2": "Beakon",
-        "child": "Pyrin"
-      },
-      {
-        "parent1": "Mossanda",
-        "parent2": "Beakon",
-        "child": "Reptyro"
-      },
-      {
-        "parent1": "Sweepa",
-        "parent2": "Beakon",
-        "child": "Jormuntide"
-      },
-      {
-        "parent1": "Nitewing",
-        "parent2": "Beakon",
-        "child": "Reptyro"
-      },
-      {
-        "parent1": "Beakon",
-        "parent2": "CryolinxCryolinx",
-        "child": "Helzephyr"
-      },
-      {
-        "parent1": "Beakon",
-        "parent2": "Blazamut",
-        "child": "CryolinxCryolinx"
-      },
-      {
-        "parent1": "Celaray",
-        "parent2": "Beakon",
-        "child": "Elphidran"
-      }
-    ],
-    "catchStrategy": "Bring a Ground Type Pal since Beakon is weak to Ground element Pals due to its Electric Elemental Type.",
+    "location": {
+      "day": ["Beakon can be found in the northeasternmost desert area on the map. Take note that this area is filled with high level enemies."],
+      "night": []
+    },
+    "acquisition": {
+      "wildlifeSanctuary": false,
+      "sealedRealmOfTheSwift": false
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Mossanda", "parent2": "Blazamut" },
+        { "parent1": "Nitewing", "parent2": "Blazamut" },
+        { "parent1": "Mossanda", "parent2": "Suzaku" },
+        { "parent1": "Elizabee", "parent2": "Cryolinx" },
+        { "parent1": "Nitewing", "parent2": "Suzaku" },
+        { "parent1": "Nitewing", "parent2": "Shadowbeak" },
+        { "parent1": "Sweepa", "parent2": "Blazamut" }
+      ],
+      "bestCombos": [
+        { "parent1": "Penking", "parent2": "Beakon", "child": "Pyrin" },
+        { "parent1": "Mossanda", "parent2": "Beakon", "child": "Reptyro" },
+        { "parent1": "Sweepa", "parent2": "Beakon", "child": "Jormuntide" },
+        { "parent1": "Nitewing", "parent2": "Beakon", "child": "Reptyro" },
+        { "parent1": "Beakon", "parent2": "Cryolinx", "child": "Helzephyr" },
+        { "parent1": "Beakon", "parent2": "Blazamut", "child": "Cryolinx" },
+        { "parent1": "Celaray", "parent2": "Beakon", "child": "Elphidran" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Ground Type Pal. Since Beakon is weak to Ground element Pals due to its Electric Elemental Type, it's best to bring Ground type Pals to fight against it.",
+      "weaknesses": "Beakon is weak to Ground element Pals."
+    },
     "baseStats": {
       "HP": 2,
       "Hunger": 4,
@@ -332,14 +451,15 @@
     },
     "materialAndItemDrops": {
       "materialsDropped": ["Electric Organ"],
-      "possibleDrops": "No specific details on item drops."
+      "possibleDrops": ["Palworld - Electric Organ Material"]
     },
     "tierListRanking": {
-      "combatTier": "B Tier",
       "rideTier": "A Tier (Flying Mount)",
-      "baseTier": "A Tier (for Mid Game)"
+      "combatTier": "B Tier",
+      "baseTier": "S Tier (for Late Game)"
     }
-  },
+  }
+  ,
   {
     "monsterName": "Beegarde",
     "monsterID": 50,
@@ -467,7 +587,9 @@
         "child": "Rooby"
       }
     ],
-    "catchStrategy": "Bring a Fire Type Pal since Beegarde is weak to Fire element Pals due to its Grass Elemental Type.",
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal since Beegarde is weak to Fire element Pals due to its Grass Elemental Type."
+    },
     "baseStats": {
       "HP": 1,
       "Hunger": 2,
@@ -485,161 +607,116 @@
     }
   },
   {
-    "monsterID": 96,
     "monsterName": "Blazamut",
-    "elementType": "Fire",
-    "description": "Blazamut is a Fire Element Pal found in the Scorching Mineshaft. Known for its fiery attacks and powerful skills.",
-    "location": {
-      "day": "Blazamut can be found inside the Scorching Mineshaft in the volcanic region of the map in the west.",
-      "night": "No specific details about night habitat."
+    "monsterID": "96",
+    "elementType": ["Fire"],
+    "description": "Blazamut, a Fire Element Pal, can be found in the Scorching Mineshaft found southwest of the Foot of the Volcano teleport point in Palworld.",
+    "partnerSkill": {
+      "name": "Magma Kaiser",
+      "description": "Can be ridden. Enhances Fire attacks while mounted."
     },
-    "combos": [
+    "activeSkills": [
       {
-        "parent1": "Blazamut",
-        "parent2": "Blazamut"
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
       },
       {
-        "parent1": "Blazamut",
-        "parent2": "Suzaku Aqua"
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
       },
       {
-        "parent1": "Blazamut",
-        "parent2": "Blazamut"
+        "name": "Ignis Breath",
+        "type": "Fire",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Shoots flames at an enemy, dealing continuous damage."
       },
       {
-        "parent1": "Penking",
-        "parent2": "Blazamut",
-        "child": "Menasting"
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
       },
       {
-        "parent1": "Incineram",
-        "parent2": "Blazamut",
-        "child": "Mammorest"
+        "name": "Fire Ball",
+        "type": "Fire",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
       },
       {
-        "parent1": "Mossanda",
-        "parent2": "Blazamut",
-        "child": "Beakon"
-      },
-      {
-        "parent1": "Elizabee",
-        "parent2": "Blazamut",
-        "child": "Astegon"
-      },
-      {
-        "parent1": "Cryolinx",
-        "parent2": "Blazamut",
-        "child": "Suzaku"
-      },
-      {
-        "parent1": "Nitewing",
-        "parent2": "Blazamut",
-        "child": "Beakon"
-      },
-      {
-        "parent1": "Pyrin",
-        "parent2": "Blazamut",
-        "child": "Helzephyr"
+        "name": "Ignis Rage",
+        "type": "Fire",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Energizes the surrounding ground, causing it to explode after a set amount of time."
       }
     ],
-    "bestBreedingCombos": [
+    "passiveSkills": [
       {
-        "parent1": "Penking",
-        "parent2": "Blazamut",
-        "child": "Menasting"
+        "name": "Conceited",
+        "effect": "Work Speed +10%, Defense -10%",
+        "ranking": 1
       },
       {
-        "parent1": "Incineram",
-        "parent2": "Blazamut",
-        "child": "Mammorest"
+        "name": "Artisan",
+        "effect": "Work Speed +50%",
+        "ranking": 5
       },
       {
-        "parent1": "Mossanda",
-        "parent2": "Blazamut",
-        "child": "Beakon"
+        "name": "Serious",
+        "effect": "Work Speed +20%",
+        "ranking": 3
       },
       {
-        "parent1": "Elizabee",
-        "parent2": "Blazamut",
-        "child": "Astegon"
+        "name": "Work Slave",
+        "effect": "Work Speed +30%, Attack -30%",
+        "ranking": 4
       },
       {
-        "parent1": "Cryolinx",
-        "parent2": "Blazamut",
-        "child": "Suzaku"
-      },
-      {
-        "parent1": "Nitewing",
-        "parent2": "Blazamut",
-        "child": "Beakon"
-      },
-      {
-        "parent1": "Pyrin",
-        "parent2": "Blazamut",
-        "child": "Helzephyr"
+        "name": "Lucky",
+        "effect": "Work Speed +15% and Attack +15%",
+        "ranking": 2
       }
     ],
-    "elementTypeAndSkills": {
-      "elementType": "Fire",
-      "partnerSkill": {
-        "name": "Magma Kaiser",
-        "description": "Can be ridden. Enhances Fire attacks while mounted."
-      },
-      "activeSkills": [
-        {
-          "name": "Power Shot",
-          "type": "Neutral",
-          "power": 35,
-          "cooldown": 4,
-          "description": "Charges energy into a focused blast."
-        },
-        {
-          "name": "Stone Blast",
-          "type": "Ground",
-          "power": 55,
-          "cooldown": 10,
-          "description": "Fires a barrage of stones forward."
-        },
-        {
-          "name": "Ignis Breath",
-          "type": "Fire",
-          "power": 70,
-          "cooldown": 15,
-          "description": "Shoots flames at an enemy, dealing continuous damage."
-        },
-        {
-          "name": "Ignis Blast",
-          "type": "Fire",
-          "power": 30,
-          "cooldown": 2,
-          "description": "Hurls a ball of fire straight at an enemy."
-        },
-        {
-          "name": "Fire Ball",
-          "type": "Fire",
-          "power": 150,
-          "cooldown": 55,
-          "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
-        },
-        {
-          "name": "Ignis Rage",
-          "type": "Fire",
-          "power": 120,
-          "cooldown": 40,
-          "description": "Energizes the surrounding ground, causing it to explode after a set amount of time."
-        }
+    "workSuitability": {
+      "kindling": 3,
+      "mining": 4
+    },
+    "location": {
+      "day": ["Blazamut can be found inside the Scorching Mineshaft in the volcanic region of the map in the west."],
+      "night": ["Blazamut can also be found in the wild at the No. 3 Wildlife Sanctuary in the northeastern edge of the map. You need to ride a flying Pal to be able to reach this island."]
+    },
+    "acquisition": {
+      "wildlifeSanctuary": true,
+      "sealedRealmOfTheSwift": false
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Blazamut", "parent2": "Blazamut" },
+        { "parent1": "Blazamut", "parent2": "Suzaku Aqua" }
       ],
-      "passiveSkills": [
-        {
-          "status": "Under research! Please check back soon."
-        }
+      "bestCombos": [
+        { "parent1": "Penking", "parent2": "Blazamut", "child": "Menasting" },
+        { "parent1": "Incineram", "parent2": "Blazamut", "child": "Mammorest" },
+        { "parent1": "Mossanda", "parent2": "Blazamut", "child": "Beakon" },
+        { "parent1": "Elizabee", "parent2": "Blazamut", "child": "Astegon" },
+        { "parent1": "Cryolinx", "parent2": "Blazamut", "child": "Suzaku" },
+        { "parent1": "Nitewing", "parent2": "Blazamut", "child": "Beakon" },
+        { "parent1": "Pyrin", "parent2": "Blazamut", "child": "Helzephyr" }
       ]
     },
-    "workSuitability": {
-      "Kindling": 3,
-      "Mining": 4
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Water Type Pal. Since Blazamut is weak to Water element Pals due to its Fire Elemental Type, it's best to bring Water type Pals to fight against it.",
+      "weaknesses": "Blazamut is weak to Water element Pals."
     },
-    "catchStrategy": "Bring a Water Type Pal since Blazamut is weak to Water element Pals due to its Fire Elemental Type.",
     "baseStats": {
       "HP": 2,
       "Hunger": 5,
@@ -648,151 +725,135 @@
     },
     "materialAndItemDrops": {
       "materialsDropped": ["Coal", "Flame Organ"],
-      "possibleDrops": "No specific details on item drops."
+      "possibleDrops": ["Palworld - Coal Material", "Palworld - Flame Organ Material"]
     },
     "tierListRanking": {
-      "combatTier": "SS Tier",
       "rideTier": "A Tier (Ground Mount)",
+      "combatTier": "SS Tier",
       "baseTier": "S Tier (for Late Game)"
     }
   },
   {
-    "monsterID": 84,
     "monsterName": "Blazehowl",
-    "elementType": "Fire",
-    "description": "Blazehowl is a Pal with the Hellflame Lion Partner Skill and the Fire Element type. Known for its fiery attacks and powerful skills.",
-    "location": {
-      "day": "Blazehowl can be found inside the Scorching Mineshaft in the volcanic region of the map in the west.",
-      "night": "No specific details about night habitat."
+    "monsterID": "84",
+    "elementType": ["Fire"],
+    "description": "Blazehowl is a Pal with the Hellflame Lion Partner Skill and the Fire Element type. Learn how to get Blazehowl, the best breeding combos to breed Blazehowl, its day and night location, stats, skills, work suitability, and item drops!",
+    "partnerSkill": {
+      "name": "Hellflame Lion",
+      "description": "Can be ridden. While fighting together, Grass Pals drop more items when defeated."
     },
-    "combos": [
+    "activeSkills": [
       {
-        "parent1": "Penking",
-        "parent2": "Melpaca"
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
       },
       {
-        "parent1": "Penking",
-        "parent2": "Eikthyrdeer"
+        "name": "Ignis Breath",
+        "type": "Fire",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Shoots flames at an enemy, dealing continuous damage."
       },
       {
-        "parent1": "Penking",
-        "parent2": "Mozzarina"
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
       },
       {
-        "parent1": "Celaray",
-        "parent2": "Surfent"
+        "name": "Flare Arrow",
+        "type": "Fire",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires three flaming arrows in succession that home in on an enemy."
       },
       {
-        "parent1": "Caprity",
-        "parent2": "Cinnamoth"
+        "name": "Fire Ball",
+        "type": "Fire",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
       },
       {
-        "parent1": "Eikthyrdeer",
-        "parent2": "Cinnamoth"
-      },
-      {
-        "parent1": "Penking",
-        "parent2": "Dumud"
+        "name": "Ignis Rage",
+        "type": "Fire",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Energizes the surrounding ground, causing it to explode after a set amount of time."
       }
     ],
-    "bestBreedingCombos": [
+    "passiveSkills": [
       {
-        "parent1": "Blazehowl",
-        "parent2": "Felbat",
-        "child": "Blazehowl Noct"
+        "name": "Musclehead",
+        "effect": "Attack +30%, Work Speed -50%",
+        "ranking": 5
       },
       {
-        "parent1": "Lifmunk",
-        "parent2": "Blazehowl",
-        "child": "Beegarde"
+        "name": "Flame Emperor",
+        "effect": "20% increase to Fire attack damage",
+        "ranking": 5
       },
       {
-        "parent1": "Mossanda",
-        "parent2": "Blazehowl",
-        "child": "Anubis"
+        "name": "Burly Body",
+        "effect": "Defense +20%",
+        "ranking": 4
       },
       {
-        "parent1": "Nitewing",
-        "parent2": "Blazehowl",
-        "child": "Anubis"
+        "name": "Ferocious",
+        "effect": "Attack +20%",
+        "ranking": 4
       },
       {
-        "parent1": "Elizabee",
-        "parent2": "Blazehowl",
-        "child": "Penking"
+        "name": "Hooligan",
+        "effect": "Attack +15%, Work Speed -10%",
+        "ranking": 2
       },
       {
-        "parent1": "Sweepa",
-        "parent2": "Blazehowl",
-        "child": "Surfent"
-      },
-      {
-        "parent1": "Celaray",
-        "parent2": "Blazehowl",
-        "child": "Arsox"
+        "name": "Brave",
+        "effect": "Attack +10%",
+        "ranking": 1
       }
     ],
-    "elementTypeAndSkills": {
-      "elementType": "Fire",
-      "partnerSkill": {
-        "name": "Hellflame Lion",
-        "description": "Can be ridden. While fighting together, Grass Pals drop more items when defeated."
-      },
-      "activeSkills": [
-        {
-          "name": "Power Shot",
-          "type": "Neutral",
-          "power": 35,
-          "cooldown": 4,
-          "description": "Charges energy into a focused blast."
-        },
-        {
-          "name": "Stone Blast",
-          "type": "Ground",
-          "power": 55,
-          "cooldown": 10,
-          "description": "Fires a barrage of stones forward."
-        },
-        {
-          "name": "Ignis Breath",
-          "type": "Fire",
-          "power": 70,
-          "cooldown": 15,
-          "description": "Shoots flames at an enemy, dealing continuous damage."
-        },
-        {
-          "name": "Ignis Blast",
-          "type": "Fire",
-          "power": 30,
-          "cooldown": 2,
-          "description": "Hurls a ball of fire straight at an enemy."
-        },
-        {
-          "name": "Fire Ball",
-          "type": "Fire",
-          "power": 150,
-          "cooldown": 55,
-          "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
-        },
-        {
-          "name": "Ignis Rage",
-          "type": "Fire",
-          "power": 120,
-          "cooldown": 40,
-          "description": "Energizes the surrounding ground, causing it to explode after a set amount of time."
-        }
+    "workSuitability": {
+      "kindling": 3,
+      "lumbering": 2
+    },
+    "location": {
+      "day": ["Blazehowl can be found in various locations during the day."],
+      "night": ["Blazehowl can be found in various locations during the night."]
+    },
+    "acquisition": {
+      "wildlifeSanctuary": false,
+      "sealedRealmOfTheSwift": false
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Penking", "parent2": "Melpaca" },
+        { "parent1": "Penking", "parent2": "Eikthyrdeer" },
+        { "parent1": "Penking", "parent2": "Mozzarina" },
+        { "parent1": "Celaray", "parent2": "Surfent" },
+        { "parent1": "Caprity", "parent2": "Cinnamoth" },
+        { "parent1": "Eikthyrdeer", "parent2": "Cinnamoth" },
+        { "parent1": "Penking", "parent2": "Dumud" }
       ],
-      "passiveSkills": [
-        {
-          "status": "Under research! Please check back soon."
-        }
+      "bestCombos": [
+        { "parent1": "Blazehowl", "parent2": "Felbat", "child": "Blazehowl Noct" },
+        { "parent1": "Lifmunk", "parent2": "Blazehowl", "child": "Beegarde" },
+        { "parent1": "Mossanda", "parent2": "Blazehowl", "child": "Anubis" },
+        { "parent1": "Nitewing", "parent2": "Blazehowl", "child": "Anubis" },
+        { "parent1": "Elizabee", "parent2": "Blazehowl", "child": "Penking" },
+        { "parent1": "Sweepa", "parent2": "Blazehowl", "child": "Surfent" },
+        { "parent1": "Celaray", "parent2": "Blazehowl", "child": "Arsox" }
       ]
     },
-    "workSuitability": {
-      "Kindling": 3,
-      "Lumbering": 2
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Water Type Pal. Since Blazehowl is weak to Water element Pals due to its Fire Elemental Type, it's best to bring Water type Pals to fight against it.",
+      "weaknesses": "Blazehowl is weak to Water element Pals."
     },
-    "catchStrategy": "Bring a Water Type Pal since Blazehowl is weak to Water element Pals due to its Fire Elemental Type.",
     "baseStats": {
       "HP": 2,
       "Hunger": 4,
@@ -801,12 +862,12 @@
     },
     "materialAndItemDrops": {
       "materialsDropped": ["Flame Organ"],
-      "possibleDrops": "No specific details on item drops."
+      "possibleDrops": ["Palworld - Flame Organ Material"]
     },
     "tierListRanking": {
-      "combatTier": "N/A",
       "rideTier": "A Tier (Ground Mount)",
-      "baseTier": "A Tier (for Late Game)"
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Late Game)"
     }
   },
   {
