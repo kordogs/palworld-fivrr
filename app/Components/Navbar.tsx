@@ -41,14 +41,14 @@ export default function Navbar({ onSearch }: NavBarProps) {
             className="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="/parentSearch" className="btn btn-outline btn-primary">
+              <a href="/parentSearch" >
                 Parent Search
               </a>
             </li>
             <li>
               <a
                 href="/breedingCalculator"
-                className="btn btn-outline btn-accent"
+
               >
                 Breeding Calculator
               </a>

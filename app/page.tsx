@@ -192,7 +192,7 @@ export default function Home() {
                   catchStrategyAndWeakness:
                     monster.catchStrategyAndWeakness ?? {
                       strategy: "",
-                      weaknesses: "",
+                      weaknesses: "", // Provide a default empty string
                     },
                   materialAndItemDrops: Array.isArray(
                     monster.materialAndItemDrops?.possibleDrops
