@@ -117,7 +117,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="sort-select">
+        <div className="sort-select flex gap-2">
           <select
             className="select select-bordered w-fit max-w-xs select-xs h-7 "
             onChange={(e) => setSelectedElementType(e.target.value)}

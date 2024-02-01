@@ -4022,7 +4022,7 @@
   },
   {
     "monsterName": "Fenglope",
-    "monsterID": "92",
+    "monsterID": "93",
     "elementType": ["Neutral"],
     "description": "Fenglope, a Neutral Element Pal, can be found in the Falls Mineshaft and the No. 3 Wildlife Sanctuary in Palworld.",
     "partnerSkill": {
@@ -4135,7 +4135,7 @@
   },
   {
     "monsterName": "Flambelle",
-    "monsterID": "69",
+    "monsterID": "70",
     "elementType": ["Fire"],
     "description": "Flambelle is a Pal with the Magma Tears Partner Skill and the Fire Element type.",
     "partnerSkill": {
@@ -13787,5 +13787,2431 @@
       "combat": "S Tier",
       "base": "A Tier (for Late Game)"
     }
-  }
+  },{
+    "monsterName": "Swee",
+    "monsterID": "53",
+    "elementType": ["Ice"],
+    "description": "Swee is a Pal with the Fluffy Partner Skill and the Ice Element type.",
+    "partnerSkill": {
+      "name": "Fluffy",
+      "description": "While in the team, Sweepa's stats will be increased."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Iceberg",
+        "type": "Ice",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Summons a sharp ice lance under an enemy."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Artisan",
+        "effect": "Work Speed +50%",
+        "ranking": 5
+      },
+      {
+        "name": "Work Slave",
+        "effect": "Work Speed +30%\nAttack -30%",
+        "ranking": 4
+      },
+      {
+        "name": "Serious",
+        "effect": "Work Speed +20%",
+        "ranking": 3
+      },
+      {
+        "name": "Lucky",
+        "effect": "Work Speed +15% and Attack +15%",
+        "ranking": 2
+      },
+      {
+        "name": "Conceited",
+        "effect": "Work Speed +10%\nDefense -10%",
+        "ranking": 1
+      }
+    ],
+    "workSuitability": {
+      "watering": 1,
+      "gathering": 1,
+      "cooling": 1
+    },
+    "location": {
+      "day": [],
+      "night": [],
+      "description": "Swee can be purchased from the Black Marketeer. It can also hatch from a Frozen Egg."
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Tanzee", "parent2": "Pengullet" },
+        { "parent1": "Lamball", "parent2": "Rushoar" },
+        { "parent1": "Jolthog", "parent2": "Gumoss" },
+        { "parent1": "Rooby", "parent2": "Cremis" },
+        { "parent1": "Sparkit", "parent2": "Woolipop" },
+        { "parent1": "Rooby", "parent2": "Vixy" },
+        { "parent1": "Fuack", "parent2": "Flopie" }
+      ],
+      "bestCombos": [
+        { "parent1": "Hangyu", "parent2": "Swee", "child": "Hangyu Cryst" },
+        { "parent1": "Celaray", "parent2": "Swee", "child": "Gobfin" },
+        { "parent1": "Mau", "parent2": "Swee", "child": "Hoocrates" },
+        { "parent1": "Mossanda", "parent2": "Swee", "child": "Broncherry" },
+        { "parent1": "Nitewing", "parent2": "Swee", "child": "Broncherry" },
+        { "parent1": "Lamball", "parent2": "Swee", "child": "Depresso" },
+        { "parent1": "Bristla", "parent2": "Swee", "child": "Ribbuny" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Since Swee is weak to Fire element Pals due to its Ice Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Swee is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Wool"],
+      "possibleDrops": ["Palworld - Wool Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "D Tier",
+      "base": "C Tier (for Mid Game)"
+    }
+  },{
+    "monsterName": "Sweepa",
+    "monsterID": "54",
+    "elementType": ["Neutral"],
+    "description": "Sweepa, a Neutral Element Pal, can be found south of the Small Cove fast travel point and purchased from the Black Marketeer in Palworld.",
+    "partnerSkill": {
+      "name": "King of Fluff",
+      "description": "Can be ridden. While fighting together, stats will increase the more Swee are in your team."
+    },
+    "activeSkills": [
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Iceberg",
+        "type": "Ice",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Summons a sharp ice lance under an enemy."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      },
+      {
+        "name": "Pal Blast",
+        "type": "Neutral",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Charges destructive energy before firing a high-powered beam forward across a wide area."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Hooligan",
+        "effect": "Attack +15%\nWork Speed -10%",
+        "ranking": 2
+      },
+      {
+        "name": "Musclehead",
+        "effect": "Attack +30%\nWork Speed -50%",
+        "ranking": 5
+      },
+      {
+        "name": "Ferocious",
+        "effect": "Attack +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Burly Body",
+        "effect": "Defense +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Brave",
+        "effect": "Attack +10%",
+        "ranking": 1
+      },
+      {
+        "name": "Ice Emperor",
+        "effect": "20% increase to Ice attack damage",
+        "ranking": 5
+      }
+    ],
+    "workSuitability": {
+      "gathering": 2,
+      "cooling": 2
+    },
+    "location": {
+      "day": ["Snowy mountain near Free Pal Alliance Tower Entrance", "Area south of Twilight Dunes desert"],
+      "night": [],
+      "description": "Sweepa is available as a level 11 Field Alpha Boss south of the Small Cove fast travel point. It can also be purchased from the Black Marketeer."
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Mossanda", "parent2": "Pyrin" },
+        { "parent1": "Cinnamoth", "parent2": "Elizabee" },
+        { "parent1": "Sweepa", "parent2": "Sweepa" },
+        { "parent1": "Mossanda", "parent2": "Ragnahawk" },
+        { "parent1": "Nitewing", "parent2": "Ragnahawk" },
+        { "parent1": "Penking", "parent2": "Mammorest" },
+        { "parent1": "Incineram", "parent2": "Beakon" }
+      ],
+      "bestCombos": [
+        { "parent1": "Penking", "parent2": "Sweepa", "child": "Wumpo" },
+        { "parent1": "Celaray", "parent2": "Sweepa", "child": "Bushi" },
+        { "parent1": "Sweepa", "parent2": "Beakon", "child": "Jormuntide" },
+        { "parent1": "Elizabee", "parent2": "Sweepa", "child": "Pyrin" },
+        { "parent1": "Sweepa", "parent2": "Surfent", "child": "Wumpo Botan" },
+        { "parent1": "Rushoar", "parent2": "Sweepa", "child": "Foxcicle" },
+        { "parent1": "Cinnamoth", "parent2": "Sweepa", "child": "Sibelyx" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Since Sweepa is weak to Fire element Pals due to its Ice Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Sweepa is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 2,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Wool"],
+      "possibleDrops": ["Palworld - Wool Material"]
+    },
+    "tierListRanking": {
+      "riding": "D Tier (Ground Mount)",
+      "combat": "N/A",
+      "base": "C Tier (for Mid Game)"
+    }
+  },{
+    "monsterName": "Tanzee",
+    "monsterID": "8",
+    "elementType": ["Grass"],
+    "description": "Tanzee is a Pal with the Cheery Rifle Partner Skill and the Grass Element type.",
+    "partnerSkill": {
+      "name": "Cheery Rifle",
+      "description": "When activated, Tanzee will mercilessly fire an assault rifle at nearby enemies."
+    },
+    "activeSkills": [
+      {
+        "name": "Seed Machine Gun",
+        "type": "Grass",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires a volley of hard seeds at enemies in front of it."
+      },
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Seed Mine",
+        "type": "Grass",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Stone Cannon",
+        "type": "Ground",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Digs up a boulder and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Artisan",
+        "effect": "Work Speed +50%",
+        "ranking": 5
+      },
+      {
+        "name": "Spirit Emperor",
+        "effect": "20% increase to Grass attack damage",
+        "ranking": 5
+      },
+      {
+        "name": "Musclehead",
+        "effect": "Attack +30%\nWork Speed -50%",
+        "ranking": 5
+      },
+      {
+        "name": "Burly Body",
+        "effect": "Defense +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Ferocious",
+        "effect": "Attack +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Work Slave",
+        "effect": "Work Speed +30%\nAttack -30%",
+        "ranking": 4
+      }
+    ],
+    "workSuitability": {
+      "planting": 1,
+      "handiwork": 1,
+      "lumbering": 1,
+      "transporting": 1,
+      "gathering": 1
+    },
+    "location": {
+      "day": ["Snowy mountain near Free Pal Alliance Tower Entrance", "Area south of Twilight Dunes desert"],
+      "night": [],
+      "description": "Tanzee is available as a level 11 Field Alpha Boss south of the Small Cove fast travel point. It can also be purchased from the Black Marketeer."
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Tanzee", "parent2": "Tanzee" },
+        { "parent1": "Tanzee", "parent2": "Gumoss" },
+        { "parent1": "Lifmunk", "parent2": "Direhowl" },
+        { "parent1": "Rooby", "parent2": "Pengullet" },
+        { "parent1": "Jolthog", "parent2": "Rushoar" },
+        { "parent1": "Foxparks", "parent2": "Gobfin" },
+        { "parent1": "Sparkit", "parent2": "Gobfin" }
+      ],
+      "bestCombos": [
+        { "parent1": "Tanzee", "parent2": "Pengullet", "child": "Swee" },
+        { "parent1": "Tanzee", "parent2": "Melpaca", "child": "Beegarde" },
+        { "parent1": "Foxparks", "parent2": "Tanzee", "child": "Bristla" },
+        { "parent1": "Lifmunk", "parent2": "Tanzee", "child": "Tocotoco" },
+        { "parent1": "Lamball", "parent2": "Tanzee", "child": "Jolthog" },
+        { "parent1": "Tanzee", "parent2": "Caprity", "child": "Gobfin" },
+        { "parent1": "Tanzee", "parent2": "Celaray", "child": "Direhowl" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Fire Type Pal. Since Tanzee is weak to Fire element Pals due to its Grass Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Tanzee is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Mushroom"],
+      "possibleDrops": ["Palworld - Mushroom Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "N/A",
+      "base": "B Tier (for Early Game)"
+    }
+  },{
+    "monsterName": "Teafant",
+    "monsterID": "16",
+    "elementType": ["Water"],
+    "description": "Teafant is a Pal with the Soothing Shower Partner Skill and the Water Element type.",
+    "partnerSkill": {
+      "name": "Soothing Shower",
+      "description": "When activated, spouts mysterious water that soothes wounds and restores the player’s HP."
+    },
+    "activeSkills": [
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Hydro Jet",
+        "type": "Water",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a high-speed ball of water at an enemy."
+      },
+      {
+        "name": "Bubble Blast",
+        "type": "Water",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Fires numerous bubbles that slowly pursue an enemy."
+      },
+      {
+        "name": "Aqua Burst",
+        "type": "Water",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of water and hurls it at an enemy."
+      },
+      {
+        "name": "Acid Rain",
+        "type": "Water",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Creates acidic clouds that pour down acid rain on enemies."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Motivational Leader",
+        "effect": "25% increase to Player Speed.",
+        "ranking": 5
+      },
+      {
+        "name": "Mine Foreman",
+        "effect": "25% increase to Player Mining Efficiency",
+        "ranking": 5
+      },
+      {
+        "name": "Logging Foreman",
+        "effect": "25% increase to Player Logging Efficiency",
+        "ranking": 4
+      },
+      {
+        "name": "Stronghold Strategist",
+        "effect": "10% increase to Player Defense",
+        "ranking": 4
+      },
+      {
+        "name": "Vanguard",
+        "effect": "10% increase to Player Attack",
+        "ranking": 4
+      }
+    ],
+    "workSuitability": {
+      "watering": 1
+    },
+    "location": {
+      "day": ["Near bodies of water"],
+      "night": [],
+      "description": "Teafant can be found near bodies of water during the day."
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Chikipi", "parent2": "Teafant" },
+        { "parent1": "Teafant", "parent2": "Teafant" },
+        { "parent1": "Chikipi", "parent2": "Mau" }
+      ],
+      "bestCombos": [
+        { "parent1": "Teafant", "parent2": "Direhowl", "child": "Kelpsea Ignis" },
+        { "parent1": "Teafant", "parent2": "Celaray", "child": "Nox" },
+        { "parent1": "Fuack", "parent2": "Teafant", "child": "Sparkit" },
+        { "parent1": "Lifmunk", "parent2": "Teafant", "child": "Cattiva" },
+        { "parent1": "Lamball", "parent2": "Teafant", "child": "Mau" },
+        { "parent1": "Pengullet", "parent2": "Teafant", "child": "Hangyu" },
+        { "parent1": "Teafant", "parent2": "Cremis", "child": "Lamball" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring an Electric Type Pal. Since Teafant is weak to Electric element Pals due to its Water Elemental Type, it's best to bring Electric type Pals to fight against it.",
+      "weaknesses": "Teafant is weak to Electric element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 1,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Pal Fluids"],
+      "possibleDrops": ["Palworld - Pal Fluids Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "D Tier",
+      "base": "C Tier (for Early Game)"
+    }
+  },{
+    "monsterName": "Tocotoco",
+    "monsterID": "27",
+    "elementType": ["Neutral"],
+    "description": "Tocotoco is a Pal with the Eggbomb Launcher Partner Skill and the Neutral Element type.",
+    "partnerSkill": {
+      "name": "Eggbomb Launcher",
+      "description": "When activated, equips to the player and transforms into an egg launcher."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Implode",
+        "type": "Neutral",
+        "power": 180,
+        "cooldownTime": 55,
+        "description": "Risks its life to cause a violent explosion. Becomes incapacitated afterwards."
+      },
+      {
+        "name": "Sand Tornado",
+        "type": "Ground",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Megaton Implode",
+        "type": "Neutral",
+        "power": 250,
+        "cooldownTime": 55,
+        "description": "Risks life to cause a massive explosion. Those who perish for their duty become glistening stars in the night sky."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Musclehead",
+        "effect": "Attack +30%\nWork Speed -50%",
+        "ranking": 5
+      },
+      {
+        "name": "Celestial Emperor",
+        "effect": "20% increase to Neutral attack damage",
+        "ranking": 5
+      },
+      {
+        "name": "Burly Body",
+        "effect": "Defense +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Ferocious",
+        "effect": "Attack +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Hooligan",
+        "effect": "Attack +15%\nWork Speed -10%",
+        "ranking": 2
+      },
+      {
+        "name": "Brave",
+        "effect": "Attack +10%",
+        "ranking": 1
+      }
+    ],
+    "workSuitability": {
+      "gathering": 1
+    },
+    "location": {
+      "day": ["Near bodies of water"],
+      "night": [],
+      "description": "Tocotoco can be found near bodies of water during the day."
+    },
+    "acquisition": {
+      "blackMarketeer": true,
+      "hatchFromCommonEgg": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Lifmunk", "parent2": "Tanzee" },
+        { "parent1": "Lifmunk", "parent2": "Gumoss" },
+        { "parent1": "Fuack", "parent2": "Pengullet" },
+        { "parent1": "Chikipi", "parent2": "Woolipop" },
+        { "parent1": "Teafant", "parent2": "Woolipop" },
+        { "parent1": "Lamball", "parent2": "Fuddler" },
+        { "parent1": "Cattiva", "parent2": "Fuddler" }
+      ],
+      "bestCombos": [
+        { "parent1": "Lamball", "parent2": "Tocotoco", "child": "Flambelle" },
+        { "parent1": "Penking", "parent2": "Tocotoco", "child": "Caprity" },
+        { "parent1": "Celaray", "parent2": "Tocotoco", "child": "Lunaris" },
+        { "parent1": "Lifmunk", "parent2": "Tocotoco", "child": "Depresso" },
+        { "parent1": "Tocotoco", "parent2": "Melpaca", "child": "Lunaris" },
+        { "parent1": "Chikipi", "parent2": "Tocotoco", "child": "Hangyu" },
+        { "parent1": "Tocotoco", "parent2": "Nitewing", "child": "Reindrix" }
+      ]
+    },
+    "catchStrategyAndWeakness": {
+      "strategy": "Bring a Dark Type Pal. Since Tocotoco is weak to Dark element Pals due to its Neutral Elemental Type, it's best to bring Dark type Pals to fight against it.",
+      "weaknesses": "Tocotoco is weak to Dark element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 2,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Gunpowder", "Tocotoco Feather"],
+      "possibleDrops": ["Palworld - Gunpowder Material", "Palworld - Tocotoco Feather Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "N/A",
+      "base": "C Tier (for Mid Game)"
+    }
+  },{
+    "monsterName": "Tombat",
+    "monsterID": "68",
+    "elementType": ["Dark"],
+    "description": "Tombat is a Pal with the Ultrasonic Sensor Partner Skill and the Dark Element type.",
+    "partnerSkill": {
+      "name": "Ultrasonic Sensor",
+      "description": "When activated, uses ultrasonic waves to detect the location of nearby Pals."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Poison Blast",
+        "type": "Dark",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls poison sludge at an enemy."
+      },
+      {
+        "name": "Dark Ball",
+        "type": "Dark",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Motivational Leader",
+        "effect": "25% increase to Player Speed.",
+        "ranking": 5
+      },
+      {
+        "name": "Mine Foreman",
+        "effect": "25% increase to Player Mining Efficiency",
+        "ranking": 5
+      },
+      {
+        "name": "Logging Foreman",
+        "effect": "25% increase to Player Logging Efficiency",
+        "ranking": 4
+      },
+      {
+        "name": "Stronghold Strategist",
+        "effect": "10% increase to Player Defense",
+        "ranking": 4
+      },
+      {
+        "name": "Vanguard",
+        "effect": "10% increase to Player Attack",
+        "ranking": 4
+      }
+    ],
+    "workSuitability": {
+      "transporting": 2,
+      "gathering": 2,
+      "mining": 2
+    },
+    "location": {
+      "day": ["Nocturnal"],
+      "night": [],
+      "description": "Tombat can be found exclusively during the night."
+    },
+    "acquisition": {
+      "blackMarketeer": true,
+      "hatchFromLargeDarkEgg": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Direhowl", "parent2": "Mossanda" },
+        { "parent1": "Eikthyrdeer", "parent2": "Incineram" },
+        { "parent1": "Gobfin", "parent2": "Nitewing" },
+        { "parent1": "Mozzarina", "parent2": "Incineram" },
+        { "parent1": "Caprity", "parent2": "Surfent" },
+        { "parent1": "Rushoar", "parent2": "Pyrin" },
+        { "parent1": "Gobfin", "parent2": "Sweepa" }
+      ],
+      "bestCombos": [
+        { "parent1": "Pengullet", "parent2": "Tombat", "child": "Vaelet" },
+        { "parent1": "Celaray", "parent2": "Tombat", "child": "Dinossom" },
+        { "parent1": "Teafant", "parent2": "Tombat", "child": "Leezpunk" },
+        { "parent1": "Melpaca", "parent2": "Tombat", "child": "Dinossom" },
+        { "parent1": "Penking", "parent2": "Tombat", "child": "Bushi" },
+        { "parent1": "Pyrin", "parent2": "Tombat", "child": "Surfent" },
+        { "parent1": "Rushoar", "parent2": "Tombat", "child": "Lovander" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Dragon Type Pal. Since Tombat is weak to Dragon element Pals due to its Dark Elemental Type, it's best to bring Dragon type Pals to fight against it.",
+      "weaknesses": "Tombat is weak to Dragon element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 3,
+      "Attack": 2,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Leather", "Small Pal Soul"],
+      "possibleDrops": ["Palworld - Leather Material", "Palworld - Small Pal Soul Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "N/A",
+      "base": "B Tier (for Early Game)"
+    }
+  },{
+    "monsterName": "Univolt",
+    "monsterID": "56",
+    "elementType": ["Electric"],
+    "description": "Univolt, an Electric Element Pal, can be found in Sea Breeze Archipelago and purchased from a Pal Merchant in Palworld.",
+    "partnerSkill": {
+      "name": "Swift Deity",
+      "description": "Can be ridden. Applies Electric damage to the player's attacks while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Spark Blast",
+        "type": "Electric",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "The user releases a lightning ball that expands outward in a forward, circular pattern."
+      },
+      {
+        "name": "Shockwave",
+        "type": "Electric",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Quickly discharges electricity, shocking those around it."
+      },
+      {
+        "name": "Lightning Streak",
+        "type": "Electric",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Generates a lightning bolt that moves forward in a line."
+      },
+      {
+        "name": "Tri-Lightning",
+        "type": "Electric",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Generates lightning that strikes an enemy three times from above."
+      },
+      {
+        "name": "Lock-On Laser",
+        "type": "Electric",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Takes aim at an enemy before firing a super high-speed laser."
+      },
+      {
+        "name": "Lightning Strike",
+        "type": "Electric",
+        "power": 120,
+        "cooldownTime": 40,
+        "description": "Acts as a lightning rod, calling down thunderbolts that electrocute the surrounding area."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Hooligan",
+        "effect": "Attack +15%\nWork Speed -10%",
+        "ranking": 2
+      },
+      {
+        "name": "Musclehead",
+        "effect": "Attack +30%\nWork Speed -50%",
+        "ranking": 5
+      },
+      {
+        "name": "Ferocious",
+        "effect": "Attack +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Burly Body",
+        "effect": "Defense +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Brave",
+        "effect": "Attack +10%",
+        "ranking": 1
+      },
+      {
+        "name": "Lord of Lightning",
+        "effect": "20% increase to Electric attack damage",
+        "ranking": 5
+      }
+    ],
+    "workSuitability": {
+      "lumbering": 1,
+      "Electricity": 2
+    },
+    "location": {
+      "day": ["Sea Breeze Archipelago"],
+      "night": [],
+      "description": "Univolt is available as a level 31 Field Alpha Boss on Sea Breeze Archipelago, to the west of the Sea Breeze Archipelago Church fast travel point."
+    },
+    "acquisition": {
+      "palMerchant": true,
+      "hatchFromLargeElectricEgg": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Celaray", "parent2": "Cinnamoth" },
+        { "parent1": "Mossanda", "parent2": "Caprity" },
+        { "parent1": "Caprity", "parent2": "Nitewing" },
+        { "parent1": "Mossanda", "parent2": "Eikthyrdeer" },
+        { "parent1": "Eikthyrdeer", "parent2": "Nitewing" },
+        { "parent1": "Melpaca", "parent2": "Cinnamoth" },
+        { "parent1": "Mozzarina", "parent2": "Mossanda" }
+      ],
+      "bestCombos": [
+        { "parent1": "Mossanda", "parent2": "Univolt", "child": "Surfent" },
+        { "parent1": "Nitewing", "parent2": "Univolt", "child": "Elphidran" },
+        { "parent1": "Celaray", "parent2": "Univolt", "child": "Petallia" },
+        { "parent1": "Cattiva", "parent2": "Univolt", "child": "Beegarde" },
+        { "parent1": "Melpaca", "parent2": "Univolt", "child": "Arsox" },
+        { "parent1": "Elizabee", "parent2": "Univolt", "child": "Azurobe" },
+        { "parent1": "Penking", "parent2": "Univolt", "child": "Incineram" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Ground Type Pal. Since Univolt is weak to Ground element Pals due to its Electric Elemental Type, it's best to bring Ground type Pals to fight against it.",
+      "weaknesses": "Univolt is weak to Ground element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 3,
+      "Attack": 3,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Electric Organ", "Horn", "Leather"],
+      "possibleDrops": ["Palworld - Electric Organ Material", "Palworld - Horn Material", "Palworld - Leather Material"]
+    },
+    "tierListRanking": {
+      "riding": "S Tier (Ground Mount)",
+      "combat": "C Tier",
+      "base": "C Tier (for Mid Game)"
+    }
+  },{
+    "monsterName": "Vaelet",
+    "monsterID": "78",
+    "elementType": ["Grass"],
+    "description": "Vaelet, a Grass Element Pal, can be found in the No. 1 Wildlife Sanctuary, the Sealed Realm of the Guardian, and purchased from the Black Marketeer in Palworld.",
+    "partnerSkill": {
+      "name": "Purification of Gaia",
+      "description": "While fighting together, Ground Pals drop more items when defeated."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Poison Fog",
+        "type": "Dark",
+        "power": 0,
+        "cooldownTime": 30,
+        "description": "Generates a fog of poison in front causing the opponent to become poisoned."
+      },
+      {
+        "name": "Poison Blast",
+        "type": "Dark",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls poison sludge at an enemy."
+      },
+      {
+        "name": "Seed Mine",
+        "type": "Grass",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Hooligan",
+        "effect": "Attack +15%\nWork Speed -10%",
+        "ranking": 2
+      },
+      {
+        "name": "Musclehead",
+        "effect": "Attack +30%\nWork Speed -50%",
+        "ranking": 5
+      },
+      {
+        "name": "Ferocious",
+        "effect": "Attack +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Burly Body",
+        "effect": "Defense +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Brave",
+        "effect": "Attack +10%",
+        "ranking": 1
+      },
+      {
+        "name": "Spirit Emperor",
+        "effect": "20% increase to Grass attack damage",
+        "ranking": 5
+      }
+    ],
+    "workSuitability": {
+      "planting": 2,
+      "handiwork": 2,
+      "Medicine": 3,
+      "transporting": 1,
+      "gathering": 2
+    },
+    "location": {
+      "day": ["No. 1 Wildlife Sanctuary"],
+      "night": [],
+      "description": "Vaelet can be found on the No. 1 Wildlife Sanctuary island on the map's southern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."
+    },
+    "acquisition": {
+      "palMerchant": true,
+      "fieldBoss": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Daedream", "parent2": "Celaray" },
+        { "parent1": "Mozzarina", "parent2": "Woolipop" },
+        { "parent1": "Tanzee", "parent2": "Digtoise" },
+        { "parent1": "Nox", "parent2": "Eikthyrdeer" },
+        { "parent1": "Direhowl", "parent2": "Gorirat" },
+        { "parent1": "Pengullet", "parent2": "Tombat" },
+        { "parent1": "Cattiva", "parent2": "Bushi" }
+      ],
+      "bestCombos": [
+        { "parent1": "Woolipop", "parent2": "Vaelet", "child": "Leezpunk" },
+        { "parent1": "Lifmunk", "parent2": "Vaelet", "child": "Gumoss" },
+        { "parent1": "Gobfin", "parent2": "Vaelet", "child": "Beegarde" },
+        { "parent1": "Sparkit", "parent2": "Vaelet", "child": "Daedream" },
+        { "parent1": "Foxparks", "parent2": "Vaelet", "child": "Fuddler" },
+        { "parent1": "Penking", "parent2": "Vaelet", "child": "Arsox" },
+        { "parent1": "Hangyu Cryst", "parent2": "Vaelet", "child": "Gumoss" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Fire Type Pal. Since Vaelet is weak to Fire element Pals due to its Grass Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Vaelet is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 2,
+      "Hunger": 2,
+      "Attack": 3,
+      "Defense": 4
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Low Grade Medical Supplies", "Tomato Seeds"],
+      "possibleDrops": ["Palworld - Low Grade Medical Supplies Material", "Palworld - Tomato Seeds Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "C Tier",
+      "base": "A Tier (for Late Game)"
+    }
+  },{
+    "monsterName": "Vanwyrm",
+    "monsterID": "71",
+    "elementType": ["Fire", "Dark"],
+    "description": "Vanwyrm, a Fire/Dark Element Pal, can be found near the Sealed Realm of the Swordmaster and Mount Obsidian Midpoint teleport points in Palworld.",
+    "partnerSkill": {
+      "name": "Aerial Marauder",
+      "description": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Ignis Breath",
+        "type": "Fire",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Shoots flames at an enemy, dealing continuous damage."
+      },
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Fire Ball",
+        "type": "Fire",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Runner",
+        "effect": "20% increase to movement speed",
+        "ranking": 4
+      },
+      {
+        "name": "Nimble",
+        "effect": "10% increase to movement speed",
+        "ranking": 3
+      },
+      {
+        "name": "Swift",
+        "effect": "30% increase to movement speed",
+        "ranking": 5
+      },
+      {
+        "name": "Legend",
+        "effect": "Attack +20%, Defense +20%, and Movement Speed +15%",
+        "ranking": 5
+      }
+    ],
+    "workSuitability": {
+      "kindling": 1,
+      "transporting": 3
+    },
+    "location": {
+      "day": ["Southwest of Sealed Realm of the Swordmaster"],
+      "night": ["South of Mount Obisidian Midpoint"],
+      "description": "Early on, you can encounter Vanwyrm southwest of the Sealed Realm of the Swordmaster teleport point, at the forest region near the middle of the map. You can also find high-levelled Vanwyrm near the Mount Obsidian Midpoint teleport point in the volcanic region of the map."
+    },
+    "acquisition": {
+      "scorchingEgg": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Celaray", "parent2": "Mossanda" },
+        { "parent1": "Mossanda", "parent2": "Melpaca" },
+        { "parent1": "Melpaca", "parent2": "Nitewing" },
+        { "parent1": "Mozzarina", "parent2": "Nitewing" },
+        { "parent1": "Penking", "parent2": "Arsox" },
+        { "parent1": "Melpaca", "parent2": "Sweepa" },
+        { "parent1": "Penking", "parent2": "Chillet" }
+      ],
+      "bestCombos": [
+        { "parent1": "Foxcicle", "parent2": "Vanwyrm", "child": "Vanwyrm Cryst" },
+        { "parent1": "Vanwyrm", "parent2": "Anubis", "child": "Faleris" },
+        { "parent1": "Pyrin", "parent2": "Vanwyrm", "child": "Grintale" },
+        { "parent1": "Mossanda", "parent2": "Vanwyrm", "child": "Elphidran" },
+        { "parent1": "Celaray", "parent2": "Vanwyrm", "child": "Foxcicle" },
+        { "parent1": "Nitewing", "parent2": "Vanwyrm", "child": "Elphidran" },
+        { "parent1": "Melpaca", "parent2": "Vanwyrm", "child": "Petallia" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Water or Dragon Type Pal. Since Vanwyrm is weak to Water or Dragon element Pals due to its Fire Dark Elemental Type, it's best to bring Water or Dragon type Pals to fight against it.",
+      "weaknesses": "Vanwyrm is weak to Water or Dragon element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 3,
+      "Attack": 3,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Bone", "Gold Coin", "Ruby"],
+      "possibleDrops": ["Palworld - Bone Material", "Palworld - Gold Coin Material", "Palworld - Ruby Material"]
+    },
+    "tierListRanking": {
+      "riding": "C Tier (Flying Mount)",
+      "combat": "N/A",
+      "base": "A Tier (for Mid Game)"
+    }
+  },{
+    "monsterName": "Vanwyrm Cryst",
+    "monsterID": "71B",
+    "elementType": ["Ice", "Dark"],
+    "description": "Vanwyrm Cryst is a Pal with the Aerial Marauder Partner Skill and the Ice Element type.",
+    "partnerSkill": {
+      "name": "Aerial Marauder",
+      "description": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted."
+    },
+    "activeSkills": [
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      },
+      {
+        "name": "Blizzard Spike",
+        "type": "Ice",
+        "power": 130,
+        "cooldownTime": 45,
+        "description": "Creates a giant lump of ice and hurls it at any enemy. It deals damage to those in the surrounding area upon impact."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Swift",
+        "effect": "30% increase to movement speed",
+        "ranking": 5
+      },
+      {
+        "name": "Legend",
+        "effect": "Attack +20%, Defense +20%, and Movement Speed +15%",
+        "ranking": 5
+      },
+      {
+        "name": "Runner",
+        "effect": "20% increase to movement speed",
+        "ranking": 4
+      },
+      {
+        "name": "Nimble",
+        "effect": "10% increase to movement speed",
+        "ranking": 3
+      }
+    ],
+    "workSuitability": {
+      "transporting": 3,
+      "cooling": 2
+    },
+    "location": {
+      "day": [],
+      "night": ["Vanwyrm Cryst is Nocturnal and thus exclusive to Night!"],
+      "description": "Vanwyrm Cryst can be hatched from a Large Frozen Egg. Early on, you can encounter Vanwyrm Cryst southwest of the Sealed Realm of the Swordmaster teleport point, at the forest region near the middle of the map."
+    },
+    "acquisition": {
+      "largeFrozenEgg": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Foxcicle", "parent2": "Vanwyrm" },
+        { "parent1": "Vanwyrm Cryst", "parent2": "Vanwyrm Cryst" }
+      ],
+      "bestCombos": [
+        { "parent1": "Mossanda", "parent2": "Vanwyrm Cryst", "child": "Penking" },
+        { "parent1": "Penking", "parent2": "Vanwyrm Cryst", "child": "Anubis" },
+        { "parent1": "Nitewing", "parent2": "Vanwyrm Cryst", "child": "Penking" },
+        { "parent1": "Pyrin", "parent2": "Vanwyrm Cryst", "child": "Cinnamoth" },
+        { "parent1": "Cinnamoth", "parent2": "Vanwyrm Cryst", "child": "Surfent" },
+        { "parent1": "Celaray", "parent2": "Vanwyrm Cryst", "child": "Tombat" },
+        { "parent1": "Sweepa", "parent2": "Vanwyrm Cryst", "child": "Penking" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Fire or Dragon Type Pal. Since Vanwyrm Cryst is weak to Fire or Dragon element Pals due to its Ice Dark Elemental Type, it's best to bring Fire or Dragon type Pals to fight against it.",
+      "weaknesses": "Vanwyrm Cryst is weak to Fire or Dragon element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 3,
+      "Attack": 3,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Bone", "Ice Organ", "Sapphire"],
+      "possibleDrops": ["Palworld - Bone Material", "Palworld - Ice Organ Material", "Palworld - Sapphire Material"]
+    },
+    "tierListRanking": {
+      "riding": "C Tier (Flying Mount)",
+      "combat": "A Tier",
+      "base": "A Tier (for Mid Game)"
+    }
+  },{
+    "monsterName": "Verdash",
+    "monsterID": "77",
+    "elementType": ["Grass"],
+    "description": "Verdash, a Grass Element Pal, can be found in the No. 2 Wildlife Sanctuary and the Sealed Realm of the Swift in Palworld.",
+    "partnerSkill": {
+      "name": "Grassland Speedster",
+      "description": "When fighting together, increases player's movement speed and applies Grass damage to the player's attacks."
+    },
+    "activeSkills": [
+      {
+        "name": "Seed Machine Gun",
+        "type": "Grass",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires a volley of hard seeds at enemies in front of it."
+      },
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Stone Cannon",
+        "type": "Ground",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Digs up a boulder and hurls it at an enemy."
+      },
+      {
+        "name": "Spine Vine",
+        "type": "Grass",
+        "power": 95,
+        "cooldownTime": 25,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Hooligan",
+        "effect": "Attack +15%, Work Speed -10%",
+        "ranking": 2
+      },
+      {
+        "name": "Musclehead",
+        "effect": "Attack +30%, Work Speed -50%",
+        "ranking": 5
+      },
+      {
+        "name": "Ferocious",
+        "effect": "Attack +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Burly Body",
+        "effect": "Defense +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Brave",
+        "effect": "Attack +10%",
+        "ranking": 1
+      },
+      {
+        "name": "Spirit Emperor",
+        "effect": "20% increase to Grass attack damage",
+        "ranking": 5
+      }
+    ],
+    "workSuitability": {
+      "planting": 2,
+      "handiwork": 3,
+      "lumbering": 2,
+      "transporting": 2,
+      "gathering": 3
+    },
+    "location": {
+      "day": ["No. 2 Wildlife Sanctuary"],
+      "night": ["Sealed Realm of the Swift Field Alpha Boss"],
+      "description": "Verdash can be found on the No.2 Wildlife Sanctuary island on the map's western edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."
+    },
+    "acquisition": {
+      "fieldAlphaBoss": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Lamball", "parent2": "Penking" },
+        { "parent1": "Cattiva", "parent2": "Penking" },
+        { "parent1": "Penking", "parent2": "Cremis" },
+        { "parent1": "Direhowl", "parent2": "Caprity" },
+        { "parent1": "Direhowl", "parent2": "Eikthyrdeer" },
+        { "parent1": "Chikipi", "parent2": "Cinnamoth" },
+        { "parent1": "Foxparks", "parent2": "Incineram" }
+      ],
+      "bestCombos": [
+        { "parent1": "Tanzee", "parent2": "Verdash", "child": "Leezpunk" },
+        { "parent1": "Melpaca", "parent2": "Verdash", "child": "Lovander" },
+        { "parent1": "Penking", "parent2": "Verdash", "child": "Tombat" },
+        { "parent1": "Teafant", "parent2": "Verdash", "child": "Gumoss" },
+        { "parent1": "Rooby", "parent2": "Verdash", "child": "Beegarde" },
+        { "parent1": "Lamball", "parent2": "Verdash", "child": "Daedream" },
+        { "parent1": "Celaray", "parent2": "Verdash", "child": "Caprity" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Fire Type Pal. Since Verdash is weak to Fire element Pals due to its Grass Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Verdash is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 2,
+      "Attack": 3,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Bone", "Leather"],
+      "possibleDrops": ["Palworld - Bone Material", "Palworld - Leather Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "A Tier",
+      "base": "SS Tier (for Mid Game)"
+    }
+  },{
+    "monsterName": "Vixy",
+    "monsterID": "14",
+    "elementType": ["Neutral"],
+    "description": "Vixy, a Neutral Element Pal, can be found in an area north of the Small Settlement in Palworld.",
+    "partnerSkill": {
+      "name": "Dig Here!",
+      "description": "Sometimes digs up items from the ground when assigned to Ranch."
+    },
+    "activeSkills": [
+      {
+        "name": "Seed Machine Gun",
+        "type": "Grass",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires a volley of hard seeds at enemies in front of it."
+      },
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Conceited",
+        "effect": "Work Speed +10%, Defense -10%",
+        "ranking": 1
+      },
+      {
+        "name": "Artisan",
+        "effect": "Work Speed +50%",
+        "ranking": 5
+      },
+      {
+        "name": "Serious",
+        "effect": "Work Speed +20%",
+        "ranking": 3
+      },
+      {
+        "name": "Work Slave",
+        "effect": "Work Speed +30%, Attack -30%",
+        "ranking": 4
+      },
+      {
+        "name": "Lucky",
+        "effect": "Work Speed +15% and Attack +15%",
+        "ranking": 2
+      }
+    ],
+    "workSuitability": {
+      "gathering": 1,
+      "farming": 1
+    },
+    "location": {
+      "day": ["North of Small Settlement"],
+      "night": ["North of Small Settlement"],
+      "description": "Vixy can spawn at the area north of the Small Settlement and south of the Desolate Church teleport points. If one does not spawn immediately, try running around the area for a few moments until Vixy appears."
+    },
+    "acquisition": {
+      "fieldAlphaBoss": false
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Lamball", "parent2": "Lifmunk" },
+        { "parent1": "Chikipi", "parent2": "Foxparks" },
+        { "parent1": "Cattiva", "parent2": "Lifmunk" },
+        { "parent1": "Foxparks", "parent2": "Teafant" },
+        { "parent1": "Sparkit", "parent2": "Teafant" },
+        { "parent1": "Lifmunk", "parent2": "Cremis" },
+        { "parent1": "Vixy", "parent2": "Vixy" }
+      ],
+      "bestCombos": [
+        { "parent1": "Cattiva", "parent2": "Vixy", "child": "Cremis" },
+        { "parent1": "Penking", "parent2": "Vixy", "child": "Fenglope" },
+        { "parent1": "Vixy", "parent2": "Mossanda", "child": "Lovander" },
+        { "parent1": "Fuack", "parent2": "Vixy", "child": "Hoocrates" },
+        { "parent1": "Lamball", "parent2": "Vixy", "child": "Cattiva" },
+        { "parent1": "Vixy", "parent2": "Teafant", "child": "Lamball" },
+        { "parent1": "Vixy", "parent2": "Celaray", "child": "Wixen" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Dark Type Pal. Since Vixy is weak to Dark element Pals due to its Neutral Elemental Type, it's best to bring Dark type Pals to fight against it.",
+      "weaknesses": "Vixy is weak to Dark element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 1,
+      "Defense": 1
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Bone", "Leather"],
+      "possibleDrops": ["Palworld - Bone Material", "Palworld - Leather Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "N/A",
+      "base": "B Tier (for Early Game)"
+    }
+  },{
+    "monsterName": "Warsect",
+    "monsterID": "92",
+    "elementType": ["Grass", "Ground"],
+    "description": "Warsect, a Grass/Ground Element Pal, can be found in the No. 2 Wildlife Sanctuary and the Sealed Realm of the Stalwart in Palworld.",
+    "partnerSkill": {
+      "name": "Hard Armor",
+      "description": "When fighting together, increases player's defense and applies Fire damage to the player's attacks."
+    },
+    "activeSkills": [
+      {
+        "name": "Seed Machine Gun",
+        "type": "Grass",
+        "power": 50,
+        "cooldownTime": 9,
+        "description": "Fires a volley of hard seeds at enemies in front of it."
+      },
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Stone Blast",
+        "type": "Ground",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires a barrage of stones forward."
+      },
+      {
+        "name": "Stone Cannon",
+        "type": "Ground",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Digs up a boulder and hurls it at an enemy."
+      },
+      {
+        "name": "Giga Horn",
+        "type": "Ground",
+        "power": 75,
+        "cooldownTime": 11,
+        "description": "Warsect exclusive skill. Skewers enemies with its four sturdy horns."
+      },
+      {
+        "name": "Rock Lance",
+        "type": "Ground",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Generates a sharp rock spear under an enemy."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Artisan",
+        "effect": "Work Speed +50%",
+        "ranking": 5
+      },
+      {
+        "name": "Musclehead",
+        "effect": "Attack +30%, Work Speed -50%",
+        "ranking": 5
+      },
+      {
+        "name": "Ferocious",
+        "effect": "Attack +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Burly Body",
+        "effect": "Defense +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Work Slave",
+        "effect": "Work Speed +30%, Attack -30%",
+        "ranking": 4
+      },
+      {
+        "name": "Earth Emperor",
+        "effect": "20% increase to Ground attack damage",
+        "ranking": 5
+      },
+      {
+        "name": "Spirit Emperor",
+        "effect": "20% increase to Grass attack damage",
+        "ranking": 5
+      }
+    ],
+    "workSuitability": {
+      "planting": 1,
+      "handiwork": 1,
+      "lumbering": 3,
+      "transporting": 3
+    },
+    "location": {
+      "day": ["No. 2 Wildlife Sanctuary"],
+      "night": ["No. 2 Wildlife Sanctuary"],
+      "description": "Warsect is available both day and night at the No. 2 Wildlife Sanctuary. You can find Warsect at the No. 2 Wildlife Sanctuary found at the northwest part of the map. This is also northwest of the Ruined Fortress City teleport point."
+    },
+    "acquisition": {
+      "fieldAlphaBoss": false,
+      "blackMarketeer": true,
+      "eggHatch": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Elizabee", "parent2": "Pyrin" },
+        { "parent1": "Surfent", "parent2": "Cryolinx" },
+        { "parent1": "Mossanda", "parent2": "Menasting" },
+        { "parent1": "Nitewing", "parent2": "Menasting" },
+        { "parent1": "Mossanda", "parent2": "Lyleen" },
+        { "parent1": "Cinnamoth", "parent2": "Grizzbolt" },
+        { "parent1": "Nitewing", "parent2": "Relaxaurus Lux" }
+      ],
+      "bestCombos": [
+        { "parent1": "Penking", "parent2": "Warsect", "child": "Mossanda" },
+        { "parent1": "Pyrin", "parent2": "Warsect", "child": "Quivern" },
+        { "parent1": "Mossanda", "parent2": "Warsect", "child": "Ragnahawk" },
+        { "parent1": "Elizabee", "parent2": "Warsect", "child": "Elizabee" },
+        { "parent1": "Nitewing", "parent2": "Warsect", "child": "Ragnahawk" },
+        { "parent1": "Univolt", "parent2": "Warsect", "child": "Grintale" },
+        { "parent1": "Cinnamoth", "parent2": "Warsect", "child": "Nitewing" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Fire Type Pal. Since Warsect is weak to Fire element Pals due to its Ground Grass Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Warsect is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 3,
+      "Hunger": 3,
+      "Attack": 3,
+      "Defense": 4
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Honey"],
+      "possibleDrops": ["Palworld - Honey Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "SS Tier",
+      "base": "B Tier (for Late Game)"
+    }
+  },{
+    "monsterName": "Wixen",
+    "monsterID": "76",
+    "elementType": ["Fire"],
+    "description": "Wixen is a Pal with the Lord Fox Partner Skill and the Fire Element type.",
+    "partnerSkill": {
+      "name": "Lord Fox",
+      "description": "When fighting together, applies Fire damage to the player's attacks."
+    },
+    "activeSkills": [
+      {
+        "name": "Spirit Fire",
+        "type": "Fire",
+        "power": 45,
+        "cooldownTime": 7,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward."
+      },
+      {
+        "name": "Ignis Blast",
+        "type": "Fire",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Hurls a ball of fire straight at an enemy."
+      },
+      {
+        "name": "Flare Arrow",
+        "type": "Fire",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Fires three flaming arrows in succession that home in on an enemy."
+      },
+      {
+        "name": "Fire Ball",
+        "type": "Fire",
+        "power": 150,
+        "cooldownTime": 55,
+        "description": "Creates a giant ball of flame and hurls it at an enemy. The ball explodes over a wide area upon impact."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Flare Storm",
+        "type": "Fire",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two flaming tornadoes on either side before launching them at an enemy."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Musclehead",
+        "effect": "Attack +30%, Work Speed -50%",
+        "ranking": 5
+      },
+      {
+        "name": "Flame Emperor",
+        "effect": "20% increase to Fire attack damage",
+        "ranking": 5
+      },
+      {
+        "name": "Burly Body",
+        "effect": "Defense +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Ferocious",
+        "effect": "Attack +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Hooligan",
+        "effect": "Attack +15%, Work Speed -10%",
+        "ranking": 2
+      },
+      {
+        "name": "Brave",
+        "effect": "Attack +10%",
+        "ranking": 1
+      }
+    ],
+    "workSuitability": {
+      "kindling": 2,
+      "handiwork": 3,
+      "transporting": 2
+    },
+    "location": {
+      "day": ["Wixen Daytime Habitat"],
+      "night": ["Wixen Daytime Habitat"],
+      "description": "Wixen is available both day and night at the Wixen Daytime Habitat."
+    },
+    "acquisition": {
+      "fieldAlphaBoss": false,
+      "blackMarketeer": false,
+      "eggHatch": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Lamball", "parent2": "Celaray" },
+        { "parent1": "Cattiva", "parent2": "Celaray" },
+        { "parent1": "Cremis", "parent2": "Celaray" },
+        { "parent1": "Lifmunk", "parent2": "Melpaca" },
+        { "parent1": "Vixy", "parent2": "Celaray" },
+        { "parent1": "Foxparks", "parent2": "Caprity" },
+        { "parent1": "Foxparks", "parent2": "Eikthyrdeer" }
+      ],
+      "bestCombos": [
+        { "parent1": "Chikipi", "parent2": "Wixen", "child": "Fuack" },
+        { "parent1": "Cattiva", "parent2": "Wixen", "child": "Ribbuny" },
+        { "parent1": "Celaray", "parent2": "Wixen", "child": "Robinquill" },
+        { "parent1": "Cremis", "parent2": "Wixen", "child": "Ribbuny" },
+        { "parent1": "Foxparks", "parent2": "Wixen", "child": "Flopie" },
+        { "parent1": "Bristla", "parent2": "Wixen", "child": "Gumoss" },
+        { "parent1": "Flambelle", "parent2": "Wixen", "child": "Flopie" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Water Type Pal. Since Wixen is weak to Water element Pals due to its Fire Elemental Type, it's best to bring Water type Pals to fight against it.",
+      "weaknesses": "Wixen is weak to Water element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "hunger": 3,
+      "attack": 2,
+      "defense": 2
+  },  
+    "drops": {
+      "materials": ["Flame Organ", "High Grade Technical Manual"],
+      "consumables": [],
+      "other": []
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "N/A",
+      "base": "B Tier (for Early Game)"
+    }
+  },{
+    "monsterName": "Woolipop",
+    "monsterID": "34",
+    "elementType": ["Neutral"],
+    "description": "Woolipop is a Pal with the Candy Pop Partner Skill and the Neutral Element type.",
+    "partnerSkill": {
+      "name": "Candy Pop",
+      "description": "Sometimes drops Cotton Candy while assigned to Ranch."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Ground",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls sticky mud at an enemy."
+      },
+      {
+        "name": "Air Cannon",
+        "type": "Neutral",
+        "power": 25,
+        "cooldownTime": 2,
+        "description": "Quickly fires a burst of highly pressurized air."
+      },
+      {
+        "name": "Power Shot",
+        "type": "Neutral",
+        "power": 35,
+        "cooldownTime": 4,
+        "description": "Charges energy into a focused blast."
+      },
+      {
+        "name": "Power Bomb",
+        "type": "Neutral",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Charges a massive amount of energy before firing a large destructive ball."
+      },
+      {
+        "name": "Bubble Blast",
+        "type": "Water",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Fires numerous bubbles that slowly pursue an enemy."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Artisan",
+        "effect": "Work Speed +50%",
+        "ranking": 5
+      },
+      {
+        "name": "Serious",
+        "effect": "Work Speed +20%",
+        "ranking": 5
+      },
+      {
+        "name": "Work Slave",
+        "effect": "Work Speed +30%, Attack -30%",
+        "ranking": 4
+      },
+      {
+        "name": "Lucky",
+        "effect": "Work Speed +15% and Attack +15%",
+        "ranking": 2
+      },
+      {
+        "name": "Conceited",
+        "effect": "Work Speed +10%, Defense -10%",
+        "ranking": 1
+      }
+    ],
+    "workSuitability": {
+      "gathering": 2,
+      "farming": 1
+    },
+    "location": {
+      "day": ["No specific location, possibly available through Black Marketeer"],
+      "night": ["No specific location, possibly available through Black Marketeer"],
+      "description": "Woolipop can be bought from the Black Marketeer. While there is a fixed pool of available Pals that can be bought at the Black Marketeer's shop, some of their stock is random and will change every day."
+    },
+    "acquisition": {
+      "fieldAlphaBoss": false,
+      "blackMarketeer": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Chikipi", "parent2": "Celaray" },
+        { "parent1": "Chikipi", "parent2": "Melpaca" },
+        { "parent1": "Lamball", "parent2": "Eikthyrdeer" },
+        { "parent1": "Cattiva", "parent2": "Caprity" },
+        { "parent1": "Teafant", "parent2": "Melpaca" },
+        { "parent1": "Cattiva", "parent2": "Eikthyrdeer" },
+        { "parent1": "Rooby", "parent2": "Gumoss" }
+      ],
+      "bestCombos": [
+        { "parent1": "Celaray", "parent2": "Woolipop", "child": "Galeclaw" },
+        { "parent1": "Mossanda", "parent2": "Woolipop", "child": "Dinossom" },
+        { "parent1": "Penking", "parent2": "Woolipop", "child": "Digtoise" },
+        { "parent1": "Woolipop", "parent2": "Nitewing", "child": "Chillet" },
+        { "parent1": "Tanzee", "parent2": "Woolipop", "child": "Fuddler" },
+        { "parent1": "Mozzarina", "parent2": "Woolipop", "child": "Vaelet" },
+        { "parent1": "Pengullet", "parent2": "Woolipop", "child": "Kelpsea Ignis" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Dark Type Pal. Since Woolipop is weak to Dark element Pals due to its Neutral Elemental Type, it's best to bring Dark type Pals to fight against it.",
+      "weaknesses": "Woolipop is weak to Dark element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 1,
+      "Attack": 1,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Cotton Candy"],
+      "possibleDrops": ["Palworld - Cotton Candy Material", "Palworld - High Quality Pal Oil Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "N/A",
+      "base": "B Tier (for Mid Game)"
+    }
+  },{
+    "monsterName": "Wumpo",
+    "monsterID": "91",
+    "elementType": ["Ice"],
+    "description": "Wumpo is a Pal with the Guardian of the Snowy Mountain Partner Skill and the Ice Element type.",
+    "partnerSkill": {
+      "name": "Guardian of the Snowy Mountain",
+      "description": "Can be ridden. While in the team, Wumpo helps carry supplies, increasing the player's max carrying capacity."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Ice Missile",
+        "type": "Ice",
+        "power": 30,
+        "cooldownTime": 3,
+        "description": "Creates ice lances in the air that fly towards enemies."
+      },
+      {
+        "name": "Iceberg",
+        "type": "Ice",
+        "power": 70,
+        "cooldownTime": 15,
+        "description": "Summons a sharp ice lance under an enemy."
+      },
+      {
+        "name": "Cryst Breath",
+        "type": "Ice",
+        "power": 90,
+        "cooldownTime": 22,
+        "description": "Enshrouds an enemy in a frigid blast of air, dealing continuous damage."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      },
+      {
+        "name": "Blizzard Spike",
+        "type": "Ice",
+        "power": 130,
+        "cooldownTime": 45,
+        "description": "Creates a giant lump of ice and hurls it at any enemy. It deals damage to those in the surrounding area upon impact."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Motivational Leader",
+        "effect": "25% increase to Player Speed.",
+        "ranking": 5
+      },
+      {
+        "name": "Artisan",
+        "effect": "Work Speed +50%",
+        "ranking": 5
+      },
+      {
+        "name": "Mine Foreman",
+        "effect": "25% increase to Player Mining Efficiency",
+        "ranking": 5
+      },
+      {
+        "name": "Logging Foreman",
+        "effect": "25% increase to Player Logging Efficiency",
+        "ranking": 4
+      },
+      {
+        "name": "Stronghold Strategist",
+        "effect": "10% increase to Player Defense",
+        "ranking": 4
+      },
+      {
+        "name": "Vanguard",
+        "effect": "10% increase to Player Attack",
+        "ranking": 4
+      }
+    ],
+    "workSuitability": {
+      "handiwork": 2,
+      "lumbering": 3,
+      "transporting": 4,
+      "cooling": 2
+    },
+    "location": {
+      "day": ["No specific location, possibly available through Black Marketeer"],
+      "night": ["No specific location, possibly available through Black Marketeer"],
+      "description": "Wumpo can be hatched from a Large Frozen Egg. Pal eggs can be found spread across the islands as interactable objects that can be picked up. They can also be obtained through breeding Pals together in a Breeding Farm. Once you have an egg, place it in an Egg Incubator and wait for it to hatch."
+    },
+    "acquisition": {
+      "fieldAlphaBoss": false,
+      "blackMarketeer": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Mossanda", "parent2": "Cinnamoth" },
+        { "parent1": "Penking", "parent2": "Sweepa" },
+        { "parent1": "Incineram", "parent2": "Elizabee" },
+        { "parent1": "Nitewing", "parent2": "Grintale" },
+        { "parent1": "Pyrin", "parent2": "Surfent" },
+        { "parent1": "Mossanda", "parent2": "Azurobe" },
+        { "parent1": "Nitewing", "parent2": "Azurobe" }
+      ],
+      "bestCombos": [
+        { "parent1": "Mammorest", "parent2": "Wumpo", "child": "Mammorest Cryst" },
+        { "parent1": "Penking", "parent2": "Wumpo", "child": "Cinnamoth" },
+        { "parent1": "Surfent", "parent2": "Wumpo", "child": "Grintale" },
+        { "parent1": "Cryolinx", "parent2": "Wumpo", "child": "Mammorest" },
+        { "parent1": "Mossanda", "parent2": "Wumpo", "child": "Sibelyx" },
+        { "parent1": "Pyrin Noct", "parent2": "Wumpo", "child": "Quivern" },
+        { "parent1": "Sweepa", "parent2": "Wumpo", "child": "Mossanda" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Fire Type Pal. Since Wumpo is weak to Fire element Pals due to its Ice Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Wumpo is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 3,
+      "Hunger": 4,
+      "Attack": 2,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Beautiful Flower", "Ice Organ"],
+      "possibleDrops": ["Palworld - Beautiful Flower Material", "Palworld - Ice Organ Material"]
+    },
+    "tierListRanking": {
+      "riding": "D Tier (Ground Mount)",
+      "combat": "N/A",
+      "base": "S Tier (for Late Game)"
+    }
+  },{
+    "monsterName": "Wumpo Botan",
+    "monsterID": "91B",
+    "elementType": ["Grass"],
+    "description": "Wumpo Botan, a Grass Element Pal, can be found in the No. 2 Wildlife Sanctuary and in the Eastern Wild Island in Palworld.",
+    "partnerSkill": {
+      "name": "Guardian of the Grassy Fields",
+      "description": "Can be ridden. While in team, Wumpo Botan helps carry supplies, increasing the player's max carrying capacity."
+    },
+    "activeSkills": [
+      {
+        "name": "Wind Cutter",
+        "type": "Grass",
+        "power": 30,
+        "cooldownTime": 2,
+        "description": "Fires a high-speed blade of wind that flies straight at an enemy."
+      },
+      {
+        "name": "Aqua Gun",
+        "type": "Water",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Hurls a ball of water straight at an enemy."
+      },
+      {
+        "name": "Seed Mine",
+        "type": "Grass",
+        "power": 65,
+        "cooldownTime": 13,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes."
+      },
+      {
+        "name": "Grass Tornado",
+        "type": "Grass",
+        "power": 80,
+        "cooldownTime": 18,
+        "description": "Generates two tornadoes on either side before launching them at an enemy."
+      },
+      {
+        "name": "Spine Vine",
+        "type": "Grass",
+        "power": 95,
+        "cooldownTime": 25,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below."
+      },
+      {
+        "name": "Aqua Burst",
+        "type": "Water",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of water and hurls it at an enemy."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Artisan",
+        "effect": "Work Speed +50%",
+        "ranking": 5
+      },
+      {
+        "name": "Vanguard",
+        "effect": "10% increase to Player Attack",
+        "ranking": 4
+      },
+      {
+        "name": "Logging Foreman",
+        "effect": "25% increase to Player Logging Efficiency",
+        "ranking": 4
+      },
+      {
+        "name": "Motivational Leader",
+        "effect": "25% increase to Player Speed.",
+        "ranking": 5
+      },
+      {
+        "name": "Mine Foreman",
+        "effect": "25% increase to Player Mining Efficiency",
+        "ranking": 5
+      },
+      {
+        "name": "Stronghold Strategist",
+        "effect": "10% increase to Player Defense",
+        "ranking": 4
+      }
+    ],
+    "workSuitability": {
+      "planting": 1,
+      "handiwork": 2,
+      "lumbering": 3,
+      "transporting": 4
+    },
+    "location": {
+      "day": ["No. 2 Wildlife Sanctuary"],
+      "night": ["No. 2 Wildlife Sanctuary"],
+      "description": "Wumpo Botan can be found on the No. 2 Wildlife Sanctuary island on the map's western edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."
+    },
+    "acquisition": {
+      "fieldAlphaBoss": true,
+      "blackMarketeer": false
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Penking", "parent2": "Mossanda" },
+        { "parent1": "Incineram", "parent2": "Pyrin" },
+        { "parent1": "Sweepa", "parent2": "Surfent" },
+        { "parent1": "Penking", "parent2": "Sibelyx" },
+        { "parent1": "Mossanda", "parent2": "Elphidran" },
+        { "parent1": "Nitewing", "parent2": "Elphidran" },
+        { "parent1": "Nitewing", "parent2": "Surfent Terra" }
+      ],
+      "bestCombos": [
+        { "parent1": "Beakon", "parent2": "Wumpo Botan", "child": "Quivern" },
+        { "parent1": "Penking", "parent2": "Wumpo Botan", "child": "Azurobe" },
+        { "parent1": "Azurobe", "parent2": "Wumpo Botan", "child": "Cinnamoth" },
+        { "parent1": "Elphidran", "parent2": "Wumpo Botan", "child": "Grintale" },
+        { "parent1": "Mossanda", "parent2": "Wumpo Botan", "child": "Sibelyx" },
+        { "parent1": "Foxparks", "parent2": "Wumpo Botan", "child": "Lovander" },
+        { "parent1": "Nitewing", "parent2": "Wumpo Botan", "child": "Sibelyx" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Fire Type Pal. Since Wumpo Botan is weak to Fire element Pals due to its Grass Elemental Type, it's best to bring Fire type Pals to fight against it.",
+      "weaknesses": "Wumpo Botan is weak to Fire element Pals."
+    },
+    "baseStats": {
+      "HP": 3,
+      "Hunger": 4,
+      "Attack": 2,
+      "Defense": 3
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Beautiful Flower", "Lettuce Seeds", "Tomato Seeds"],
+      "possibleDrops": ["Palworld - Beautiful Flower Material", "Palworld - Lettuce Seeds Material", "Palworld - Tomato Seeds Material"]
+    },
+    "tierListRanking": {
+      "riding": "D Tier (Ground Mount)",
+      "combat": "N/A",
+      "base": "S Tier (for Late Game)"
+    }
+  },{
+    "monsterName": "Loupmoon",
+    "monsterID": "46",
+    "elementType": ["Dark"],
+    "description": "Loupmoon is a Pal with the Claws Glistening in the Dark Partner Skill and the Dark Element type.",
+    "partnerSkill": {
+      "name": "Claws Glistening in the Dark",
+      "description": "When activated, attacks targeted enemy with a powerful Jumping Claw."
+    },
+    "activeSkills": [
+      {
+        "name": "Dark Ball",
+        "type": "Dark",
+        "power": 40,
+        "cooldownTime": 4,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy."
+      },
+      {
+        "name": "Icicle Cutter",
+        "type": "Ice",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Creates a crescent blade of ice and hurls it forward."
+      },
+      {
+        "name": "Shadow Burst",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 10,
+        "description": "Quickly discharges dark energy, damaging those around it."
+      },
+      {
+        "name": "Spirit Flame",
+        "type": "Dark",
+        "power": 75,
+        "cooldownTime": 16,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy."
+      },
+      {
+        "name": "Nightmare Ball",
+        "type": "Dark",
+        "power": 100,
+        "cooldownTime": 30,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy."
+      },
+      {
+        "name": "Jumping Claw",
+        "type": "Dark",
+        "power": 55,
+        "cooldownTime": 7,
+        "description": "Loupmoon exclusive skill. Leaps forward and attacks twice with vicious claws imbued with dark energy."
+      }
+    ],
+    "passiveSkills": [
+      {
+        "name": "Artisan",
+        "effect": "Work Speed +50%",
+        "ranking": 5
+      },
+      {
+        "name": "Lord of the Underworld",
+        "effect": "20% increase to Dark attack damage",
+        "ranking": 5
+      },
+      {
+        "name": "Musclehead",
+        "effect": "Attack +30%\nWork Speed -50%",
+        "ranking": 5
+      },
+      {
+        "name": "Burly Body",
+        "effect": "Defense +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Ferocious",
+        "effect": "Attack +20%",
+        "ranking": 4
+      },
+      {
+        "name": "Work Slave",
+        "effect": "Work Speed +30%\nAttack -30%",
+        "ranking": 4
+      }
+    ],
+    "workSuitability": {
+      "handiwork": 2
+    },
+    "location": {
+      "day": ["Nocturnal"],
+      "night": ["Nocturnal"],
+      "description": "Loupmoon can be purchased from the Black Marketeer. It can also be hatched from a Dark Egg which can be found spread across the islands as interactable objects or obtained through breeding Pals together in a Breeding Farm."
+    },
+    "acquisition": {
+      "fieldAlphaBoss": false,
+      "blackMarketeer": true
+    },
+    "breeding": {
+      "combos": [
+        { "parent1": "Celaray", "parent2": "Direhowl" },
+        { "parent1": "Foxparks", "parent2": "Penking" },
+        { "parent1": "Sparkit", "parent2": "Penking" },
+        { "parent1": "Lamball", "parent2": "Mossanda" },
+        { "parent1": "Chikipi", "parent2": "Mossanda" },
+        { "parent1": "Lamball", "parent2": "Nitewing" },
+        { "parent1": "Chikipi", "parent2": "Nitewing" }
+      ],
+      "bestCombos": [
+        { "parent1": "Rooby", "parent2": "Loupmoon", "child": "Vaelet" },
+        { "parent1": "Caprity", "parent2": "Loupmoon", "child": "Lovander" },
+        { "parent1": "Woolipop", "parent2": "Loupmoon", "child": "Beegarde" },
+        { "parent1": "Penking", "parent2": "Loupmoon", "child": "Rayhound" },
+        { "parent1": "Killamari", "parent2": "Loupmoon", "child": "Leezpunk" },
+        { "parent1": "Chikipi", "parent2": "Loupmoon", "child": "Fuddler" },
+        { "parent1": "Mossanda", "parent2": "Loupmoon", "child": "Univolt" }
+      ]
+    },
+    "usageInBreeding": {
+      "combos": [
+        { "parent1": "Celaray", "parent2": "Direhowl", "child": "Mossanda" },
+        { "parent1": "Foxparks", "parent2": "Penking", "child": "Vaelet" },
+        { "parent1": "Sparkit", "parent2": "Penking", "child": "Lovander" },
+        { "parent1": "Lamball", "parent2": "Mossanda", "child": "Beegarde" },
+        { "parent1": "Chikipi", "parent2": "Mossanda", "child": "Fuddler" },
+        { "parent1": "Lamball", "parent2": "Nitewing", "child": "Sibelyx" },
+        { "parent1": "Chikipi", "parent2": "Nitewing", "child": "Sibelyx" }
+      ]
+    },
+    "catchStrategyAndWeaknesses": {
+      "strategy": "Bring a Dragon Type Pal. Since Loupmoon is weak to Dragon element Pals due to its Dark Elemental Type, it's best to bring Dragon type Pals to fight against it.",
+      "weaknesses": "Loupmoon is weak to Dragon element Pals."
+    },
+    "baseStats": {
+      "HP": 1,
+      "Hunger": 3,
+      "Attack": 4,
+      "Defense": 2
+    },
+    "materialAndItemDrops": {
+      "materialsDropped": ["Bone"],
+      "possibleDrops": ["Palworld - Bone Material"]
+    },
+    "tierListRanking": {
+      "riding": "N/A",
+      "combat": "C Tier",
+      "base": "C Tier (for Mid Game)"
+    }
+  }  
 ]

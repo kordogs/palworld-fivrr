@@ -87,6 +87,12 @@ export default function BreedingCalculator() {
         backgroundAttachment: "fixed",
       }}
     >
+      <span className="absolute left-5 top-5">
+        <a className="btn btn-neutral" href="/">
+          Go Back
+        </a>
+      </span>
+
       <div className="flex justify-center flex-col items-center">
         <h1 className=" text-lg font-bold mb-2 from-green-500 to-orange-500">
           Breeding Parents
