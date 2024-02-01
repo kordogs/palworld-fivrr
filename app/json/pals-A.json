@@ -154,7 +154,7 @@
     "lumbering": 1
   },
   "location": {
-    "day": ["Arsox can be found on the No.2 Wildlife Sanctuary island on the map's western edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."],
+    "day": ["Arsox can be found on the No.2 Wildlife Sanctuary island on the map's western edge. You can access this location by rideTier a flying mount Pal or a swimming Pal such as Surfent."],
     "night": []
   },
   "acquisition": {
@@ -3278,7 +3278,7 @@
         "type": "Neutral",
         "power": 50,
         "cooldownTime": 5,
-        "description": "Eikthyrdeer exclusive skill. Charges at foes and uses antlers to launch them into the air. If used while riding, the direction of the charge can be controlled."
+        "description": "Eikthyrdeer exclusive skill. Charges at foes and uses antlers to launch them into the air. If used while rideTier, the direction of the charge can be controlled."
       },
       {
         "name": "Power Shot",
@@ -3392,7 +3392,7 @@
         "type": "Neutral",
         "power": 50,
         "cooldownTime": 5,
-        "description": "Eikthyrdeer exclusive skill. Charges at foes and uses antlers to launch them into the air. If used while riding, the direction of the charge can be controlled."
+        "description": "Eikthyrdeer exclusive skill. Charges at foes and uses antlers to launch them into the air. If used while rideTier, the direction of the charge can be controlled."
       },
       {
         "name": "Power Shot",
@@ -3675,7 +3675,7 @@
     "location": {
       "day": true,
       "night": true,
-      "source": "Elphidran can be found on the No.1 Wildlife Sanctuary island on the map's southern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent. Elphidran can also be bought from the Black Marketeer. Prices for the Pals at the Black Marketeer vary between their rarity and level."
+      "source": "Elphidran can be found on the No.1 Wildlife Sanctuary island on the map's southern edge. You can access this location by rideTier a flying mount Pal or a swimming Pal such as Surfent. Elphidran can also be bought from the Black Marketeer. Prices for the Pals at the Black Marketeer vary between their rarity and level."
     },
     "breeding": {
       "combos": [
@@ -3936,7 +3936,7 @@
     "location": {
       "day": true,
       "night": true,
-      "source": "Faleris can be found on the No. 3 Wildlife Sanctuary island on the map's eastern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."
+      "source": "Faleris can be found on the No. 3 Wildlife Sanctuary island on the map's eastern edge. You can access this location by rideTier a flying mount Pal or a swimming Pal such as Surfent."
     },
     "breeding": {
       "combos": [
@@ -5638,7 +5638,7 @@
     "elementType": ["Electric"],
     "description": "Grizzbolt is a Pal with the Yellow Tank Partner Skill and the Electric Element type. It can be found on the No.1 Wildlife Sanctuary island on the map's southern edge in Palworld.",
     "location": {
-      "source": "Grizzbolt can be found on the No.1 Wildlife Sanctuary island on the map's southern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent.",
+      "source": "Grizzbolt can be found on the No.1 Wildlife Sanctuary island on the map's southern edge. You can access this location by rideTier a flying mount Pal or a swimming Pal such as Surfent.",
       "coordinates": "Coordinates not provided"
     },
     "breeding": {
@@ -5856,9 +5856,9 @@
       "possibleDrops": ["Palworld - Fiber Material"]
     },
     "tierListRanking": {
-      "riding": "A Tier (Gliding Mount)",
-      "combat": "N/A",
-      "base": "B Tier (for Mid Game)"
+      "rideTier": "A Tier (Gliding Mount)",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Mid Game)"
     },
     "partnerSkill": {
       "name": "Flying Trapeze",
@@ -5945,9 +5945,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "A Tier (Gliding Mount)",
-      "combat": "N/A",
-      "base": "B Tier (for Mid Game)"
+      "rideTier": "A Tier (Gliding Mount)",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Mid Game)"
     },
     "partnerSkill": {
       "name": "Winter Trapeze",
@@ -6035,9 +6035,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "B Tier (Flying Mount)",
-      "combat": "B Tier",
-      "base": "SS Tier (for Late Game)"
+      "rideTier": "B Tier (Flying Mount)",
+      "combatTier": "B Tier",
+      "baseTier": "SS Tier (for Late Game)"
     },
     "partnerSkill": {
       "name": "Wings of Death",
@@ -6122,9 +6122,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "C Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
     },
     "partnerSkill": {
       "name": "Dark Knowledge",
@@ -6209,9 +6209,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "A Tier",
-      "base": "B Tier (for Late Game)"
+      "rideTier": "N/A",
+      "combatTier": "A Tier",
+      "baseTier": "B Tier (for Late Game)"
     },
     "partnerSkill": {
       "name": "Flameclaw Hunter",
@@ -6275,7 +6275,7 @@
     "elementType": ["Dark"],
     "description": "Incineram Noct is a Pal with the Darkclaw Hunter Partner Skill and the Dark Element type. It can be purchased from the Black Marketeer, found on the 2nd and 3rd Wildlife Sanctuary islands, or hatched from a Large Dark Egg in Palworld. Incineram Noct is weak to Dragon element Pals due to its Dark Elemental Type.",
     "location": {
-      "day": "Incineram Noct can be purchased from the Black Marketeer. It can also be found on the 2nd and 3rd Wildlife Sanctuary islands on the map's western and eastern edge respectively. You can access these locations by riding a flying mount Pal or a swimming Pal such as Surfent.",
+      "day": "Incineram Noct can be purchased from the Black Marketeer. It can also be found on the 2nd and 3rd Wildlife Sanctuary islands on the map's western and eastern edge respectively. You can access these locations by rideTier a flying mount Pal or a swimming Pal such as Surfent.",
       "night": "Location not provided"
     },
     "catchStrategyAndWeakness": {
@@ -6299,9 +6299,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "S Tier",
-      "base": "C Tier (for Late Game)"
+      "rideTier": "N/A",
+      "combatTier": "S Tier",
+      "baseTier": "C Tier (for Late Game)"
     },
     "partnerSkill": {
       "name": "Darkclaw Hunter",
@@ -6391,9 +6391,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "SS Tier (Flying Mount)",
-      "combat": "S Tier",
-      "base": "C Tier (for Late Game)"
+      "rideTier": "SS Tier (Flying Mount)",
+      "combatTier": "S Tier",
+      "baseTier": "C Tier (for Late Game)"
     },
     "partnerSkill": {
       "name": "Aerial Missile",
@@ -6482,9 +6482,9 @@
       "possibleDrops": ["Palworld - Electric Organ Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "C Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
     },
     "partnerSkill": {
       "name": "Jolt Bomb",
@@ -6566,9 +6566,9 @@
       "possibleDrops": ["Palworld - Ice Organ Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "C Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
     },
     "partnerSkill": {
       "name": "Cold Bomb",
@@ -6650,9 +6650,9 @@
       "possibleDrops": ["Palworld - Pal Fluids Material"]
     },
     "tierListRanking": {
-      "riding": "A Tier (Swimming Mount)",
-      "combat": "SS Tier",
-      "base": "A Tier (for Late Game)"
+      "rideTier": "A Tier (Swimming Mount)",
+      "combatTier": "SS Tier",
+      "baseTier": "A Tier (for Late Game)"
     },
     "partnerSkill": {
       "name": "Stormbringer Sea Dragon",
@@ -6737,9 +6737,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "C Tier (Ground Mount)",
-      "combat": "SS Tier",
-      "base": "S Tier (for Late Game)"
+      "rideTier": "C Tier (Ground Mount)",
+      "combatTier": "SS Tier",
+      "baseTier": "S Tier (for Late Game)"
     },
     "partnerSkill": {
       "name": "Stormbringer Lava Dragon",
@@ -6829,9 +6829,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "D Tier",
-      "base": "B Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "D Tier",
+      "baseTier": "B Tier (for Mid Game)"
     },
     "partnerSkill": {
       "name": "Grimoire Collector",
@@ -6937,9 +6937,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "D Tier",
-      "base": "C Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "D Tier",
+      "baseTier": "C Tier (for Early Game)"
     },
     "partnerSkill": {
       "name": "Aqua Spout",
@@ -7050,9 +7050,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
     },
     "partnerSkill": {
       "name": "Lava Spout",
@@ -7185,9 +7185,9 @@
       "possibleDrops": ["Palworld - Venom Gland Material"]
     },
     "tierListRanking": {
-      "riding": "A Tier (Gliding Mount)",
-      "combat": "N/A",
-      "base": "B Tier (for Early Game)"
+      "rideTier": "A Tier (Gliding Mount)",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Early Game)"
     },
     "partnerSkill": {
       "name": "Fried Squid",
@@ -7293,9 +7293,9 @@
       "possibleDrops": ["Palworld - Wool Material"]
     },
     "tierListRanking": {
-      "riding": "C Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "C Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
     },
     "partnerSkill": {
       "name": "King of Muscles",
@@ -7416,9 +7416,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "C Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "B Tier (for Late Game)"
+      "rideTier": "C Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Late Game)"
     },
     "partnerSkill": {
       "name": "King of Muscles",
@@ -7476,7 +7476,7 @@
     "description": "Kitsun is a Pal with the Clear Mind Partner Skill and the Fire Element type. It is a Nocturnal Pal, exclusive to the night. Kitsun can be hatched from a Large Scorching Egg and is weak to Water element Pals due to its Fire Elemental Type.",
     "partnerSkill": {
       "name": "Clear Mind",
-      "description": "Can be ridden. Unaffected by the cold or heat while riding this Pal."
+      "description": "Can be ridden. Unaffected by the cold or heat while rideTier this Pal."
     },
     "activeSkills": [
       {
@@ -7586,9 +7586,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "A Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "A Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
     },
     "workSuitability": {
       "kindling": 2
@@ -7707,9 +7707,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "C Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
     },
     "workSuitability": {
       "handiwork": 1,
@@ -7847,9 +7847,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
     },
     "workSuitability": {
       "handiwork": 1,
@@ -7998,9 +7998,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
     },
     "workSuitability": {
       "kindling": 1,
@@ -8105,9 +8105,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "B Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Early Game)"
     },
     "workSuitability": {
       "Planting": 1,
@@ -10307,9 +10307,9 @@
       "possibleDrops": ["Palworld - Electric Organ Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "SS Tier",
-      "base": "SS Tier (for Late Game)"
+      "rideTier": "N/A",
+      "combatTier": "SS Tier",
+      "baseTier": "SS Tier (for Late Game)"
     },
     "workSuitability": {
       "Electricity": 4,
@@ -10449,9 +10449,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "S Tier (Ground Mount)",
-      "combat": "SS Tier",
-      "base": "B Tier (for Late Game)"
+      "rideTier": "S Tier (Ground Mount)",
+      "combatTier": "SS Tier",
+      "baseTier": "B Tier (for Late Game)"
     },
     "workSuitability": {
       "lumbering": 2,
@@ -10953,9 +10953,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "S Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "C Tier (for Late Game)"
+      "rideTier": "S Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Late Game)"
     }
   },
   {
@@ -11091,9 +11091,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "S Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "C Tier (for Late Game)"
+      "rideTier": "S Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Late Game)"
     }
   },
   {
@@ -11227,9 +11227,9 @@
       "possibleDrops": ["Palworld - High Quality Pal Oil Material"]
     },
     "tierListRanking": {
-      "riding": "B Tier (Flying Mount)",
-      "combat": "B Tier",
-      "base": "A Tier (for Late Game)"
+      "rideTier": "B Tier (Flying Mount)",
+      "combatTier": "B Tier",
+      "baseTier": "A Tier (for Late Game)"
     }
   },
   {
@@ -11361,9 +11361,9 @@
       "possibleDrops": ["Palworld - Flame Organ Material"]
     },
     "tierListRanking": {
-      "riding": "A Tier (Flying Mount)",
-      "combat": "N/A",
-      "base": "S Tier (for Late Game)"
+      "rideTier": "A Tier (Flying Mount)",
+      "combatTier": "N/A",
+      "baseTier": "S Tier (for Late Game)"
     }
   },
   {
@@ -11495,9 +11495,9 @@
       "possibleDrops": ["Palworld - Electric Organ Material"]
     },
     "tierListRanking": {
-      "riding": "S Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "C Tier (for Late Game)"
+      "rideTier": "S Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Late Game)"
     }
   },
   {
@@ -11632,9 +11632,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "C Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "C Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
     }
   },
   {
@@ -11778,9 +11778,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "B Tier (Ground Mount)",
-      "combat": "A Tier",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "B Tier (Ground Mount)",
+      "combatTier": "A Tier",
+      "baseTier": "C Tier (for Mid Game)"
     }
   },
   {
@@ -11938,9 +11938,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "B Tier (Ground Mount)",
-      "combat": "A Tier",
-      "base": "B Tier (for Late Game)"
+      "rideTier": "B Tier (Ground Mount)",
+      "combatTier": "A Tier",
+      "baseTier": "B Tier (for Late Game)"
     }
   },
   {
@@ -12063,9 +12063,9 @@
       "possibleDrops": ["Palworld - Flame Organ Material"]
     },
     "tierListRanking": {
-      "riding": "D Tier (Ground Mount)",
-      "combat": "A Tier",
-      "base": "A Tier (for Late Game)"
+      "rideTier": "D Tier (Ground Mount)",
+      "combatTier": "A Tier",
+      "baseTier": "A Tier (for Late Game)"
     }
   },
   {
@@ -12191,9 +12191,9 @@
       "possibleDrops": ["Palworld - Ice Organ Material"]
     },
     "tierListRanking": {
-      "riding": "D Tier (Ground Mount)",
-      "combat": "B Tier",
-      "base": "A Tier (for Late Game)"
+      "rideTier": "D Tier (Ground Mount)",
+      "combatTier": "B Tier",
+      "baseTier": "A Tier (for Late Game)"
     }
   },
   {
@@ -12203,7 +12203,7 @@
     "description": "Ribbuny is a Pal with the Skilled Fingers Partner Skill and the Neutral Element type. It is weak to Dark element Pals.",
     "partnerSkill": {
       "name": "Skilled Fingers",
-      "description": "While in the team, increases attack power of Neutral Pals. While at base, increases work efficiency if working at Weapon Workbench."
+      "description": "While in the team, increases attack power of Neutral Pals. While at baseTier, increases work efficiency if working at Weapon Workbench."
     },
     "activeSkills": [
       {
@@ -12326,9 +12326,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "A Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "A Tier (for Mid Game)"
     }
   },
   {
@@ -12463,9 +12463,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "A Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "A Tier (for Mid Game)"
     }
   },
   {
@@ -12619,9 +12619,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "B Tier",
-      "base": "B Tier (for Late Game)"
+      "rideTier": "N/A",
+      "combatTier": "B Tier",
+      "baseTier": "B Tier (for Late Game)"
     }
   },
   {
@@ -12750,9 +12750,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "D Tier",
-      "base": "C Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "D Tier",
+      "baseTier": "C Tier (for Early Game)"
     }
   },
   {
@@ -12884,9 +12884,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "C Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "C Tier (for Early Game)"
+      "rideTier": "C Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
     }
   },
   {
@@ -12976,7 +12976,7 @@
     "location": {
       "day": ["No. 3 Wildlife Sanctuary"],
       "night": [],
-      "description": "Shadowbeak can be found on the No. 3 Wildlife Sanctuary island on the map's eastern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."
+      "description": "Shadowbeak can be found on the No. 3 Wildlife Sanctuary island on the map's eastern edge. You can access this location by rideTier a flying mount Pal or a swimming Pal such as Surfent."
     },
     "breeding": {
       "combos": [
@@ -13032,9 +13032,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "A Tier (Flying Mount)",
-      "combat": "SS Tier",
-      "base": "C Tier (for Late Game)"
+      "rideTier": "A Tier (Flying Mount)",
+      "combatTier": "SS Tier",
+      "baseTier": "C Tier (for Late Game)"
     }
   },
   {
@@ -13157,9 +13157,9 @@
       ]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "B Tier (for Late Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Late Game)"
     }
   },
   {
@@ -13291,9 +13291,9 @@
       "possibleDrops": ["Palworld - Electric Organ Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "C Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
     }
   },
   {
@@ -13421,9 +13421,9 @@
       "possibleDrops": ["Palworld - Pal Fluids Material"]
     },
     "tierListRanking": {
-      "riding": "B Tier (Swimming Mount)",
-      "combat": "N/A",
-      "base": "C Tier (for Early Game)"
+      "rideTier": "B Tier (Swimming Mount)",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Early Game)"
     }
   },
   {
@@ -13567,9 +13567,9 @@
       "possibleDrops": ["Palworld - Pal Fluids Material"]
     },
     "tierListRanking": {
-      "riding": "C Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "C Tier (for Late Game)"
+      "rideTier": "C Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Late Game)"
     }
   },
   {
@@ -13700,9 +13700,9 @@
       "possibleDrops": ["Palworld - Flame Organ Material"]
     },
     "tierListRanking": {
-      "riding": "B Tier (Flying Mount)",
-      "combat": "N/A",
-      "base": "A Tier (for Late Game)"
+      "rideTier": "B Tier (Flying Mount)",
+      "combatTier": "N/A",
+      "baseTier": "A Tier (for Late Game)"
     }
   },
   {
@@ -13844,9 +13844,9 @@
       "possibleDrops": ["Palworld - Pal Fluids Material"]
     },
     "tierListRanking": {
-      "riding": "B Tier (Flying Mount)",
-      "combat": "S Tier",
-      "base": "A Tier (for Late Game)"
+      "rideTier": "B Tier (Flying Mount)",
+      "combatTier": "S Tier",
+      "baseTier": "A Tier (for Late Game)"
     }
   },{
     "monsterName": "Swee",
@@ -13973,9 +13973,9 @@
       "possibleDrops": ["Palworld - Wool Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "D Tier",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "D Tier",
+      "baseTier": "C Tier (for Mid Game)"
     }
   },{
     "monsterName": "Sweepa",
@@ -14106,9 +14106,9 @@
       "possibleDrops": ["Palworld - Wool Material"]
     },
     "tierListRanking": {
-      "riding": "D Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "D Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
     }
   },{
     "monsterName": "Tanzee",
@@ -14242,9 +14242,9 @@
       "possibleDrops": ["Palworld - Mushroom Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "B Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Early Game)"
     }
   },{
     "monsterName": "Teafant",
@@ -14365,9 +14365,9 @@
       "possibleDrops": ["Palworld - Pal Fluids Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "D Tier",
-      "base": "C Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "D Tier",
+      "baseTier": "C Tier (for Early Game)"
     }
   },{
     "monsterName": "Tocotoco",
@@ -14501,9 +14501,9 @@
       "possibleDrops": ["Palworld - Gunpowder Material", "Palworld - Tocotoco Feather Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "C Tier (for Mid Game)"
     }
   },{
     "monsterName": "Tombat",
@@ -14634,9 +14634,9 @@
       "possibleDrops": ["Palworld - Leather Material", "Palworld - Small Pal Soul Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "B Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Early Game)"
     }
   },{
     "monsterName": "Univolt",
@@ -14771,9 +14771,9 @@
       "possibleDrops": ["Palworld - Electric Organ Material", "Palworld - Horn Material", "Palworld - Leather Material"]
     },
     "tierListRanking": {
-      "riding": "S Tier (Ground Mount)",
-      "combat": "C Tier",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "S Tier (Ground Mount)",
+      "combatTier": "C Tier",
+      "baseTier": "C Tier (for Mid Game)"
     }
   },{
     "monsterName": "Vaelet",
@@ -14870,7 +14870,7 @@
     "location": {
       "day": ["No. 1 Wildlife Sanctuary"],
       "night": [],
-      "description": "Vaelet can be found on the No. 1 Wildlife Sanctuary island on the map's southern edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."
+      "description": "Vaelet can be found on the No. 1 Wildlife Sanctuary island on the map's southern edge. You can access this location by rideTier a flying mount Pal or a swimming Pal such as Surfent."
     },
     "acquisition": {
       "palMerchant": true,
@@ -14911,9 +14911,9 @@
       "possibleDrops": ["Palworld - Low Grade Medical Supplies Material", "Palworld - Tomato Seeds Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "C Tier",
-      "base": "A Tier (for Late Game)"
+      "rideTier": "N/A",
+      "combatTier": "C Tier",
+      "baseTier": "A Tier (for Late Game)"
     }
   },{
     "monsterName": "Vanwyrm",
@@ -15037,9 +15037,9 @@
       "possibleDrops": ["Palworld - Bone Material", "Palworld - Gold Coin Material", "Palworld - Ruby Material"]
     },
     "tierListRanking": {
-      "riding": "C Tier (Flying Mount)",
-      "combat": "N/A",
-      "base": "A Tier (for Mid Game)"
+      "rideTier": "C Tier (Flying Mount)",
+      "combatTier": "N/A",
+      "baseTier": "A Tier (for Mid Game)"
     }
   },{
     "monsterName": "Vanwyrm Cryst",
@@ -15158,9 +15158,9 @@
       "possibleDrops": ["Palworld - Bone Material", "Palworld - Ice Organ Material", "Palworld - Sapphire Material"]
     },
     "tierListRanking": {
-      "riding": "C Tier (Flying Mount)",
-      "combat": "A Tier",
-      "base": "A Tier (for Mid Game)"
+      "rideTier": "C Tier (Flying Mount)",
+      "combatTier": "A Tier",
+      "baseTier": "A Tier (for Mid Game)"
     }
   },{
     "monsterName": "Verdash",
@@ -15257,7 +15257,7 @@
     "location": {
       "day": ["No. 2 Wildlife Sanctuary"],
       "night": ["Sealed Realm of the Swift Field Alpha Boss"],
-      "description": "Verdash can be found on the No.2 Wildlife Sanctuary island on the map's western edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."
+      "description": "Verdash can be found on the No.2 Wildlife Sanctuary island on the map's western edge. You can access this location by rideTier a flying mount Pal or a swimming Pal such as Surfent."
     },
     "acquisition": {
       "fieldAlphaBoss": true
@@ -15297,9 +15297,9 @@
       "possibleDrops": ["Palworld - Bone Material", "Palworld - Leather Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "A Tier",
-      "base": "SS Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "A Tier",
+      "baseTier": "SS Tier (for Mid Game)"
     }
   },{
     "monsterName": "Vixy",
@@ -15428,9 +15428,9 @@
       "possibleDrops": ["Palworld - Bone Material", "Palworld - Leather Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "B Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Early Game)"
     }
   },{
     "monsterName": "Warsect",
@@ -15573,9 +15573,9 @@
       "possibleDrops": ["Palworld - Honey Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "SS Tier",
-      "base": "B Tier (for Late Game)"
+      "rideTier": "N/A",
+      "combatTier": "SS Tier",
+      "baseTier": "B Tier (for Late Game)"
     }
   },{
     "monsterName": "Wixen",
@@ -15713,9 +15713,9 @@
       "other": []
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "B Tier (for Early Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Early Game)"
     }
   },{
     "monsterName": "Woolipop",
@@ -15845,9 +15845,9 @@
       "possibleDrops": ["Palworld - Cotton Candy Material", "Palworld - High Quality Pal Oil Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "N/A",
-      "base": "B Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "N/A",
+      "baseTier": "B Tier (for Mid Game)"
     }
   },{
     "monsterName": "Wumpo",
@@ -15984,9 +15984,9 @@
       "possibleDrops": ["Palworld - Beautiful Flower Material", "Palworld - Ice Organ Material"]
     },
     "tierListRanking": {
-      "riding": "D Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "S Tier (for Late Game)"
+      "rideTier": "D Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "S Tier (for Late Game)"
     }
   },{
     "monsterName": "Wumpo Botan",
@@ -16082,7 +16082,7 @@
     "location": {
       "day": ["No. 2 Wildlife Sanctuary"],
       "night": ["No. 2 Wildlife Sanctuary"],
-      "description": "Wumpo Botan can be found on the No. 2 Wildlife Sanctuary island on the map's western edge. You can access this location by riding a flying mount Pal or a swimming Pal such as Surfent."
+      "description": "Wumpo Botan can be found on the No. 2 Wildlife Sanctuary island on the map's western edge. You can access this location by rideTier a flying mount Pal or a swimming Pal such as Surfent."
     },
     "acquisition": {
       "fieldAlphaBoss": true,
@@ -16123,9 +16123,9 @@
       "possibleDrops": ["Palworld - Beautiful Flower Material", "Palworld - Lettuce Seeds Material", "Palworld - Tomato Seeds Material"]
     },
     "tierListRanking": {
-      "riding": "D Tier (Ground Mount)",
-      "combat": "N/A",
-      "base": "S Tier (for Late Game)"
+      "rideTier": "D Tier (Ground Mount)",
+      "combatTier": "N/A",
+      "baseTier": "S Tier (for Late Game)"
     }
   },{
     "monsterName": "Loupmoon",
@@ -16270,9 +16270,9 @@
       "possibleDrops": ["Palworld - Bone Material"]
     },
     "tierListRanking": {
-      "riding": "N/A",
-      "combat": "C Tier",
-      "base": "C Tier (for Mid Game)"
+      "rideTier": "N/A",
+      "combatTier": "C Tier",
+      "baseTier": "C Tier (for Mid Game)"
     }
   }  
 ]

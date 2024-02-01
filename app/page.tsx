@@ -209,9 +209,9 @@ export default function Home() {
                     typeof monster.tierListRanking === "string"
                       ? { combatTier: "", rideTier: "", baseTier: "" }
                       : monster.tierListRanking ?? {
-                          combatTier: "",
-                          rideTier: "",
-                          baseTier: "",
+                          combatTier: "N/A",
+                          rideTier: "N/A",
+                          baseTier: "N/A",
                         },
                   breeding: {
                     breedingCombos: monster.breeding?.combos ?? [],

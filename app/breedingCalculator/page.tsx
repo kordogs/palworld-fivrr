@@ -13,8 +13,8 @@ const Monster = pals;
 const MonsterDetails = palsDetails;
 
 export default function BreedingCalculator() {
-  const [parent1, setParent1] = useState("");
-  const [parent2, setParent2] = useState("");
+  const [parent1, setParent1] = useState("Lamball");
+  const [parent2, setParent2] = useState("Lamball");
   const [result, setResult] = useState("");
   const [id, setId] = useState(""); // Add this line
   const [theme, setTheme] = useState("dark"); // or "dark" depending on your default theme
