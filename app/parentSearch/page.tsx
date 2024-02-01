@@ -13,9 +13,6 @@ export default function Page() {
   const selectedMonsterObj = Monster.find(
     (monster) => monster.monsterName === selectedMonster
   );
-  const findParent = (parentName: string) => {
-    return Monster.find((monster) => monster.monsterName === parentName);
-  };
 
   let parents: Iterable<any> | null | undefined = [];
   const filteredMonsters = Monster.filter(
@@ -46,7 +43,7 @@ export default function Page() {
 
         <div className="mb-5">
           <Image
-            src={selectedMonsterObj?.image || ""}
+            src={`/pals/${selectedMonster}.webp`}
             height={200}
             width={200}
             alt=""
