@@ -212,22 +212,22 @@ export default function Modal({ monster }: modalProps) {
                       <td className="flex gap-5">
                         <div className="flex justify-between">
                           <span className="font-bold sm:text-sm text-green-500">
-                            HP: {monster?.baseStats.HP}
+                            HP: {monster?.baseStats?.HP}
                           </span>
                         </div>
                         <div className="flex justify-between">
                           <span className="font-bold sm:text-sm text-red-500">
-                            Hunger: {monster?.baseStats.HP}
+                            Hunger: {monster?.baseStats?.Hunger}
                           </span>
                         </div>
                         <div className="flex justify-between">
                           <span className="font-bold sm:text-sm text-orange-500">
-                            Attack: {monster?.baseStats.Attack}
+                            Attack: {monster?.baseStats?.Attack}
                           </span>
                         </div>
                         <div className="flex justify-between">
                           <span className="font-bold sm:text-sm text-blue-500">
-                            Defense: {monster?.baseStats.Defense}
+                            Defense: {monster?.baseStats?.Defense}
                           </span>
                         </div>
                       </td>
