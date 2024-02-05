@@ -10,54 +10,63 @@ export default function Sort() {
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type="Dragon"
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type="Electric"
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type="Fire"
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type="Grass"
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type="Ground"
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type="Ice"
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type="Neutral"
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type="Water"
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <button className="border px-1 rounded-full flex justify-center items-center">
           <svg
@@ -103,66 +112,77 @@ export default function Sort() {
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type={"Watering"}
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type={"Planting"}
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type={"Electricity"}
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type={"Gathering"}
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type={"Lumbering"}
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type={"Mining"}
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type={"Medicine"}
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type={"Cooling"}
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type={"Transporting"}
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <ButtonImage
           type={"Farming"}
           onclick={function (): void {
             throw new Error("Function not implemented.");
           }}
+          isActive={false}
         />
         <button className="border px-1 rounded-full flex justify-center items-center">
           <svg

@@ -447,7 +447,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="flex">
+        <section className="flex justify-center items-center">
           <form className="w-96">
             <label
               htmlFor="default-search"
