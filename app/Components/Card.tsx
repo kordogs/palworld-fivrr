@@ -14,8 +14,8 @@ export default function Card({
 }: CardProps) {
   return (
     // biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
-<div
-      className="card pb-5 bg-base-100 border-base-200 h-fit shadow-lg hover:shadow-glow hover:cursor-pointer hover:animate-pulse w-fit bg-opacity-50 min-h-[400px] max-h-[400px] overflow-auto box-content"
+    <div
+      className="card pb-5 bg-[#2C3B4E] border-base-200 h-fit shadow-lg hover:shadow-glow hover:cursor-pointer hover:animate-pulse w-fit bg-opacity-50 min-h-[400px] max-h-[400px] overflow-auto box-content"
       onClick={() =>
         (document.getElementById("my_modal_3") as HTMLDialogElement).showModal()
       }
@@ -31,7 +31,7 @@ export default function Card({
           {type.map((elementType, index) => (
             <Image
               // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-key={index}
+              key={index}
               src={`/type/${elementType}.png`}
               height={80}
               width={80}
@@ -61,7 +61,7 @@ key={index}
           <div className="flex items-center gap-2">
             {work.map((workType, index) => (
               // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-<div key={index} className="flex items-center gap-2">
+              <div key={index} className="flex items-center gap-2">
                 <Image
                   src={`/work/${workType
                     .charAt(0)

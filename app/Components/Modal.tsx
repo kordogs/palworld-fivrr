@@ -15,8 +15,21 @@ export default function Modal({ monster }: modalProps) {
         <div className="bg-base-200 rounded-xl relative sm:p-8 my-5 py-10">
           <form method="dialog">
             {/* if there is a button in form, it will close the modal */}
-            <button className="btn sm:btn-md btn-lg btn-circle btn-ghost absolute right-0 top-0 ">
-              ✕
+            <button className="btn sm:btn-md btn-lg btn-circle btn-ghost absolute right-2 top-2 ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
             </button>
           </form>
           <div className="content sm:flex w-[400px] lg:w-auto">
@@ -181,17 +194,26 @@ export default function Modal({ monster }: modalProps) {
                     <tr className="flex">
                       <td className="font-bold">Tier List Ranking</td>
                       <td className="flex flex-col gap-5">
-                            <div className="flex flex-col justify-between gap-5">
-                              <span className="font-bold sm:text-sm flex gap-1">
-                                Riding: <p className="text-blue-500">{monster?.tierListRanking?.rideTier}</p>
-                              </span>
-                              <span className="font-bold sm:text-sm flex gap-1">
-                                Combat: <p className="text-red-500">{monster?.tierListRanking?.combatTier}</p>
-                              </span>
-                              <span className="font-bold sm:text-sm flex gap-1">
-                                Base: <p className="text-green-500">{monster?.tierListRanking?.baseTier}</p>
-                              </span>
-                            </div>
+                        <div className="flex flex-col justify-between gap-5">
+                          <span className="font-bold sm:text-sm flex gap-1">
+                            Riding:{" "}
+                            <p className="text-blue-500">
+                              {monster?.tierListRanking?.rideTier}
+                            </p>
+                          </span>
+                          <span className="font-bold sm:text-sm flex gap-1">
+                            Combat:{" "}
+                            <p className="text-red-500">
+                              {monster?.tierListRanking?.combatTier}
+                            </p>
+                          </span>
+                          <span className="font-bold sm:text-sm flex gap-1">
+                            Base:{" "}
+                            <p className="text-green-500">
+                              {monster?.tierListRanking?.baseTier}
+                            </p>
+                          </span>
+                        </div>
                       </td>
                     </tr>
                     <tr className="flex">

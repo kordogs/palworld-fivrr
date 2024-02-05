@@ -24,7 +24,7 @@ export default function Page() {
 
   return (
     <div
-      className="flex items-center flex-col pt-5 px-2 "
+      className="flex items-center flex-col pt-5 px-2 h-screen overflow-auto"
       style={{
         backgroundImage:
           theme === "dark"
@@ -81,7 +81,7 @@ export default function Page() {
                   <th>Parent 2</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className="">
                 {Monster.filter(
                   (monster) => monster.monsterName === selectedMonster
                 ).map((monster, index) =>
