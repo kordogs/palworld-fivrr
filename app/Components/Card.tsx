@@ -15,7 +15,7 @@ export default function Card({
   return (
     // biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
     <div
-      className="card pb-5 bg-base-300 border-base-200 h-fit shadow-lg hover:shadow-glow hover:cursor-pointer hover:animate-pulse w-fit min-h-[400px] max-h-[400px] overflow-auto box-content"
+      className="card pb-5 bg-base-300 border-base-200 h-fit shadow-lg hover:shadow-glow hover:cursor-pointer hover:animate-pulse w-fit min-h-[400px] max-h-[400px] overflow-auto box-content bg-opacity-60"
       onClick={() =>
         (document.getElementById("my_modal_3") as HTMLDialogElement).showModal()
       }

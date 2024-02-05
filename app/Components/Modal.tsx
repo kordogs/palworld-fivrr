@@ -15,7 +15,7 @@ export default function Modal({ monster }: modalProps) {
         <div className="bg-base-200 rounded-xl relative sm:p-8 my-5 py-10">
           <form method="dialog">
             {/* if there is a button in form, it will close the modal */}
-            <button className="btn sm:btn-md btn-lg btn-circle btn-ghost absolute right-2 top-2 ">
+            <button className="btn sm:btn-sm btn-lg btn-circle btn-ghost absolute right-5 top-5 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

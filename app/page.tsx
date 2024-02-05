@@ -96,7 +96,6 @@ export default function Home() {
   return (
     <div
       style={{
-        backgroundImage: theme === "dark" ? `url(${background.src})` : "",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
@@ -445,8 +444,8 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="flex justify-center item">
-          <form className="w-96">
+        <section className="flex justify-center item w-full sm:w-96">
+          <form className="w-full">
             <label
               htmlFor="default-search"
               className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"

@@ -26,10 +26,6 @@ export default function Page() {
     <div
       className="flex items-center flex-col pt-5 px-2 h-screen overflow-auto"
       style={{
-        backgroundImage:
-          theme === "dark"
-            ? `url(https://r4.wallpaperflare.com/wallpaper/22/240/855/texture-gradient-simple-background-blue-wallpaper-58568c5acfdc97f97ec049e292e9cbb0.jpg)`
-            : "",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
@@ -150,8 +146,6 @@ export default function Page() {
           </div>
         </div>
       </div>
-
-      <ThemeController theme={theme} setTheme={setTheme} />
     </div>
   );
 }

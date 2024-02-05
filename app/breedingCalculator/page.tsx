@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import Card from "../Components/Card";
 import Modal from "../Components/Modal";
 import { Monster as MonsterInterface } from "../interface/Monster";
+import background from "../public/dark-background.jpeg";
 
 const Monster = pals;
 const MonsterDetails = palsDetails;
@@ -78,10 +79,7 @@ export default function BreedingCalculator() {
     <div
       className="flex justify-center pt-5 sm:flex-row flex-col px-2 sm:h-screen"
       style={{
-        backgroundImage:
-          theme === "dark"
-            ? "url(https://r4.wallpaperflare.com/wallpaper/22/240/855/texture-gradient-simple-background-blue-wallpaper-58568c5acfdc97f97ec049e292e9cbb0.jpg)"
-            : "",
+        backgroundImage: theme === "dark" ? `url()` : "",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
@@ -274,8 +272,6 @@ export default function BreedingCalculator() {
           />
         </div>
         <Modal monster={selectedMonster} />
-
-        <ThemeController theme={theme} setTheme={setTheme} />
       </div>
     </div>
   );
