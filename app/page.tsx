@@ -445,7 +445,7 @@ export default function Home() {
         </div>
 
         <section className="flex justify-center item w-full sm:w-96">
-          <form className="w-full">
+          <div className="w-full">
             <label
               htmlFor="default-search"
               className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -478,14 +478,11 @@ export default function Home() {
                 value={searchTerm}
                 onChange={handleInputChange}
               />
-              <button
-                type="submit"
-                className=" text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm"
-              >
+              <button className=" text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm">
                 Search
               </button>
             </div>
-          </form>
+          </div>
         </section>
       </div>
 
