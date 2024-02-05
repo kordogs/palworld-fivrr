@@ -9,6 +9,7 @@ import { Monster } from "./interface/Monster";
 import { SetStateAction } from "react";
 import Sort from "./Components/Sort";
 import ButtonImage from "./Components/ButtonImage";
+import background from "../public/dark-background.jpeg";
 
 export default function Home() {
   const [theme, setTheme] = useState("dark"); // or "dark" depending on your default theme
@@ -94,15 +95,12 @@ export default function Home() {
 
   return (
     <div
-      // style={{
-      //   backgroundImage:
-      //     theme === "dark"
-      //       ? `url(https://r4.wallpaperflare.com/wallpaper/22/240/855/texture-gradient-simple-background-blue-wallpaper-58568c5acfdc97f97ec049e292e9cbb0.jpg)`
-      //       : "",
-      //   backgroundSize: "cover",
-      //   backgroundRepeat: "no-repeat",
-      //   backgroundAttachment: "fixed",
-      // }}
+      style={{
+        backgroundImage: theme === "dark" ? `url(${background.src})` : "",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }}
       className="px-10 pb-10"
     >
       <div className="">
@@ -447,7 +445,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="flex justify-center items-center">
+        <section className="flex justify-center item">
           <form className="w-96">
             <label
               htmlFor="default-search"
