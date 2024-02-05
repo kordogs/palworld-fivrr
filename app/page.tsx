@@ -105,11 +105,11 @@ export default function Home() {
       // }}
       className="px-10 pb-10"
     >
-      <div className="mb-5">
+      <div className="">
         <Navbar onSearch={handleSearch} />
       </div>
 
-      <div className=" flex flex-col sm:flex-row mb-5 justify-between gap-3 items-center">
+      <div className=" flex flex-col sm:flex-row mb-5 justify-between gap-3 items-end">
         <section>
           <div className="inline-flex rounded-md shadow-sm" role="group">
             <a
@@ -216,17 +216,21 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="flex justify-center flex-col items-center gap-2 mb-5">
+        <div className="flex justify-center flex-col items-center gap-2">
           <div className="flex">
             <button
               onClick={() => setSortBy("name")}
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-2"
+              className={`text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-2 ${
+                sortBy === "name" ? "ring-2 ring-offset-2 ring-blue-500" : ""
+              }`}
             >
               Sort by Name
             </button>
             <button
               onClick={() => setSortBy("id")}
-              className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-2"
+              className={`text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-2 ${
+                sortBy === "id" ? "ring-2 ring-offset-2 ring-purple-500" : ""
+              }`}
             >
               Sort by ID
             </button>
@@ -241,38 +245,47 @@ export default function Home() {
               onclick={() => {
                 setSelectedElementType("Dark");
               }}
+              isActive={selectedElementType === "Dark"}
             />
             <ButtonImage
               type="Dragon"
               onclick={() => setSelectedElementType("Dragon")}
+              isActive={selectedElementType === "Dragon"}
             />
             <ButtonImage
               type="Electric"
               onclick={() => setSelectedElementType("Electric")}
+              isActive={selectedElementType === "Electric"}
             />
             <ButtonImage
               type="Fire"
               onclick={() => setSelectedElementType("Fire")}
+              isActive={selectedElementType === "Fire"}
             />
             <ButtonImage
               type="Grass"
               onclick={() => setSelectedElementType("Grass")}
+              isActive={selectedElementType === "Grass"}
             />
             <ButtonImage
               type="Ground"
               onclick={() => setSelectedElementType("Ground")}
+              isActive={selectedElementType === "Ground"}
             />
             <ButtonImage
               type="Ice"
               onclick={() => setSelectedElementType("Ice")}
+              isActive={selectedElementType === "Ice"}
             />
             <ButtonImage
               type="Neutral"
               onclick={() => setSelectedElementType("Neutral")}
+              isActive={selectedElementType === "Neutral"}
             />
             <ButtonImage
               type="Water"
               onclick={() => setSelectedElementType("Water")}
+              isActive={selectedElementType === "Water"}
             />
             <button
               className="border px-1 rounded-full flex justify-center items-center"
@@ -323,60 +336,71 @@ export default function Home() {
               onclick={() => {
                 setSelectedWorkSuitability("Kindling");
               }}
+              isActive={selectedWorkSuitability === "Kindling"}
             />
             <ButtonImage
               type={"Watering"}
               onclick={() => {
                 setSelectedWorkSuitability("Watering");
               }}
+              isActive={selectedWorkSuitability === "Watering"}
             />
             <ButtonImage
               type={"Planting"}
               onclick={() => {
                 setSelectedWorkSuitability("Planting");
               }}
+              isActive={selectedWorkSuitability === "Planting"}
             />
             <ButtonImage
               type={"Electricity"}
               onclick={() => {
                 setSelectedWorkSuitability("Electricity");
               }}
+              isActive={selectedWorkSuitability === "Electricity"}
             />
             <ButtonImage
               type={"Gathering"}
               onclick={() => setSelectedWorkSuitability("Gathering")}
+              isActive={selectedWorkSuitability === "Gathering"}
             />
             <ButtonImage
               type={"Lumbering"}
               onclick={() => setSelectedWorkSuitability("Lumbering")}
+              isActive={selectedWorkSuitability === "Lumbering"}
             />
             <ButtonImage
               type={"Mining"}
               onclick={() => setSelectedWorkSuitability("Mining")}
+              isActive={selectedWorkSuitability === "Mining"}
             />
             <ButtonImage
               type={"Medicine"}
               onclick={() => {
                 setSelectedWorkSuitability("Medicine");
               }}
+              isActive={selectedWorkSuitability === "Medicine"}
             />
             <ButtonImage
               type={"Cooling"}
               onclick={() => {
                 setSelectedWorkSuitability("Cooling");
               }}
+              isActive={selectedWorkSuitability === "Cooling"}
             />
             <ButtonImage
               type={"Transporting"}
               onclick={() => {
                 setSelectedWorkSuitability("Transporting");
               }}
+              isActive={selectedWorkSuitability === "Transporting"}
             />
             <ButtonImage
               type={"Farming"}
               onclick={() => {
                 setSelectedWorkSuitability("Farming");
               }}
+              isActive={selectedWorkSuitability === "Farming"}
             />
             <button
               className="border px-1 rounded-full flex justify-center items-center"

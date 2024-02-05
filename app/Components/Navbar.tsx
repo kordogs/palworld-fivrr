@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { SetStateAction, useState } from "react";
 
 interface NavBarProps {
   onSearch: (value: string) => void;
