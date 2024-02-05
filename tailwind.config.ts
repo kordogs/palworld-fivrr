@@ -22,10 +22,13 @@ const config: Config = {
         },
       },
       boxShadow: {
-        glow: "0 0 1px #ff00de, 0 0 20px #ff00de, 0 0 3px #ff00de, 0 0 4px #ff00de, 0 0 5px #ff00de, 0 0 6px #ff00de, 0 0 7px #ff00de",
+        glow: "0 0 1px #007bff, 0 0 20px #007bff, 0 0 3px #007bff, 0 0 4px #007bff, 0 0 5px #007bff, 0 0 6px #007bff, 0 0 7px #007bff",
       },
     },
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["night"],
+  },
 };
 export default config;

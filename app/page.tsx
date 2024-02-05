@@ -7,6 +7,8 @@ import pals2 from "../app/json/pals-A.json";
 import Modal from "./Components/Modal";
 import { Monster } from "./interface/Monster";
 import { SetStateAction } from "react";
+import Sort from "./Components/Sort";
+import ButtonImage from "./Components/ButtonImage";
 
 export default function Home() {
   const [theme, setTheme] = useState("dark"); // or "dark" depending on your default theme
@@ -214,6 +216,213 @@ export default function Home() {
           </div>
         </section>
 
+        <div className="flex justify-center flex-col items-center gap-2 mb-5">
+          <div className="flex">
+            <button
+              onClick={() => setSortBy("name")}
+              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-2"
+            >
+              Sort by Name
+            </button>
+            <button
+              onClick={() => setSortBy("id")}
+              className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-2"
+            >
+              Sort by ID
+            </button>
+          </div>
+
+          <div>
+            <div className="element-type"></div>
+          </div>
+          <div className="type flex gap-2">
+            <ButtonImage
+              type="Dark"
+              onclick={() => {
+                setSelectedElementType("Dark");
+              }}
+            />
+            <ButtonImage
+              type="Dragon"
+              onclick={() => setSelectedElementType("Dragon")}
+            />
+            <ButtonImage
+              type="Electric"
+              onclick={() => setSelectedElementType("Electric")}
+            />
+            <ButtonImage
+              type="Fire"
+              onclick={() => setSelectedElementType("Fire")}
+            />
+            <ButtonImage
+              type="Grass"
+              onclick={() => setSelectedElementType("Grass")}
+            />
+            <ButtonImage
+              type="Ground"
+              onclick={() => setSelectedElementType("Ground")}
+            />
+            <ButtonImage
+              type="Ice"
+              onclick={() => setSelectedElementType("Ice")}
+            />
+            <ButtonImage
+              type="Neutral"
+              onclick={() => setSelectedElementType("Neutral")}
+            />
+            <ButtonImage
+              type="Water"
+              onclick={() => setSelectedElementType("Water")}
+            />
+            <button
+              className="border px-1 rounded-full flex justify-center items-center"
+              onClick={() => {
+                setSelectedElementType("");
+              }}
+            >
+              <svg
+                viewBox="0 0 48 48"
+                fill="red"
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <rect
+                    width="48"
+                    height="48"
+                    fill="red"
+                    fill-opacity="0.01"
+                  ></rect>{" "}
+                  <path
+                    d="M8 8L40 40"
+                    stroke="red"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>{" "}
+                  <path
+                    d="M8 40L40 8"
+                    stroke="red"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>{" "}
+                </g>
+              </svg>
+            </button>
+          </div>
+          <div className="work flex gap-2">
+            <ButtonImage
+              type={"Kindling"}
+              onclick={() => {
+                setSelectedWorkSuitability("Kindling");
+              }}
+            />
+            <ButtonImage
+              type={"Watering"}
+              onclick={() => {
+                setSelectedWorkSuitability("Watering");
+              }}
+            />
+            <ButtonImage
+              type={"Planting"}
+              onclick={() => {
+                setSelectedWorkSuitability("Planting");
+              }}
+            />
+            <ButtonImage
+              type={"Electricity"}
+              onclick={() => {
+                setSelectedWorkSuitability("Electricity");
+              }}
+            />
+            <ButtonImage
+              type={"Gathering"}
+              onclick={() => setSelectedWorkSuitability("Gathering")}
+            />
+            <ButtonImage
+              type={"Lumbering"}
+              onclick={() => setSelectedWorkSuitability("Lumbering")}
+            />
+            <ButtonImage
+              type={"Mining"}
+              onclick={() => setSelectedWorkSuitability("Mining")}
+            />
+            <ButtonImage
+              type={"Medicine"}
+              onclick={() => {
+                setSelectedWorkSuitability("Medicine");
+              }}
+            />
+            <ButtonImage
+              type={"Cooling"}
+              onclick={() => {
+                setSelectedWorkSuitability("Cooling");
+              }}
+            />
+            <ButtonImage
+              type={"Transporting"}
+              onclick={() => {
+                setSelectedWorkSuitability("Transporting");
+              }}
+            />
+            <ButtonImage
+              type={"Farming"}
+              onclick={() => {
+                setSelectedWorkSuitability("Farming");
+              }}
+            />
+            <button
+              className="border px-1 rounded-full flex justify-center items-center"
+              onClick={() => {
+                setSelectedWorkSuitability("");
+              }}
+            >
+              <svg
+                viewBox="0 0 48 48"
+                fill="red"
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <rect
+                    width="48"
+                    height="48"
+                    fill="red"
+                    fill-opacity="0.01"
+                  ></rect>{" "}
+                  <path
+                    d="M8 8L40 40"
+                    stroke="red"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>{" "}
+                  <path
+                    d="M8 40L40 8"
+                    stroke="red"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>{" "}
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+
         <section className="flex">
           <form className="w-96">
             <label
@@ -256,27 +465,6 @@ export default function Home() {
               </button>
             </div>
           </form>
-
-          {/* <div className="flex">
-            <button
-              onClick={() => setSortBy("name")}
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-2 mb-2"
-            >
-              Sort by Name
-            </button>
-            <button
-              onClick={() => setSortBy("id")}
-              className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-2 py-1 text-center me-2 mb-2"
-            >
-              Sort by ID
-            </button>
-          </div>
-
-          <div>
-            <div className="element-type">
-
-            </div>
-          </div> */}
         </section>
       </div>
 
