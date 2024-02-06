@@ -24,7 +24,7 @@ export default function Page() {
 
   return (
     <div
-      className="flex items-center flex-col pt-5 px-2 h-screen overflow-auto"
+      className="flex items-center flex-col py-5 px-2 h-screen overflow-auto"
       style={{
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",

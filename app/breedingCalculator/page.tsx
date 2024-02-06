@@ -77,7 +77,7 @@ export default function BreedingCalculator() {
 
   return (
     <div
-      className="flex justify-center pt-5 sm:flex-row flex-col px-2 sm:h-screen"
+      className="flex justify-center py-5 sm:flex-row flex-col px-2 sm:h-screen"
       style={{
         backgroundImage: theme === "dark" ? `url()` : "",
         backgroundSize: "cover",
@@ -85,12 +85,6 @@ export default function BreedingCalculator() {
         backgroundAttachment: "fixed",
       }}
     >
-      <span className="absolute left-5 top-5">
-        <a className="btn btn-neutral" href="/">
-          Go Back
-        </a>
-      </span>
-
       <div className="flex justify-center flex-col items-center">
         <h1 className=" text-lg font-bold mb-2 from-green-500 to-orange-500">
           Breeding Parents
