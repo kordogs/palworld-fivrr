@@ -57,7 +57,7 @@ export default function Modal({ monster }: modalProps) {
                     <tr>
                       <td>Number:</td>
                       <td>
-                        <span className="border rounded-full p-1">
+                        <span className="border rounded-full p-1 bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 text-white">
                           {monster?.monsterID}
                         </span>
                       </td>
