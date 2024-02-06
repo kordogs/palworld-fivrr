@@ -108,7 +108,7 @@ export default function Home() {
 
       <div className=" flex flex-col sm:flex-row mb-5 justify-between gap-3 items-end">
         <section>
-          <div className="inline-flex rounded-md shadow-sm" role="group">
+          <div className="inline-flex rounded-md shadow-sm dark" role="group">
             <a
               href=""
               type="button"
@@ -445,7 +445,7 @@ export default function Home() {
         </div>
 
         <section className="flex justify-center item w-full sm:w-96">
-          <div className="w-full">
+          <div className="w-full dark">
             <label
               htmlFor="default-search"
               className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
