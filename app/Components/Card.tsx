@@ -23,7 +23,7 @@ export default function Card({
       {/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
       <div className="card-body overflow-hidden" onClick={onClick}>
         <span className="absolute left-3 top-3">
-          <div className="border rounded-full px-1 bg-base-300 bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
+          <div className="border text-white rounded-full px-1 bg-base-300 bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
             {monsterID}
           </div>
         </span>

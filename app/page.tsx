@@ -112,7 +112,7 @@ export default function Home() {
             <a
               href=""
               type="button"
-              className="inline-flex gap-1 items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+              className="inline-flex gap-1 items-center px-2 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
             >
               <svg
                 fill="white"
@@ -138,7 +138,7 @@ export default function Home() {
             <a
               href="/parentSearch"
               type="button"
-              className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+              className="inline-flex gap-2 items-center px-2 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -185,7 +185,7 @@ export default function Home() {
             <a
               href="/breedingCalculator"
               type="button"
-              className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+              className="inline-flex gap-2 items-center px-2 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
             >
               <svg
                 viewBox="0 0 48 48"
@@ -327,120 +327,124 @@ export default function Home() {
               </svg>
             </button>
           </div>
-          <div className="work flex gap-2">
-            <ButtonImage
-              type={"Kindling"}
-              onclick={() => {
-                setSelectedWorkSuitability("Kindling");
-              }}
-              isActive={selectedWorkSuitability === "Kindling"}
-            />
-            <ButtonImage
-              type={"Watering"}
-              onclick={() => {
-                setSelectedWorkSuitability("Watering");
-              }}
-              isActive={selectedWorkSuitability === "Watering"}
-            />
-            <ButtonImage
-              type={"Planting"}
-              onclick={() => {
-                setSelectedWorkSuitability("Planting");
-              }}
-              isActive={selectedWorkSuitability === "Planting"}
-            />
-            <ButtonImage
-              type={"Electricity"}
-              onclick={() => {
-                setSelectedWorkSuitability("Electricity");
-              }}
-              isActive={selectedWorkSuitability === "Electricity"}
-            />
-            <ButtonImage
-              type={"Gathering"}
-              onclick={() => setSelectedWorkSuitability("Gathering")}
-              isActive={selectedWorkSuitability === "Gathering"}
-            />
-            <ButtonImage
-              type={"Lumbering"}
-              onclick={() => setSelectedWorkSuitability("Lumbering")}
-              isActive={selectedWorkSuitability === "Lumbering"}
-            />
-            <ButtonImage
-              type={"Mining"}
-              onclick={() => setSelectedWorkSuitability("Mining")}
-              isActive={selectedWorkSuitability === "Mining"}
-            />
-            <ButtonImage
-              type={"Medicine"}
-              onclick={() => {
-                setSelectedWorkSuitability("Medicine");
-              }}
-              isActive={selectedWorkSuitability === "Medicine"}
-            />
-            <ButtonImage
-              type={"Cooling"}
-              onclick={() => {
-                setSelectedWorkSuitability("Cooling");
-              }}
-              isActive={selectedWorkSuitability === "Cooling"}
-            />
-            <ButtonImage
-              type={"Transporting"}
-              onclick={() => {
-                setSelectedWorkSuitability("Transporting");
-              }}
-              isActive={selectedWorkSuitability === "Transporting"}
-            />
-            <ButtonImage
-              type={"Farming"}
-              onclick={() => {
-                setSelectedWorkSuitability("Farming");
-              }}
-              isActive={selectedWorkSuitability === "Farming"}
-            />
-            <button
-              className="border px-1 rounded-full flex justify-center items-center"
-              onClick={() => {
-                setSelectedWorkSuitability("");
-              }}
-            >
-              <svg
-                viewBox="0 0 48 48"
-                fill="red"
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+          <div className="work flex gap-2 flex-col sm:flex-row">
+            <div className="flex gap-2">
+              <ButtonImage
+                type={"Kindling"}
+                onclick={() => {
+                  setSelectedWorkSuitability("Kindling");
+                }}
+                isActive={selectedWorkSuitability === "Kindling"}
+              />
+              <ButtonImage
+                type={"Watering"}
+                onclick={() => {
+                  setSelectedWorkSuitability("Watering");
+                }}
+                isActive={selectedWorkSuitability === "Watering"}
+              />
+              <ButtonImage
+                type={"Planting"}
+                onclick={() => {
+                  setSelectedWorkSuitability("Planting");
+                }}
+                isActive={selectedWorkSuitability === "Planting"}
+              />
+              <ButtonImage
+                type={"Electricity"}
+                onclick={() => {
+                  setSelectedWorkSuitability("Electricity");
+                }}
+                isActive={selectedWorkSuitability === "Electricity"}
+              />
+              <ButtonImage
+                type={"Gathering"}
+                onclick={() => setSelectedWorkSuitability("Gathering")}
+                isActive={selectedWorkSuitability === "Gathering"}
+              />
+              <ButtonImage
+                type={"Lumbering"}
+                onclick={() => setSelectedWorkSuitability("Lumbering")}
+                isActive={selectedWorkSuitability === "Lumbering"}
+              />
+            </div>
+            <div className="flex gap-2">
+              <ButtonImage
+                type={"Mining"}
+                onclick={() => setSelectedWorkSuitability("Mining")}
+                isActive={selectedWorkSuitability === "Mining"}
+              />
+              <ButtonImage
+                type={"Medicine"}
+                onclick={() => {
+                  setSelectedWorkSuitability("Medicine");
+                }}
+                isActive={selectedWorkSuitability === "Medicine"}
+              />
+              <ButtonImage
+                type={"Cooling"}
+                onclick={() => {
+                  setSelectedWorkSuitability("Cooling");
+                }}
+                isActive={selectedWorkSuitability === "Cooling"}
+              />
+              <ButtonImage
+                type={"Transporting"}
+                onclick={() => {
+                  setSelectedWorkSuitability("Transporting");
+                }}
+                isActive={selectedWorkSuitability === "Transporting"}
+              />
+              <ButtonImage
+                type={"Farming"}
+                onclick={() => {
+                  setSelectedWorkSuitability("Farming");
+                }}
+                isActive={selectedWorkSuitability === "Farming"}
+              />
+              <button
+                className="border px-1 rounded-full flex justify-center items-center"
+                onClick={() => {
+                  setSelectedWorkSuitability("");
+                }}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <rect
-                    width="48"
-                    height="48"
-                    fill="red"
-                    fill-opacity="0.01"
-                  ></rect>{" "}
-                  <path
-                    d="M8 8L40 40"
-                    stroke="red"
-                    stroke-width="4"
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="red"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                  ></path>{" "}
-                  <path
-                    d="M8 40L40 8"
-                    stroke="red"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>{" "}
-                </g>
-              </svg>
-            </button>
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <rect
+                      width="48"
+                      height="48"
+                      fill="red"
+                      fill-opacity="0.01"
+                    ></rect>{" "}
+                    <path
+                      d="M8 8L40 40"
+                      stroke="red"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>{" "}
+                    <path
+                      d="M8 40L40 8"
+                      stroke="red"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>{" "}
+                  </g>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
 

@@ -255,7 +255,7 @@
     },
     "materialAndItemDrops": {
       "materialsDropped": ["Pal Metal Ingot", "Pure Quartz"],
-      "possibleDrops": "No specific details on item drops."
+      "possibleDrops": ["Palworld - Flame Organ Material", "Palworld - Horn Material"]
     },
     "tierListRanking": {
       "combatTier": "A Tier",
@@ -323,7 +323,7 @@
     },
     "materialAndItemDrops": {
       "materialsDropped": ["Cloth"],
-      "possibleDrops": "No specific details on item drops."
+      "possibleDrops": ["Palworld - Flame Organ Material", "Palworld - Horn Material"]
     },
     "tierListRanking": {
       "combatTier": "B Tier",
@@ -598,7 +598,7 @@
     },
     "materialAndItemDrops": {
       "materialsDropped": ["Honey"],
-      "possibleDrops": "No specific details on item drops."
+      "possibleDrops": ["Palworld - Flame Organ Material", "Palworld - Horn Material"]
     },
     "tierListRanking": {
       "combatTier": "N/A",
@@ -933,7 +933,7 @@
     },
     "materialAndItemDrops": {
       "materialsDropped": ["Flame Organ"],
-      "possibleDrops": "Palworld - Flame Organ Material"
+      "possibleDrops": ["Palworld - Flame Organ Material", "Palworld - Horn Material"]
     },
     "tierListRanking": {
       "combatTier": "C Tier",
@@ -1057,7 +1057,7 @@
     },
     "materialAndItemDrops": {
       "materialsDropped": ["Lettuce Seeds", "Wheat Seeds"],
-      "possibleDrops": "Palworld - Lettuce Seeds Material, Palworld - Wheat Seeds Material"
+      "possibleDrops": ["Palworld - Flame Organ Material", "Palworld - Horn Material"]
     },
     "tierListRanking": {
       "combatTier": "B Tier (for Mid Game)",
